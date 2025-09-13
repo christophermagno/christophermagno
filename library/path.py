@@ -1,0 +1,48 @@
+from pathlib import Path
+import logging
+import shutil
+import chardet
+
+from . import logger
+
+log = logging.getLogger(__name__)
+
+
+def detect_encoding(file_path):
+    with open(file_path, 'rb') as f:
+        raw_data = f.read()
+    result = chardet.detect(raw_data)
+    return result['encoding']
+
+def source_control(path, pad=None, directory='_source_control'):
+
+    path = Path(path)
+
+    pad = pad or '04'
+    _fmt_string = '{}.{:' + pad + 'd}{}'
+
+    file_stem = path.stem
+    file_ext = path.suffix
+    source_control_data_path = path.parent / directory / file_stem
+
+    log.debug('file_stem: {}'.format(file_stem))
+    log.debug('file_ext: {}'.format(file_ext))
+    log.debug('source_control_data_path: {}'.format(source_control_data_path))
+
+    # Create the source controlled directory (for the specific file) if it doesn't exist
+    source_control_data_path.mkdir(parents=True, exist_ok=True)
+
+    # Get files in source-control dir
+    fs = [f for f in source_control_data_path.iterdir() if f.is_file() and f.stem.startswith(file_stem)]
+
+    # Create the new source controlled path
+    source_control_file_path = source_control_data_path / _fmt_string.format(file_stem, len(fs) + 1, file_ext)
+    log.debug('source_control_file_path: {}'.format(source_control_file_path))
+
+    # Make the move
+    shutil.copy(path, source_control_file_path)
+
+    return source_control_file_path
+
+def get_cleaned_path(path):
+    return path.parent.joinpath(str(path.stem) + '_cleaned' + str(path.suffix))
