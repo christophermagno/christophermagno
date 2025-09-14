@@ -1,3 +1,7 @@
+"""
+Path manipulation module.
+"""
+
 from pathlib import Path
 import logging
 import shutil
@@ -9,12 +13,36 @@ log = logging.getLogger(__name__)
 
 
 def detect_encoding(file_path):
+    """
+    Detects encoding of file to ensure proper encoding when reading files for Pandas
+
+    :param file_path: Path to check encoding
+    :return: encoding of file
+    """
     with open(file_path, 'rb') as f:
         raw_data = f.read()
     result = chardet.detect(raw_data)
     return result['encoding']
 
-def source_control(path, pad=None, directory='_source_control'):
+def get_cleaned_path(path):
+    """
+    Helper function to quickly create a "cleaned" file path.
+
+    :param path: Path to messy data file
+    :return: Path to cleaned file
+    """
+    path = Path(path)
+    return path.parent.joinpath(str(path.stem) + '_cleaned' + str(path.suffix))
+
+def _source_control(path, pad=None, directory='_source_control'):
+    """
+    Not used. Create local source control of file.
+
+    :param path:
+    :param pad:
+    :param directory:
+    :return:
+    """
 
     path = Path(path)
 
@@ -43,6 +71,3 @@ def source_control(path, pad=None, directory='_source_control'):
     shutil.copy(path, source_control_file_path)
 
     return source_control_file_path
-
-def get_cleaned_path(path):
-    return path.parent.joinpath(str(path.stem) + '_cleaned' + str(path.suffix))
