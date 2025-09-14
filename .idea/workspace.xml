@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="First pass on cleaning of chicago traffic crashes dataset.&#10;Added new helper functions to tools module.">
-      <change afterPath="$PROJECT_DIR$/chicago_crashes_dataset/README.rtf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chicago_crashes_dataset/Traffic_Crashes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chicago_crashes_dataset/Traffic_Crashes_cleaned.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imdb.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/imdb.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/chicago_traffic_crashes.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757887190128</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="First pass on cleaning of chicago traffic crashes dataset.&#10;Added new helper functions to tools module.">
+      <option name="closed" value="true" />
+      <created>1757887793535</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757887793535</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
