@@ -395,7 +395,7 @@ def strip_whitespaces(df_or_s):
 
     return df_or_s_copy
 
-def get_duplicates(s):
+def values_counter(s):
     """
     Get duplicate indices for a Series.
 
@@ -411,7 +411,7 @@ def has_duplicates(s):
     :param s: Series
     :return: bool
     """
-    return len(get_duplicates(s)) > 1
+    return len(values_counter(s)) > 1
 
 def min_mean_median_max(s):
     """
@@ -476,7 +476,7 @@ def dtypes_counter(df_or_s):
         # Iterate through the data types found
         for col, series in dtypes(df_or_s).items():
             # Get duplicates count
-            counter = get_duplicates(series)
+            counter = values_counter(series)
             for value, count in counter.items():
                 result.loc[value, col] = count
     else:
@@ -484,7 +484,7 @@ def dtypes_counter(df_or_s):
         result = pd.Series(index=types, name=df_or_s.name)
 
         # Get duplicates count
-        counter = get_duplicates(dtypes(df_or_s))
+        counter = values_counter(dtypes(df_or_s))
         for value, count in counter.items():
             result.loc[value] = count
 
