@@ -3,6 +3,7 @@ Pandas tool lib for common functions/processes
 """
 
 import pandas as pd
+from collections import Counter
 
 from . import logger, path
 
@@ -36,7 +37,7 @@ def read_data(p, fn=pd.read_csv, encoding=None, *args, **kwargs):
     """
 
     encoding = encoding or path.detect_encoding(p)
-    log.debug(f'Encoding: {encoding}')
+    log.info(f'Encoding: {encoding}')
 
     return fn(p, encoding=encoding, *args, **kwargs)
 
@@ -186,7 +187,7 @@ def notnull(df_or_s):
     if issubclass(type(df_or_s), pd.DataFrame):
         return df_or_s.loc[:, df_or_s.notnull().all(axis=0)]
     elif issubclass(type(df_or_s), pd.Series):
-        return df_or_s[df_or_s.notnull()]
+        return df_or_s.loc[df_or_s.notnull()]
     raise AttributeError(
         f'{type(df_or_s)} object has no attribute "notnull"')
 
@@ -217,11 +218,11 @@ def hasnull(df_or_s):
                 null_cols.append(col)
 
         # Return only rows that have nulls in them (ignore valid rows)
-        rows = df_or_s[df_or_s.isnull().any(axis=1)].index.to_list()
+        rows = df_or_s.loc[df_or_s.isnull().any(axis=1)].index.to_list()
         return df_or_s.loc[rows, null_cols]
 
     elif issubclass(type(df_or_s), pd.Series):
-        return df_or_s[df_or_s.isnull()]
+        return df_or_s.loc[df_or_s.isnull()]
 
     raise AttributeError(
         f'{type(df_or_s)} object has no attribute "notnull"')
@@ -230,6 +231,10 @@ def allnull(df_or_s, axis=0):
     """
     Get columns and rows whose values are ALL null. These are essentially
     invalid rows/columns because we can't use them.
+
+    For some reason.. axis in df.isnull().any(axis=*) is the opposite to
+    everything else... 0 for columns and 1 for rows. Switching this function
+    to keep with convention of 0 for rows and 1 for columns.
 
     >>> import pandas as pd
     >>> df = pd.DataFrame(
@@ -240,7 +245,7 @@ def allnull(df_or_s, axis=0):
     >>> )
     >>>
     >>> allnull(df_or_s)
-    >>> allnull(df_or_s['C'])
+    >>> allnull(df_or_s.loc['C'])
 
     :param df_or_s: DataFrame
     :param axis: 0 for rows, 1 for columns
@@ -250,18 +255,18 @@ def allnull(df_or_s, axis=0):
     if isinstance(df_or_s, pd.DataFrame):
         if axis == 0:
             # Get all null rows
-            return df_or_s[df_or_s.isnull().all(axis=1)]
+            if df_or_s.isnull().all(axis=1).sum():
+                return df_or_s.loc[df_or_s.isnull().all(axis=1), :]
         elif axis == 1:
             # Get all null columns
-            return df_or_s.loc[:, df_or_s.isnull().all(axis=0)]
-    elif isinstance(df_or_s, pd.Series):
+            if df_or_s.isnull().all(axis=0).sum():
+                return df_or_s.loc[:, df_or_s.isnull().all(axis=0)]
+        return pd.DataFrame()
+    else:
         # Get all null rows of Series
         if df_or_s.isnull().all():
-            return df_or_s[df_or_s.isnull().all()]
+            return df_or_s.loc[df_or_s.isnull().all()]
         return pd.Series()
-
-    raise AttributeError(
-        f'{type(df_or_s)} object has no attribute "notnull"')
 
 def fillnull(df_or_s, err_rate=None, default=None, *args, **kwargs):
     """
@@ -307,7 +312,7 @@ def fillnull(df_or_s, err_rate=None, default=None, *args, **kwargs):
                     **kwargs
                 )
 
-    elif isinstance(df_or_s_copy, pd.Series):
+    else:
 
         if ((err_rate is None) or
                 (err_rate and not isrisky(df_or_s_copy, err_rate))):
@@ -350,6 +355,10 @@ def null_info(df):
 
     log.info(f'{nulls.shape[1]}/{df.shape[1]} columns contain null values')
     log.info(f'{df.isnull().sum().sum()} total null values')
+    if not all_null_rows.empty:
+        log.info(f'Rows {all_null_rows.index.tolist()} contain null values')
+    if not all_null_columns.empty:
+        log.info(f'Columns {all_null_columns.columns.tolist()} contain null values')
 
     return nulls, all_null_rows, all_null_columns
 
@@ -358,6 +367,9 @@ def strip_whitespaces(df_or_s):
     """
     Strip whitespaces from a DataFrame and its column names or Series and from
     the Series name if name is stored in class.
+
+    This is assuming we ALWAYS want to strip any leading and trailing
+    whitespaces (because who really needs those).
 
     :param df_or_s: DataFrame or Series
     :return: DataFrame or Series
@@ -373,8 +385,7 @@ def strip_whitespaces(df_or_s):
         # Strip whitespaces from the Series
         for col in df_or_s_copy.select_dtypes(include=['object']).columns:
             df_or_s_copy[col] = df_or_s_copy[col].str.strip()
-
-    elif isinstance(df_or_s_copy, pd.Series):
+    else:
         # Strip whitespaces from the Series
         df_or_s_copy = df_or_s_copy.str.strip()
 
@@ -391,7 +402,16 @@ def get_duplicates(s):
     :param s: Series
     :return:
     """
-    return s.duplicated(keep=False)
+    return Counter(s)
+
+def has_duplicates(s):
+    """
+    Get duplicate indices for a Series.
+
+    :param s: Series
+    :return: bool
+    """
+    return len(get_duplicates(s)) > 1
 
 def min_mean_median_max(s):
     """
@@ -402,3 +422,90 @@ def min_mean_median_max(s):
     :return:
     """
     return s.min(), s.mean(), s.median(), s.max()
+
+def dtypes(df_or_s, flatten=False):
+    """
+    Get dtypes for a DataFrame or Series and return a DataFrame or Series
+    of the same shape with data types for its values.
+
+    :param df_or_s: DataFrame or Series
+    :param flatten: Flatten to a Series of just the data types found
+    :return: DataFrame or Series
+    """
+
+    df = df_or_s.copy()
+    types = set()
+
+    if isinstance(df_or_s, pd.DataFrame):
+
+        for col, series in df_or_s.items():
+            # The different types per index of series
+            _types = []
+            for index, value in series.items():
+                # Get the value data type of series index
+                _types.append(str(type(value)))
+                if flatten:
+                    types.add(str(type(value)))
+
+            # Assign them to the return DataFrame
+            df.loc[:, col] = _types
+    else:
+        for index, value in df_or_s.items():
+            # Get the value data type of series index
+            df.loc[index] = str(type(value))
+            if flatten:
+                types.add(str(type(value)))
+
+    return pd.Series(list(types)) if flatten else df
+
+def dtypes_counter(df_or_s):
+    """
+    Get a count of data types for a DataFrame or Series. Returns a Dataframe
+    or Series with the data types as its index and a count of each type for
+    its values.
+
+    :param df_or_s: DataFrame or Series
+    :return: Dataframe or Series
+    """
+
+    types = dtypes(df_or_s, flatten=True)
+    if isinstance(df_or_s, pd.DataFrame):
+        # Create return DataFrame
+        result = pd.DataFrame(index=types, columns=df_or_s.columns)
+
+        # Iterate through the data types found
+        for col, series in dtypes(df_or_s).items():
+            # Get duplicates count
+            counter = get_duplicates(series)
+            for value, count in counter.items():
+                result.loc[value, col] = count
+    else:
+        # Create turn Series
+        result = pd.Series(index=types, name=df_or_s.name)
+
+        # Get duplicates count
+        counter = get_duplicates(dtypes(df_or_s))
+        for value, count in counter.items():
+            result.loc[value] = count
+
+    result = result.fillna(0)
+    result = result.astype(int)
+    return result
+
+def has_different_dtypes(df_or_s):
+    """
+    Check if DataFrame or Series has different dtypes.
+
+    :param df_or_s: DataFrame or Series
+    :return:
+    """
+    result = pd.Series()
+    types = dtypes(df_or_s)
+
+    if isinstance(df_or_s, pd.DataFrame):
+        for col, series in types.items():
+            result[col] = len(series.unique()) > 1
+    else:
+        return len(types.unique()) > 1
+    return result
+

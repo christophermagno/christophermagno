@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Bug fixes and adding functions to tools module with better handling of Null values. Adding more helper functions. Updating modules.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imdb.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imdb/README.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imdb/messy_IMDB_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imdb/messy_imdb_dataset_cleaned.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -62,10 +55,14 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/christophermagno/PycharmProjects/MagnoDataAnalystPortfolio/datasets&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/datasets" />
     </key>
@@ -217,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757888952635</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bug fixes and adding functions to tools module with better handling of Null values. Adding more helper functions. Updating modules.">
+      <option name="closed" value="true" />
+      <created>1758131385470</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758131385470</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
