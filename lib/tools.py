@@ -2,8 +2,10 @@
 Pandas tool lib for common functions/processes
 """
 
-import pandas as pd
 from collections import Counter
+
+import pandas as pd
+from spellchecker import SpellChecker
 
 from . import logger, path
 
@@ -23,23 +25,34 @@ def set_display_options(columns=None, rows=None):
     pd.set_option('display.max_columns', columns)
     pd.set_option('display.max_rows', rows)
 
-def read_data(p, fn=pd.read_csv, encoding=None, *args, **kwargs):
+def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=False,
+              *args, **kwargs):
     """
     Helper function to read data and detect encoding of file if no encoding
     argument is passed.
 
-    >>> data = read_data('dataset.csv')
+    >>> data = read_data('dataset.csv', strip_whitespaces=True)
 
     :param p: Path to file
     :param fn: Function to read file
     :param encoding: Encoding of file
+    :param strip_whitespaces: Clean whitespaces
     :return: DataFrame
     """
 
+    # Get the encoding of the file if no encoding is found
+    # Can take a while for large files
     encoding = encoding or path.detect_encoding(p)
     log.info(f'Encoding: {encoding}')
 
-    return fn(p, encoding=encoding, *args, **kwargs)
+    # Run reach method
+    df = fn(p, encoding=encoding, *args, **kwargs)
+
+    # Strip whitespaces
+    if strip_whitespaces:
+        df = str_strip(df)
+
+    return df
 
 def export_data(p, df_export_fn, suffix='CLEAN', *args, **kwargs):
     """
@@ -363,7 +376,7 @@ def null_info(df):
     return nulls, all_null_rows, all_null_columns
 
 
-def strip_whitespaces(df_or_s):
+def str_strip(df_or_s, to_strip=None):
     """
     Strip whitespaces from a DataFrame and its column names or Series and from
     the Series name if name is stored in class.
@@ -372,6 +385,7 @@ def strip_whitespaces(df_or_s):
     whitespaces (because who really needs those).
 
     :param df_or_s: DataFrame or Series
+    :param to_strip: Strings to strip. If None, strips whitespace.
     :return: DataFrame or Series
     """
 
@@ -384,10 +398,10 @@ def strip_whitespaces(df_or_s):
 
         # Strip whitespaces from the Series
         for col in df_or_s_copy.select_dtypes(include=['object']).columns:
-            df_or_s_copy[col] = df_or_s_copy[col].str.strip()
+            df_or_s_copy[col] = df_or_s_copy[col].str.strip(to_strip)
     else:
         # Strip whitespaces from the Series
-        df_or_s_copy = df_or_s_copy.str.strip()
+        df_or_s_copy = df_or_s_copy.str.strip(to_strip)
 
         # Strip whitespaces from the column name
         if df_or_s_copy.name:
@@ -397,21 +411,57 @@ def strip_whitespaces(df_or_s):
 
 def values_counter(s):
     """
-    Get duplicate indices for a Series.
+    Get a count of all unique values in a Series.
+    (Just a wrapper for the `collections.Counter` class)
 
     :param s: Series
-    :return:
+    :return: Counter
     """
     return Counter(s)
 
 def has_duplicates(s):
     """
-    Get duplicate indices for a Series.
+    Check if a Series has duplicate values.
 
     :param s: Series
     :return: bool
     """
     return len(values_counter(s)) > 1
+
+def _values_counter_series_info(series, maximum=20):
+    """
+    Helper function to log information of value counts for a Series.
+
+    :param series: Series
+    :param maximum: Maximum number of values before having to inspect the
+    Series manually.
+    :return:
+    """
+    counter = values_counter(series)
+    log.info(f'{series.name}: {series.dtype} BEGIN')
+    if len(counter) < maximum:
+        for value, count in counter.items():
+            log.info(f'\t{value}: {count}')
+        log.info(f'{series.name}: {series.dtype} END\n')
+    else:
+        log.info(
+            f'{series.name}: Has more than {maximum} values ({len(counter)} values)\n')
+
+def values_counter_info(df_or_s, max_values=20):
+    """
+    Get information of values for a DataFrame or Series.
+
+    :param df_or_s: DataFrame or Series
+    :param max_values: Maximum number of values before ignoring and having to
+    inspect manually.
+    """
+
+    if isinstance(df_or_s, pd.DataFrame):
+        for column, series in df_or_s.items():
+            _values_counter_series_info(series, max_values)
+    else:
+        _values_counter_series_info(df_or_s, max_values)
+
 
 def min_mean_median_max(s):
     """
@@ -497,7 +547,8 @@ def has_different_dtypes(df_or_s):
     Check if DataFrame or Series has different dtypes.
 
     :param df_or_s: DataFrame or Series
-    :return:
+    :return: Series of bools whether a DataFrame or Series has different
+    dtypes.
     """
     result = pd.Series()
     types = dtypes(df_or_s)
@@ -509,3 +560,24 @@ def has_different_dtypes(df_or_s):
         return len(types.unique()) > 1
     return result
 
+
+def check_typos(txt, split=None):
+    """
+    Check if a string contains typos.
+
+    :param txt:
+    :param split:
+    :return:
+    """
+    spell = SpellChecker()
+    return spell.unknown(txt.split(split))
+
+
+def typos_corrections(misspelled):
+    """
+
+    :param misspelled:
+    :return:
+    """
+    spell = SpellChecker()
+    return {spell.correction(misspell) for misspell in misspelled}

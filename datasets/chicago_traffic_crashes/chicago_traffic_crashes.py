@@ -241,7 +241,7 @@ df_cp3 = df_cp3.drop(to_drop, axis=1)
 # 
 # ## Stripping whitespaces from DataFrame
 #%%
-df_cp3 = lib.tools.strip_whitespaces(df_cp3)
+df_cp3 = lib.tools.str_strip(df_cp3)
 #%% md
 # ## Converting Datetime columns
 #%%
