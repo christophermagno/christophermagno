@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Making data_err_rate(s) functions more robust. More documentation.">
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Small update and adding err_counter to api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
@@ -312,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758467507053</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Small update and adding err_counter to api">
+      <option name="closed" value="true" />
+      <created>1758488822612</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1758488822612</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,6 +350,7 @@
     <MESSAGE value="Small refactor, updating documentation, bug fixes" />
     <MESSAGE value="Adding messy and cleaned datasets" />
     <MESSAGE value="Making data_err_rate(s) functions more robust. More documentation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making data_err_rate(s) functions more robust. More documentation." />
+    <MESSAGE value="Small update and adding err_counter to api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update and adding err_counter to api" />
   </component>
 </project>

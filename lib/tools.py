@@ -331,9 +331,9 @@ def isrisky(df_or_s, err_rate=.75, err_values=None):
     >>>     'D': [pd.NA,pd.NA,pd.NA]}
     >>> )
     >>>
-    >>> data_err_rate(df)
-    >>> data_err_rate(df, err_rate=.75)
-    >>> data_err_rate(df['C'])
+    >>> isrisky(df)
+    >>> isrisky(df, err_rate=.75)
+    >>> isrisky(df['C'])
 
     :param df_or_s: DataFrame or Series
     :param err_rate: Acceptable error rate
