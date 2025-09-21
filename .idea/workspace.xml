@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Small updates. Moving databases to their own directory">
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding a few more helper functions. Updating documentation.">
+      <change afterPath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758229573362</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding a few more helper functions. Updating documentation.">
+      <option name="closed" value="true" />
+      <created>1758318405933</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758318405933</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +287,7 @@
     <MESSAGE value="Bug fixes and adding functions to tools module with better handling of Null values. Adding more helper functions. Updating modules." />
     <MESSAGE value="Adding more helper functions with getting duplicate entries and gathering data type information on DataFrame and Series" />
     <MESSAGE value="Small updates. Moving databases to their own directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small updates. Moving databases to their own directory" />
+    <MESSAGE value="Adding a few more helper functions. Updating documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a few more helper functions. Updating documentation." />
   </component>
 </project>

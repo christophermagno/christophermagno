@@ -3,8 +3,11 @@ Pandas tool lib for common functions/processes
 """
 
 from collections import Counter
+from pathlib import Path
+import difflib
 
 import pandas as pd
+import numpy as np
 from spellchecker import SpellChecker
 
 from . import logger, path
@@ -25,7 +28,7 @@ def set_display_options(columns=None, rows=None):
     pd.set_option('display.max_columns', columns)
     pd.set_option('display.max_rows', rows)
 
-def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=False,
+def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=True,
               *args, **kwargs):
     """
     Helper function to read data and detect encoding of file if no encoding
@@ -50,11 +53,12 @@ def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=False,
 
     # Strip whitespaces
     if strip_whitespaces:
+        log.info(f'Stripping whitespaces from {Path(p).name}')
         df = str_strip(df)
 
     return df
 
-def export_data(p, df_export_fn, suffix='CLEAN', *args, **kwargs):
+def export_data(p, df, df_export_fn=None, suffix='CLEAN', *args, **kwargs):
     """
     Export DataFrame to format of your choice using one of
     the DataFrame's to_* methods. Default is DataFrame.to_csv.
@@ -62,15 +66,19 @@ def export_data(p, df_export_fn, suffix='CLEAN', *args, **kwargs):
     >>> import pandas as pd
     >>>
     >>> df = pd.DataFrame([1, 2, 3], columns=['a', 'b', 'c'])
-    >>> export_data(p)
-    >>> export_data(p, df.to_json)
-    >>> export_data(p, df.to_excel)
+    >>> export_data(p, df)
+    >>> export_data(p, df, df.to_json)
+    >>> export_data(p, df, df.to_excel)
 
     :param p: Path to file
+    :param df: DataFrame
     :param df_export_fn: Dataframe method to execute (i.e. df.to_csv)
+    :param suffix: Suffix to add to filename
     :return:
     """
     export_path = path.get_cleaned_path(p, suffix=suffix)
+    df_export_fn = df_export_fn or df.to_csv
+
     df_export_fn(export_path, *args, **kwargs)
     return export_path
 
@@ -162,17 +170,25 @@ def get_filler_value(s, default=None, method='mean'):
     :return: filler value
     """
 
+    if default is not None:
+        if isinstance(default, dict):
+            for typ, default_value in default.items():
+                if typ == s.dtype:
+                    return default[typ]
+        else:
+            return default
+
     if s.dtype == object or s.dtype == str:
         return 'Not Available'
     elif s.dtype == int or s.dtype == float:
         if method == 'mean':
-            return s.mean()+1
+            return s.mean()
         elif method == 'median':
             return s.median()
         elif method == 'min':
-            return s.min()
+            return s.min()-1
         elif method == 'max':
-            return s.max()
+            return s.max()+1
         raise AttributeError('')
     elif pd.core.dtypes.common.is_datetime64_dtype(s):
         return pd.Timestamp.max
@@ -281,7 +297,7 @@ def allnull(df_or_s, axis=0):
             return df_or_s.loc[df_or_s.isnull().all()]
         return pd.Series()
 
-def fillnull(df_or_s, err_rate=None, default=None, *args, **kwargs):
+def fillnull(df_or_s, default=None, err_rate=None, mapper=None, *args, **kwargs):
     """
     Given a Dataframe or Series, fill it with null values.
 
@@ -299,9 +315,11 @@ def fillnull(df_or_s, err_rate=None, default=None, *args, **kwargs):
 
 
     :param df_or_s: Dataframe or Series
+    :param default: Dictionary of `{type: value}` or `value` default values to
+    replace if you want to use your own default value(s) instead of the
+    generated one.
     :param err_rate: Acceptable error rate
     :type err_rate: float
-    :param default: Default value
     :param args:
     :param kwargs:
     :return:
@@ -316,7 +334,8 @@ def fillnull(df_or_s, err_rate=None, default=None, *args, **kwargs):
             if ((err_rate is None) or
                     (err_rate and not isrisky(df_or_s_copy[col], err_rate))):
                 # Update filler_values dictionary
-                filler_values[col] = get_filler_value(df_or_s_copy[col], default=default)
+                filler_values[col] = get_filler_value(df_or_s_copy[col],
+                                                      default=default)
 
                 # Update the Series
                 df_or_s_copy[col] = df_or_s_copy[col].fillna(
@@ -330,7 +349,8 @@ def fillnull(df_or_s, err_rate=None, default=None, *args, **kwargs):
         if ((err_rate is None) or
                 (err_rate and not isrisky(df_or_s_copy, err_rate))):
             # Update the filler_values dictionary
-            filler_values[df_or_s_copy.name] = get_filler_value(df_or_s_copy, default=default)
+            filler_values[df_or_s_copy.name] = get_filler_value(df_or_s_copy,
+                                                                default=default)
 
             # Update the Series
             df_or_s_copy = df_or_s_copy.fillna(
@@ -359,21 +379,35 @@ def null_info(df):
     :return:
     """
 
-    # Get columns that contain null values and their indices
-    nulls = hasnull(df)
+    # Get columns that have no null values
+    not_null = notnull(df)
+
+    # Get columns that contain null values
+    has_null = hasnull(df)
 
     # Get all rows and columns whose values are ALL null
     all_null_rows = allnull(df, axis=0)
     all_null_columns = allnull(df, axis=1)
 
-    log.info(f'{nulls.shape[1]}/{df.shape[1]} columns contain null values')
+    log.info(f'{has_null.shape[1]}/{df.shape[1]} columns contain null values')
     log.info(f'{df.isnull().sum().sum()} total null values')
     if not all_null_rows.empty:
         log.info(f'Rows {all_null_rows.index.tolist()} contain null values')
     if not all_null_columns.empty:
         log.info(f'Columns {all_null_columns.columns.tolist()} contain null values')
 
-    return nulls, all_null_rows, all_null_columns
+    log.info('-'*79)
+    for col, series in not_null.items():
+        log.info(f'Column "{col}" has no null values')
+
+    for col, series in has_null.items():
+        log.info(f'Column "{col}" has {series.isnull().sum()} null values')
+
+    log.info('')
+    log.info('Risk Rate ' + '-'*(79-len('Risk Rate ')))
+    log.info(data_risks_rate(df))
+
+    return has_null, all_null_rows, all_null_columns
 
 
 def str_strip(df_or_s, to_strip=None):
@@ -438,11 +472,11 @@ def _values_counter_series_info(series, maximum=20):
     :return:
     """
     counter = values_counter(series)
-    log.info(f'{series.name}: {series.dtype} BEGIN')
+    log.info(f'{series.name}: <{series.dtype}> BEGIN')
     if len(counter) < maximum:
         for value, count in counter.items():
             log.info(f'\t{value}: {count}')
-        log.info(f'{series.name}: {series.dtype} END\n')
+        log.info(f'{series.name}: <{series.dtype}> END\n')
     else:
         log.info(
             f'{series.name}: Has more than {maximum} values ({len(counter)} values)\n')
@@ -493,18 +527,20 @@ def dtypes(df_or_s, flatten=False):
             _types = []
             for index, value in series.items():
                 # Get the value data type of series index
-                _types.append(str(type(value)))
+                typ = str(type(value)) if pd.notnull(value) else str(pd.NA)
+                _types.append(typ)
                 if flatten:
-                    types.add(str(type(value)))
+                    types.add(typ)
 
             # Assign them to the return DataFrame
-            df.loc[:, col] = _types
+            df[col] = _types
     else:
         for index, value in df_or_s.items():
             # Get the value data type of series index
-            df.loc[index] = str(type(value))
+            typ = str(type(value)) if pd.notnull(value) else str(pd.NA)
+            df.loc[index] = typ
             if flatten:
-                types.add(str(type(value)))
+                types.add(typ)
 
     return pd.Series(list(types)) if flatten else df
 
@@ -550,24 +586,48 @@ def has_different_dtypes(df_or_s):
     :return: Series of bools whether a DataFrame or Series has different
     dtypes.
     """
-    result = pd.Series()
+
+    if isinstance(df_or_s, pd.Series):
+        df_or_s = pd.DataFrame(df_or_s)
+
+    columns = ['has_different_types', f'has_{pd.NA}']
     types = dtypes(df_or_s)
 
-    if isinstance(df_or_s, pd.DataFrame):
-        for col, series in types.items():
-            result[col] = len(series.unique()) > 1
-    else:
-        return len(types.unique()) > 1
+    result = pd.DataFrame(columns=columns,
+                          index=df_or_s.columns)
+
+    for col, series in types.items():
+        found_types = series.unique()
+        if str(pd.NA) in found_types:
+            result.loc[col, columns[1]] = len(hasnull(df_or_s.loc[:, col]))
+            found_types = np.delete(found_types, np.where(found_types == str(pd.NA)))
+        else:
+            result.loc[col, columns[1]] = 0
+        result.loc[col, columns[0]] = len(found_types) > 1
+
+    result.attrs[columns[0]] = result[columns[0]].sum()
     return result
+
+def get_values_of_dtypes(series, dtype):
+    """
+    Get values of a certain type for a Series. Useful if there are multiple
+    data types in a Series.
+
+    :param series: Series
+    :param dtype:
+    :return: Filtered Series of found data types
+    """
+    types_mask = series.apply(lambda x: isinstance(x, dtype))
+    return series[types_mask]
 
 
 def check_typos(txt, split=None):
     """
     Check if a string contains typos.
 
-    :param txt:
-    :param split:
-    :return:
+    :param txt: Text to check
+    :param split: Split string by character
+    :return: set of found typos
     """
     spell = SpellChecker()
     return spell.unknown(txt.split(split))
@@ -575,9 +635,72 @@ def check_typos(txt, split=None):
 
 def typos_corrections(misspelled):
     """
+    Suggest best possible typo corrections based on a set of misspelled words.
 
-    :param misspelled:
-    :return:
+    :param misspelled: Set of misspelled words
+    :return: Dictionary of typo corrections
     """
     spell = SpellChecker()
-    return {spell.correction(misspell) for misspell in misspelled}
+    corrections = {}
+    for word in misspelled:
+        corrections[word] = spell.correction(word)
+    return corrections
+
+
+def get_close_matches(df_or_s, n=2, cutoff=.8):
+    """
+    Given a DataFrame or Series, return a set of values that are similarly
+    named to handle messy duplicate/misspelled words.
+
+    :param df_or_s: DataFrame or Series
+    :param n: The maximum number of close matches to return. The
+    default value is 3.
+    :param cutoff: A float between 0.0 and 1.0. Possibilities with a
+    similarity ratio below this cutoff are ignored. The default value is 0.6.
+    A higher cutoff requires a closer match.
+    :return:
+    """
+
+    result = set()
+    if isinstance(df_or_s, pd.DataFrame):
+        for col, series in df_or_s.items():
+            if series.dtype == 'object':
+                for idx, item in series.items():
+                    closest_matches = difflib.get_close_matches(item, series.values, n=n, cutoff=cutoff)
+                    if len(set(closest_matches)) > 1:
+                        for closest_match in closest_matches:
+                            result.add(closest_match)
+    else:
+        if df_or_s.dtype == 'object':
+            for idx, item in df_or_s.items():
+                closest_matches = difflib.get_close_matches(item, df_or_s.values, n=n, cutoff=cutoff)
+                if len(set(closest_matches)) > 1:
+                    for closest_match in closest_matches:
+                        result.add(closest_match)
+    return result
+
+
+
+def info(df):
+    """
+    Get a comprehensive set of information for the provided DataFrame.
+
+    :param df: DataFrame
+    """
+
+    log.info('INFO')
+    log.info('-'*79)
+    log.info('Null INFO')
+    null_info(df)
+    log.info('Column Risk Rates')
+    log.info(data_risks_rate(df))
+
+    log.info('-'*79)
+    log.info('Data Types Info')
+    log.info(has_different_dtypes(df))
+    log.info('-'*79)
+    log.info(dtypes_counter(df))
+
+    log.info('-'*79)
+    log.info('Values Counter')
+    values_counter_info(df)

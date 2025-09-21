@@ -27,6 +27,7 @@ def detect_encoding(file_path):
 def get_cleaned_path(path, suffix='CLEAN'):
     """
     Helper function to quickly create a "cleaned" file path.
+    # TODO: Need to accomdate different extension types
 
     :param path: Path to messy data file
     :param suffix: Suffix to append to file path
