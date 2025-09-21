@@ -19,7 +19,7 @@ from .tools import (
     memory_usage,
     data_err_rate,
     isrisky,
-    data_risks_rate,
+    data_err_rates,
     get_filler_value,
     notnull,
     hasnull,

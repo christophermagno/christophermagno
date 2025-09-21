@@ -92,6 +92,7 @@ def memory_usage(df, size_format='MB'):
     Calculate memory usage of DataFrame.
 
     :param df: DataFrame
+    :param size_format: Size format of DataFrame whether in KB, MB, or GB
     :return: float
     """
 
@@ -105,7 +106,190 @@ def memory_usage(df, size_format='MB'):
 
     return df.memory_usage(index=True, deep=True).sum() / 1024 ** size_format
 
-def data_err_rate(df_or_s):
+def str_strip(df_or_s, to_strip=None):
+    """
+    Strip whitespaces from a DataFrame and its column names or Series and from
+    the Series name if name is stored in class.
+
+    This is assuming we ALWAYS want to strip any leading and trailing
+    whitespaces (because who really needs those).
+
+    >>> str_strip(df_or_s)
+    >>> str_strip(df_or_s, to_strip='##')
+
+    :param df_or_s: DataFrame or Series
+    :param to_strip: Strings to strip. If None, strips whitespace.
+    :return: DataFrame or Series
+    """
+
+    # Copy object
+    df_or_s_copy = df_or_s.copy()
+
+    if isinstance(df_or_s_copy, pd.DataFrame):
+        # Strip whitespaces from the columns
+        df_or_s_copy.columns = df_or_s_copy.columns.str.strip()
+
+        # Strip whitespaces from the Series if they are of type object
+        for col in df_or_s_copy.select_dtypes(include=['object']).columns:
+            df_or_s_copy[col] = df_or_s_copy[col].str.strip(to_strip)
+    else:
+        # Strip whitespaces from the Series
+        df_or_s_copy = df_or_s_copy.str.strip(to_strip)
+
+        # Strip whitespaces from the column name
+        if df_or_s_copy.name:
+            df_or_s_copy.name = df_or_s_copy.name.strip()
+
+    return df_or_s_copy
+
+def values_counter(series):
+    """
+    Get a count of all unique values in a Series.
+    (Just a wrapper for the `collections.Counter` class)
+
+    >>> values_counter(pd.Series([1,2,3,4,5]))
+    >>> values_counter(pd.Series([1,2,3,4,5,2,2,2]))
+
+    :param series: Series
+    :return: Counter
+    """
+    return Counter(series)
+
+def has_duplicates(series):
+    """
+    Check if a Series has duplicate values.
+
+    >>> has_duplicates(pd.Series([1,2,3,4,5]))
+    >>> has_duplicates(pd.Series([1,2,3,4,5,2,2,2]))
+
+    :param series: Series
+    :return: bool
+    """
+    for value, count in values_counter(series).items():
+        if count > 1:
+            return True
+    return False
+
+def _values_counter_series_info(series, maximum=20):
+    """
+    Helper function to log information of value counts for a Series.
+
+    :param series: Series
+    :param maximum: Maximum number of values before having to inspect the
+    Series manually.
+    :return:
+    """
+    counter = values_counter(series)
+    if len(counter) < maximum:
+        log.info(f'{series.name}: <{series.dtype}> BEGIN')
+        for value, count in counter.items():
+            log.info(f'\t{value}: {count}')
+        log.info(f'{series.name}: <{series.dtype}> END\n')
+    else:
+        # TODO: This is kind of ugly
+        return series.name
+
+def values_counter_info(df_or_s, max_values=20):
+    """
+    Get information of values for a DataFrame or Series.
+
+    :param df_or_s: DataFrame or Series
+    :param max_values: Maximum number of values before ignoring and having to
+    inspect manually.
+    """
+
+    maximum_list = []
+    if isinstance(df_or_s, pd.DataFrame):
+        for column, series in df_or_s.items():
+            exceeded = _values_counter_series_info(series, max_values)
+            if exceeded:
+                maximum_list.append(exceeded)
+    else:
+        exceeded = _values_counter_series_info(df_or_s, max_values)
+        if exceeded:
+            maximum_list.append(exceeded)
+
+    if maximum_list:
+        log.info(f'Columns {maximum_list} exceeded maximum values of {max_values}')
+
+def err_counter(series, err_values=None):
+    """
+    Get a count of all error values in a Series. If `err_values` is `None`, it
+    will use null values as the error values.
+
+    :param series: Series
+    :param err_values: list-of-error values. If `None`, it will use null values.
+    :return: Total count of errors found.
+    """
+
+    if err_values is not None and not isinstance(err_values, (list, tuple, set)):
+        err_values = [err_values]
+
+    count = 0
+    # Get the count of the found error values
+    if err_values:
+        counter = values_counter(series)
+        for err_value in err_values:
+            count += counter.get(err_value, 0)
+    else:
+        count = len(hasnull(series))
+    return count
+
+def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
+    """
+    Given a DataFrame, check error rate of all Series in DataFrame. If argument
+    `err_rate` is provided, only return Series that exceed rate.
+
+    >>> import pandas as pd
+    >>> df = pd.DataFrame(
+    >>>     {'A': [1,pd.NA,3],
+    >>>     'B': [4,5,6],
+    >>>     'C': [pd.NA,pd.NA,9],
+    >>>     'D': [pd.NA,pd.NA,pd.NA],
+    >>>     'E':  [2,2,2]}
+    >>> )
+    >>>
+    >>> data_err_rates(df)
+    >>> data_err_rates(df, err_values='why')
+    >>> data_err_rates(df, err_rate=.75, err_values=2)
+
+    :param df_or_s: Dataframe
+    :param err_rate: Acceptable error rate
+    :type err_rate: float
+    :param err_values: Error values to search for
+    :type err_values: list, tuple, set
+    :return: DataFrame of error rates and counts
+    """
+
+    columns = ['error_percent', f'error_count']
+    risky = pd.DataFrame(columns=columns)
+
+    if isinstance(df_or_s, pd.DataFrame):
+        for col, series in df_or_s.items():
+            # Get the count of the found error values
+            count = err_counter(series, err_values=err_values)
+
+            # Error percent
+            error_pct = count/series.size
+            if err_rate is None or error_pct >= err_rate:
+                if as_pct:
+                    error_pct = f"{error_pct:.2%}"
+                risky.loc[col, columns[0]] = error_pct
+                risky.loc[col, columns[1]] = count
+    else:
+        # Get the count of the found error values
+        count = err_counter(df_or_s, err_values=err_values)
+
+        # Error percent
+        error_pct = count / df_or_s.size
+        if err_rate is None or error_pct >= err_rate:
+            if as_pct:
+                error_pct = f"{error_pct:.2%}"
+            risky.loc[0, columns[0]] = error_pct
+            risky.loc[0, columns[1]] = count
+    return risky
+
+def data_err_rate(df_or_s, err_rate=None, err_values=None, as_pct=False):
     """
     Given a DataFrame or Series, get the error rate based on null values to
     total size of the provided DataFrame/Series.
@@ -125,12 +309,16 @@ def data_err_rate(df_or_s):
     :param df_or_s: DataFrame or Series
     :return: float error rate
     """
-    if isinstance(df_or_s, pd.DataFrame):
-        # Get all null count
-        return df_or_s.isnull().sum().sum()/df_or_s.size
-    return df_or_s.isnull().sum()/df_or_s.size
+    err_table = data_err_rates(df_or_s,
+                               err_rate=err_rate,
+                               err_values=err_values,
+                               as_pct=False)
+    err_pct = err_table['error_count'].sum()/df_or_s.size
+    if as_pct:
+        return f"{err_pct:.2%}"
+    return err_pct
 
-def isrisky(df_or_s, err_rate=.75):
+def isrisky(df_or_s, err_rate=.75, err_values=None):
     """
     Given a DataFrame or Series, check whether the Series is too error-prone
     to use based on the provided DataFrame and the `err_rate`.
@@ -150,44 +338,18 @@ def isrisky(df_or_s, err_rate=.75):
     :param df_or_s: DataFrame or Series
     :param err_rate: Acceptable error rate
     :type err_rate: float
+    :param err_values: Error values to search for
+    :type err_values: any
     :return: bool
     """
-    return data_err_rate(df_or_s) > err_rate
+    return data_err_rate(df_or_s, err_values=err_values) > err_rate
 
-def data_risks_rate(df, err_rate=None):
-    """
-    Given a DataFrame, check error rate of all Series in DataFrame. If argument
-    `err_rate` is provided, only return Series that exceed rate.
-
-    >>> import pandas as pd
-    >>> df = pd.DataFrame(
-    >>>     {'A': [1,pd.NA,3],
-    >>>     'B': [4,5,6],
-    >>>     'C': [pd.NA,pd.NA,9],
-    >>>     'D': [pd.NA,pd.NA,pd.NA]}
-    >>> )
-    >>>
-    >>> data_risks_rate(df)
-    >>> data_risks_rate(df, err_rate=.75)
-
-    :param df: Dataframe
-    :param err_rate: Acceptable error rate
-    :type err_rate: float
-    :return: Series of error rates and their respective columns
-    """
-
-    risky = pd.Series(dtype=float)
-    for col, series in df.items():
-        if err_rate is None or isrisky(series, err_rate):
-            risky[col] = data_err_rate(series)
-    return risky
-
-def get_filler_value(s, default=None, method='mean'):
+def get_filler_value(series, default=None, method='mean'):
     """
     Given a Series, get an appropriate filler value.
     # Todo: Make this a little more robust
 
-    :param s: Series
+    :param series: Series
     :param default: Default value to apply skipping the auto-generated filler
     value.
     :type default: Dictionary mapping of {type: value} or just a value.
@@ -199,33 +361,33 @@ def get_filler_value(s, default=None, method='mean'):
     if default is not None:
         if isinstance(default, dict):
             for typ, default_value in default.items():
-                if typ == s.dtype:
+                if typ == series.dtype:
                     return default[typ]
         else:
             return default
 
     # If type is an object or string
-    if s.dtype in (object, str):
+    if series.dtype in (object, str):
         return 'Not Available'
 
     # If an object is an int or float
-    elif s.dtype in (int, float):
+    elif series.dtype in (int, float):
         if method == 'mean':
-            return s.mean()
+            return series.mean()
         elif method == 'median':
-            return s.median()
+            return series.median()
         elif method == 'min':
-            return s.min()-1
+            return series.min()-1
         elif method == 'max':
-            return s.max()+1
-        raise AttributeError(f'Method "{method}" is not supported for {s.dtype}')
+            return series.max()+1
+        raise AttributeError(f'Method "{method}" is not supported for {series.dtype}')
 
     # If type is a datetime/Timestamp object
-    elif pd.core.dtypes.common.is_datetime64_dtype(s):
+    elif pd.core.dtypes.common.is_datetime64_dtype(series):
         return pd.Timestamp.max
 
     # No filler value was found, raise AttributeError to fix
-    raise AttributeError(f'No filler value for {s.dtype}')
+    raise AttributeError(f'No filler value for {series.dtype}')
 
 def notnull(df_or_s):
     """
@@ -419,135 +581,32 @@ def null_info(df):
     all_null_columns = allnull(df, axis=1)
 
     log.info(f'{has_null.shape[1]}/{df.shape[1]} columns contain null values')
-    log.info(f'{all_null_rows.shape[0]+all_null_columns.shape[1]} rows and columns that contain ALL null values')
     log.info(f'{df.isnull().sum().sum()} total null values')
+    log.info(f'{all_null_rows.shape[0]} row(s) contain ALL null values')
     if not all_null_rows.empty:
-        log.info(f'Rows {all_null_rows.index.tolist()} contain ALL null values')
+        for row in all_null_rows.index:
+            log.info(f'\tRow "{row}"')
+    log.info(f'{all_null_columns.shape[1]} column(s) contain ALL null values')
     if not all_null_columns.empty:
-        log.info(f'Columns {all_null_columns.columns.tolist()} contain ALL null values')
-
-    log.info('-'*79)
-    for col, series in not_null.items():
-        log.info(f'Column "{col}" has no null values')
-
-    for col, series in has_null.items():
-        log.info(f'Column "{col}" has {series.isnull().sum()} null values')
+        for column in all_null_columns:
+            log.info(f'\tColumn "{column}"')
 
     log.info('')
     log.info('Risk Rate ' + '-'*(79-len('Risk Rate ')))
-    log.info(data_risks_rate(df))
+    log.info(f'\n{data_err_rates(df)}')
 
     return has_null, all_null_rows, all_null_columns
 
 
-def str_strip(df_or_s, to_strip=None):
-    """
-    Strip whitespaces from a DataFrame and its column names or Series and from
-    the Series name if name is stored in class.
-
-    This is assuming we ALWAYS want to strip any leading and trailing
-    whitespaces (because who really needs those).
-
-    >>> str_strip(df_or_s)
-    >>> str_strip(df_or_s, to_strip='##')
-
-    :param df_or_s: DataFrame or Series
-    :param to_strip: Strings to strip. If None, strips whitespace.
-    :return: DataFrame or Series
-    """
-
-    # Copy object
-    df_or_s_copy = df_or_s.copy()
-
-    if isinstance(df_or_s_copy, pd.DataFrame):
-        # Strip whitespaces from the columns
-        df_or_s_copy.columns = df_or_s_copy.columns.str.strip()
-
-        # Strip whitespaces from the Series if they are of type object
-        for col in df_or_s_copy.select_dtypes(include=['object']).columns:
-            df_or_s_copy[col] = df_or_s_copy[col].str.strip(to_strip)
-    else:
-        # Strip whitespaces from the Series
-        df_or_s_copy = df_or_s_copy.str.strip(to_strip)
-
-        # Strip whitespaces from the column name
-        if df_or_s_copy.name:
-            df_or_s_copy.name = df_or_s_copy.name.strip()
-
-    return df_or_s_copy
-
-def values_counter(s):
-    """
-    Get a count of all unique values in a Series.
-    (Just a wrapper for the `collections.Counter` class)
-
-    >>> values_counter(pd.Series([1,2,3,4,5]))
-    >>> values_counter(pd.Series([1,2,3,4,5,2,2,2]))
-
-    :param s: Series
-    :return: Counter
-    """
-    return Counter(s)
-
-def has_duplicates(s):
-    """
-    Check if a Series has duplicate values.
-
-    >>> has_duplicates(pd.Series([1,2,3,4,5]))
-    >>> has_duplicates(pd.Series([1,2,3,4,5,2,2,2]))
-
-    :param s: Series
-    :return: bool
-    """
-    for value, count in values_counter(s).items():
-        if count > 1:
-            return True
-    return False
-
-def _values_counter_series_info(series, maximum=20):
-    """
-    Helper function to log information of value counts for a Series.
-
-    :param series: Series
-    :param maximum: Maximum number of values before having to inspect the
-    Series manually.
-    :return:
-    """
-    counter = values_counter(series)
-    log.info(f'{series.name}: <{series.dtype}> BEGIN')
-    if len(counter) < maximum:
-        for value, count in counter.items():
-            log.info(f'\t{value}: {count}')
-        log.info(f'{series.name}: <{series.dtype}> END\n')
-    else:
-        log.info(
-            f'{series.name}: Has more than {maximum} values ({len(counter)} values)\n')
-
-def values_counter_info(df_or_s, max_values=20):
-    """
-    Get information of values for a DataFrame or Series.
-
-    :param df_or_s: DataFrame or Series
-    :param max_values: Maximum number of values before ignoring and having to
-    inspect manually.
-    """
-
-    if isinstance(df_or_s, pd.DataFrame):
-        for column, series in df_or_s.items():
-            _values_counter_series_info(series, max_values)
-    else:
-        _values_counter_series_info(df_or_s, max_values)
-
-
-def min_mean_median_max(s):
+def min_mean_median_max(series):
     """
     Just a helper function to get min, mean, median, and max values from
     a Series.
 
-    :param s: Series
+    :param series: Series
     :return:
     """
-    return s.min(), s.mean(), s.median(), s.max()
+    return series.min(), series.mean(), series.median(), series.max()
 
 def dtypes(df_or_s, flatten=False):
     """
@@ -624,6 +683,18 @@ def has_different_dtypes(df_or_s):
     """
     Check if DataFrame or Series has different dtypes.
 
+    >>> import pandas as pd
+    >>> df = pd.DataFrame(
+    >>>     {'A': [1,'two',3],
+    >>>     'B': [4,5,6],
+    >>>     'C': [7.0,8,9],
+    >>>     'D': [10,11,12]}
+    >>> )
+    >>>
+    >>> diff_types = has_different_dtypes(df)
+    >>> diff_types['has_different_types'].sum()
+    >>> diff_types.attrs['has_different_types']
+
     :param df_or_s: DataFrame or Series
     :return: DataFrame of bools whether a DataFrame or Series has different
     dtypes (and if they have any null values).
@@ -655,7 +726,7 @@ def has_different_dtypes(df_or_s):
         # we have multiple data types for this Series)
         result.loc[col, columns[0]] = len(found_types) > 1
 
-    # Adding metadata for ease-of-use
+    # Adding metadata for ease-of-use. df.attrs['has_different_types']
     # Can just as easily query the data from the DataFrame
     result.attrs[columns[0]] = result[columns[0]].sum()
     return result
@@ -765,17 +836,15 @@ def info(df):
     log.info('-'*79)
     log.info('Null INFO')
     null_info(df)
-    log.info('Column Risk Rates')
-    log.info(data_risks_rate(df))
 
-    log.info('\n' + '-'*79)
+    log.info('-'*79)
     log.info('Data Types Info')
     log.info('-'*79)
-    log.info(has_different_dtypes(df))
+    log.info(f'\n{has_different_dtypes(df)}')
     log.info('-'*79)
-    log.info(dtypes_counter(df))
+    log.info(f'\n{dtypes_counter(df)}')
 
-    log.info('\n' + '-'*79)
+    log.info('-'*79)
     log.info('Values Counter')
     log.info('-'*79)
     values_counter_info(df)

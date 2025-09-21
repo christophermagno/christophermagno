@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding more helper functions. Cleaning more databases as practice.">
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding messy and cleaned datasets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -293,7 +290,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758416511251</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Small refactor, updating documentation, bug fixes">
+      <option name="closed" value="true" />
+      <created>1758440610830</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758440610830</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Adding messy and cleaned datasets">
+      <option name="closed" value="true" />
+      <created>1758440839993</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758440839993</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +333,8 @@
     <MESSAGE value="Small updates. Moving databases to their own directory" />
     <MESSAGE value="Adding a few more helper functions. Updating documentation." />
     <MESSAGE value="Adding more helper functions. Cleaning more databases as practice." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more helper functions. Cleaning more databases as practice." />
+    <MESSAGE value="Small refactor, updating documentation, bug fixes" />
+    <MESSAGE value="Adding messy and cleaned datasets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding messy and cleaned datasets" />
   </component>
 </project>
