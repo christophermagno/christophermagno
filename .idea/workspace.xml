@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding messy and cleaned datasets">
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Making data_err_rate(s) functions more robust. More documentation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -306,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758440839993</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Making data_err_rate(s) functions more robust. More documentation.">
+      <option name="closed" value="true" />
+      <created>1758467507052</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758467507053</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +341,7 @@
     <MESSAGE value="Adding more helper functions. Cleaning more databases as practice." />
     <MESSAGE value="Small refactor, updating documentation, bug fixes" />
     <MESSAGE value="Adding messy and cleaned datasets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding messy and cleaned datasets" />
+    <MESSAGE value="Making data_err_rate(s) functions more robust. More documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Making data_err_rate(s) functions more robust. More documentation." />
   </component>
 </project>

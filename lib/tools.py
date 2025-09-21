@@ -28,6 +28,7 @@ def set_display_options(columns=None, rows=None):
     pd.set_option('display.max_columns', columns)
     pd.set_option('display.max_rows', rows)
 
+
 def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=True,
               *args, **kwargs):
     """
@@ -165,10 +166,7 @@ def has_duplicates(series):
     :param series: Series
     :return: bool
     """
-    for value, count in values_counter(series).items():
-        if count > 1:
-            return True
-    return False
+    return any(np.array(list(values_counter(series).values())) > 1)
 
 def _values_counter_series_info(series, maximum=20):
     """
@@ -237,8 +235,9 @@ def err_counter(series, err_values=None):
 
 def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
     """
-    Given a DataFrame, check error rate of all Series in DataFrame. If argument
-    `err_rate` is provided, only return Series that exceed rate.
+    Given a DataFrame or Series, check error rate of all elements. If
+    `err_values` is `None`, it will check for null values as the error value.
+    If argument `err_rate` is provided, only return elements that exceed rate.
 
     >>> import pandas as pd
     >>> df = pd.DataFrame(
@@ -256,7 +255,8 @@ def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
     :param df_or_s: Dataframe
     :param err_rate: Acceptable error rate
     :type err_rate: float
-    :param err_values: Error values to search for
+    :param err_values: Error values to search for. If `None`, it will check
+    for null values as the error value.
     :type err_values: list, tuple, set
     :return: DataFrame of error rates and counts
     """
@@ -492,7 +492,6 @@ def fillnull(df_or_s, default=None, err_rate=None, *args, **kwargs):
     """
     Given a Dataframe or Series, fill it with null values.
 
-
     >>> import pandas as pd
     >>> df = pd.DataFrame(
     >>>     {'A': [1,pd.NA,3],
@@ -503,7 +502,6 @@ def fillnull(df_or_s, default=None, err_rate=None, *args, **kwargs):
     >>>
     >>> fillnull(df['C'])
     >>> fillnull(df, err_rate=.7)
-
 
     :param df_or_s: Dataframe or Series
     :param default: Dictionary of `{type: value}` or `value` default values to
@@ -703,9 +701,13 @@ def has_different_dtypes(df_or_s):
     if isinstance(df_or_s, pd.Series):
         df_or_s = pd.DataFrame(df_or_s)
 
+    # Columns for the result DataFrame
     columns = ['has_different_types', f'has_{pd.NA}']
+
+    # Get the different data types for the DataFrame or Series
     types = dtypes(df_or_s)
 
+    # Create the result DataFrame
     result = pd.DataFrame(columns=columns,
                           index=df_or_s.columns)
 
@@ -822,8 +824,6 @@ def messy_strings(df_or_s, n=2, cutoff=.8):
         if closest:
             result.update(closest)
     return result
-
-
 
 def info(df):
     """
