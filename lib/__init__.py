@@ -16,6 +16,7 @@ from .tools import (
     set_display_options,
     read_data,
     export_data,
+    memory_usage,
     data_err_rate,
     isrisky,
     data_risks_rate,
@@ -33,8 +34,9 @@ from .tools import (
     dtypes,
     dtypes_counter,
     has_different_dtypes,
-    check_typos,
+    get_values_of_dtypes,
+    typos,
     typos_corrections,
-    get_close_matches,
-    info,
+    messy_strings,
+    info
 )

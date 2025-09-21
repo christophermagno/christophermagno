@@ -32,9 +32,12 @@ def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=True,
               *args, **kwargs):
     """
     Helper function to read data and detect encoding of file if no encoding
-    argument is passed.
+    argument is passed. Strips whitespaces on load but can be set to False
+    (we usually dont want whitespaces which is why I have it automatically
+    do it for me).
 
-    >>> data = read_data('dataset.csv', strip_whitespaces=True)
+    >>> df = read_data('dataset.csv')
+    >>> df = read_data('dataset.csv', strip_whitespaces=False)
 
     :param p: Path to file
     :param fn: Function to read file
@@ -72,15 +75,35 @@ def export_data(p, df, df_export_fn=None, suffix='CLEAN', *args, **kwargs):
 
     :param p: Path to file
     :param df: DataFrame
-    :param df_export_fn: Dataframe method to execute (i.e. df.to_csv)
+    :param df_export_fn: Dataframe method to execute (i.e. `df.to_csv`)
     :param suffix: Suffix to add to filename
     :return:
     """
     export_path = path.get_cleaned_path(p, suffix=suffix)
     df_export_fn = df_export_fn or df.to_csv
 
+    megabytes = memory_usage(df)
+    log.info(f'Exporting {df.size} elements ({megabytes:.2f} MB) to {export_path}')
     df_export_fn(export_path, *args, **kwargs)
     return export_path
+
+def memory_usage(df, size_format='MB'):
+    """
+    Calculate memory usage of DataFrame.
+
+    :param df: DataFrame
+    :return: float
+    """
+
+    size_format = size_format.lower()
+    if size_format == 'kb':
+        size_format = 1
+    elif size_format == 'mb':
+        size_format = 2
+    else:  # Gigabyte
+        size_format = 3
+
+    return df.memory_usage(index=True, deep=True).sum() / 1024 ** size_format
 
 def data_err_rate(df_or_s):
     """
@@ -109,7 +132,7 @@ def data_err_rate(df_or_s):
 
 def isrisky(df_or_s, err_rate=.75):
     """
-    Given a  DataFrame or Series, check whether the Series is too error-prone
+    Given a DataFrame or Series, check whether the Series is too error-prone
     to use based on the provided DataFrame and the `err_rate`.
 
     >>> import pandas as pd
@@ -165,11 +188,14 @@ def get_filler_value(s, default=None, method='mean'):
     # Todo: Make this a little more robust
 
     :param s: Series
-    :param default:
+    :param default: Default value to apply skipping the auto-generated filler
+    value.
+    :type default: Dictionary mapping of {type: value} or just a value.
     :param method:
     :return: filler value
     """
 
+    # Check if default value is provided, use if so.
     if default is not None:
         if isinstance(default, dict):
             for typ, default_value in default.items():
@@ -178,9 +204,12 @@ def get_filler_value(s, default=None, method='mean'):
         else:
             return default
 
-    if s.dtype == object or s.dtype == str:
+    # If type is an object or string
+    if s.dtype in (object, str):
         return 'Not Available'
-    elif s.dtype == int or s.dtype == float:
+
+    # If an object is an int or float
+    elif s.dtype in (int, float):
         if method == 'mean':
             return s.mean()
         elif method == 'median':
@@ -189,10 +218,14 @@ def get_filler_value(s, default=None, method='mean'):
             return s.min()-1
         elif method == 'max':
             return s.max()+1
-        raise AttributeError('')
+        raise AttributeError(f'Method "{method}" is not supported for {s.dtype}')
+
+    # If type is a datetime/Timestamp object
     elif pd.core.dtypes.common.is_datetime64_dtype(s):
         return pd.Timestamp.max
-    return default
+
+    # No filler value was found, raise AttributeError to fix
+    raise AttributeError(f'No filler value for {s.dtype}')
 
 def notnull(df_or_s):
     """
@@ -213,12 +246,10 @@ def notnull(df_or_s):
     :param df_or_s: DataFrame or Series
     :return: DataFrame or Series of non-null values
     """
-    if issubclass(type(df_or_s), pd.DataFrame):
+    if isinstance(df_or_s, pd.DataFrame):
         return df_or_s.loc[:, df_or_s.notnull().all(axis=0)]
-    elif issubclass(type(df_or_s), pd.Series):
-        return df_or_s.loc[df_or_s.notnull()]
-    raise AttributeError(
-        f'{type(df_or_s)} object has no attribute "notnull"')
+    # df_or_s is a Series
+    return df_or_s.loc[df_or_s.notnull()]
 
 def hasnull(df_or_s):
     """
@@ -240,9 +271,10 @@ def hasnull(df_or_s):
     :return: DataFrame or Series of null values
     """
 
-    if issubclass(type(df_or_s), pd.DataFrame):
+    if isinstance(df_or_s, pd.DataFrame):
         null_cols = []
         for col, series in df_or_s.loc[:, df_or_s.isnull().any(axis=0)].items():
+            # Check if series has any null
             if series.isnull().any():
                 null_cols.append(col)
 
@@ -250,15 +282,12 @@ def hasnull(df_or_s):
         rows = df_or_s.loc[df_or_s.isnull().any(axis=1)].index.to_list()
         return df_or_s.loc[rows, null_cols]
 
-    elif issubclass(type(df_or_s), pd.Series):
-        return df_or_s.loc[df_or_s.isnull()]
-
-    raise AttributeError(
-        f'{type(df_or_s)} object has no attribute "notnull"')
+    # df_or_s is a Series
+    return df_or_s.loc[df_or_s.isnull()]
 
 def allnull(df_or_s, axis=0):
     """
-    Get columns and rows whose values are ALL null. These are essentially
+    Get columns/rows whose values are ALL null. These are essentially
     invalid rows/columns because we can't use them.
 
     For some reason.. axis in df.isnull().any(axis=*) is the opposite to
@@ -276,7 +305,7 @@ def allnull(df_or_s, axis=0):
     >>> allnull(df_or_s)
     >>> allnull(df_or_s.loc['C'])
 
-    :param df_or_s: DataFrame
+    :param df_or_s: DataFrame or Series
     :param axis: 0 for rows, 1 for columns
     :return: DataFrame or Series of null values
     """
@@ -297,7 +326,7 @@ def allnull(df_or_s, axis=0):
             return df_or_s.loc[df_or_s.isnull().all()]
         return pd.Series()
 
-def fillnull(df_or_s, default=None, err_rate=None, mapper=None, *args, **kwargs):
+def fillnull(df_or_s, default=None, err_rate=None, *args, **kwargs):
     """
     Given a Dataframe or Series, fill it with null values.
 
@@ -311,7 +340,7 @@ def fillnull(df_or_s, default=None, err_rate=None, mapper=None, *args, **kwargs)
     >>> )
     >>>
     >>> fillnull(df['C'])
-    >>> fillnull(df)
+    >>> fillnull(df, err_rate=.7)
 
 
     :param df_or_s: Dataframe or Series
@@ -390,11 +419,12 @@ def null_info(df):
     all_null_columns = allnull(df, axis=1)
 
     log.info(f'{has_null.shape[1]}/{df.shape[1]} columns contain null values')
+    log.info(f'{all_null_rows.shape[0]+all_null_columns.shape[1]} rows and columns that contain ALL null values')
     log.info(f'{df.isnull().sum().sum()} total null values')
     if not all_null_rows.empty:
-        log.info(f'Rows {all_null_rows.index.tolist()} contain null values')
+        log.info(f'Rows {all_null_rows.index.tolist()} contain ALL null values')
     if not all_null_columns.empty:
-        log.info(f'Columns {all_null_columns.columns.tolist()} contain null values')
+        log.info(f'Columns {all_null_columns.columns.tolist()} contain ALL null values')
 
     log.info('-'*79)
     for col, series in not_null.items():
@@ -418,6 +448,9 @@ def str_strip(df_or_s, to_strip=None):
     This is assuming we ALWAYS want to strip any leading and trailing
     whitespaces (because who really needs those).
 
+    >>> str_strip(df_or_s)
+    >>> str_strip(df_or_s, to_strip='##')
+
     :param df_or_s: DataFrame or Series
     :param to_strip: Strings to strip. If None, strips whitespace.
     :return: DataFrame or Series
@@ -430,7 +463,7 @@ def str_strip(df_or_s, to_strip=None):
         # Strip whitespaces from the columns
         df_or_s_copy.columns = df_or_s_copy.columns.str.strip()
 
-        # Strip whitespaces from the Series
+        # Strip whitespaces from the Series if they are of type object
         for col in df_or_s_copy.select_dtypes(include=['object']).columns:
             df_or_s_copy[col] = df_or_s_copy[col].str.strip(to_strip)
     else:
@@ -448,6 +481,9 @@ def values_counter(s):
     Get a count of all unique values in a Series.
     (Just a wrapper for the `collections.Counter` class)
 
+    >>> values_counter(pd.Series([1,2,3,4,5]))
+    >>> values_counter(pd.Series([1,2,3,4,5,2,2,2]))
+
     :param s: Series
     :return: Counter
     """
@@ -457,10 +493,16 @@ def has_duplicates(s):
     """
     Check if a Series has duplicate values.
 
+    >>> has_duplicates(pd.Series([1,2,3,4,5]))
+    >>> has_duplicates(pd.Series([1,2,3,4,5,2,2,2]))
+
     :param s: Series
     :return: bool
     """
-    return len(values_counter(s)) > 1
+    for value, count in values_counter(s).items():
+        if count > 1:
+            return True
+    return False
 
 def _values_counter_series_info(series, maximum=20):
     """
@@ -583,8 +625,8 @@ def has_different_dtypes(df_or_s):
     Check if DataFrame or Series has different dtypes.
 
     :param df_or_s: DataFrame or Series
-    :return: Series of bools whether a DataFrame or Series has different
-    dtypes.
+    :return: DataFrame of bools whether a DataFrame or Series has different
+    dtypes (and if they have any null values).
     """
 
     if isinstance(df_or_s, pd.Series):
@@ -597,14 +639,24 @@ def has_different_dtypes(df_or_s):
                           index=df_or_s.columns)
 
     for col, series in types.items():
+        # The found data types
         found_types = series.unique()
+
+        # Check if `NaN` is in the found data types
         if str(pd.NA) in found_types:
+            # If so remove from our list of found types because we don't want
+            # to count that as a different data type.
             result.loc[col, columns[1]] = len(hasnull(df_or_s.loc[:, col]))
             found_types = np.delete(found_types, np.where(found_types == str(pd.NA)))
         else:
             result.loc[col, columns[1]] = 0
+
+        # Check if our found_types is larger than 1 (if it is larger than 1
+        # we have multiple data types for this Series)
         result.loc[col, columns[0]] = len(found_types) > 1
 
+    # Adding metadata for ease-of-use
+    # Can just as easily query the data from the DataFrame
     result.attrs[columns[0]] = result[columns[0]].sum()
     return result
 
@@ -614,14 +666,13 @@ def get_values_of_dtypes(series, dtype):
     data types in a Series.
 
     :param series: Series
-    :param dtype:
+    :param dtype: type to filter by
     :return: Filtered Series of found data types
     """
-    types_mask = series.apply(lambda x: isinstance(x, dtype))
-    return series[types_mask]
+    return series[series.apply(lambda x: isinstance(x, dtype))]
 
 
-def check_typos(txt, split=None):
+def typos(txt, split=None):
     """
     Check if a string contains typos.
 
@@ -629,13 +680,13 @@ def check_typos(txt, split=None):
     :param split: Split string by character
     :return: set of found typos
     """
-    spell = SpellChecker()
-    return spell.unknown(txt.split(split))
+    return SpellChecker().unknown(txt.split(split))
 
 
 def typos_corrections(misspelled):
     """
-    Suggest best possible typo corrections based on a set of misspelled words.
+    Suggest the best possible typo corrections based on a set of misspelled
+    words.
 
     :param misspelled: Set of misspelled words
     :return: Dictionary of typo corrections
@@ -646,11 +697,39 @@ def typos_corrections(misspelled):
         corrections[word] = spell.correction(word)
     return corrections
 
+def _get_closest_matches_series(series, n=2, cutoff=.8):
+    """
+    Helper function to get closest matches of items in a Series.
 
-def get_close_matches(df_or_s, n=2, cutoff=.8):
+    :param series:
+    :param n:
+    :param cutoff:
+    :return:
+    """
+    result = set()
+    if series.dtype == 'object':
+        for idx, item in series.items():
+            closest_matches = difflib.get_close_matches(item, series.values, n=n, cutoff=cutoff)
+            if len(set(closest_matches)) > 1:
+                for closest_match in closest_matches:
+                    result.add(closest_match)
+
+    return result
+
+def messy_strings(df_or_s, n=2, cutoff=.8):
     """
     Given a DataFrame or Series, return a set of values that are similarly
-    named to handle messy duplicate/misspelled words.
+    named to handle messy duplicate/misspelled words. Will only work on
+    the 'object'/str data type.
+
+    >>> import pandas as pd
+    >>> df = pd.DataFrame(
+    >>>     {'A': ['john', 'jon', 'johnny'],
+    >>>     'B': ['bob', 'bobby', 'hob'],
+    >>>     'C': ['kyle', 'phil', 'dean'],
+    >>>     'D': ['tim', 'jim', 'den']}
+    >>> )
+    >>> messy_strings(df)
 
     :param df_or_s: DataFrame or Series
     :param n: The maximum number of close matches to return. The
@@ -664,19 +743,13 @@ def get_close_matches(df_or_s, n=2, cutoff=.8):
     result = set()
     if isinstance(df_or_s, pd.DataFrame):
         for col, series in df_or_s.items():
-            if series.dtype == 'object':
-                for idx, item in series.items():
-                    closest_matches = difflib.get_close_matches(item, series.values, n=n, cutoff=cutoff)
-                    if len(set(closest_matches)) > 1:
-                        for closest_match in closest_matches:
-                            result.add(closest_match)
+            closest = _get_closest_matches_series(series, n=n, cutoff=cutoff)
+            if closest:
+                result.update(closest)
     else:
-        if df_or_s.dtype == 'object':
-            for idx, item in df_or_s.items():
-                closest_matches = difflib.get_close_matches(item, df_or_s.values, n=n, cutoff=cutoff)
-                if len(set(closest_matches)) > 1:
-                    for closest_match in closest_matches:
-                        result.add(closest_match)
+        closest = _get_closest_matches_series(df_or_s, n=n, cutoff=cutoff)
+        if closest:
+            result.update(closest)
     return result
 
 
@@ -695,12 +768,14 @@ def info(df):
     log.info('Column Risk Rates')
     log.info(data_risks_rate(df))
 
-    log.info('-'*79)
+    log.info('\n' + '-'*79)
     log.info('Data Types Info')
+    log.info('-'*79)
     log.info(has_different_dtypes(df))
     log.info('-'*79)
     log.info(dtypes_counter(df))
 
-    log.info('-'*79)
+    log.info('\n' + '-'*79)
     log.info('Values Counter')
+    log.info('-'*79)
     values_counter_info(df)

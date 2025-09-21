@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding a few more helper functions. Updating documentation.">
-      <change afterPath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" afterDir="false" />
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding more helper functions. Cleaning more databases as practice.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python._tmp.executor&quot;: &quot;Run&quot;,
     &quot;Python.imdb.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.tools.executor&quot;: &quot;Run&quot;,
@@ -75,7 +75,29 @@
       <recent name="$PROJECT_DIR$/datasets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python._tmp">
+    <configuration name="_tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MagnoDataAnalystPortfolio" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_tmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MagnoDataAnalystPortfolio" />
       <option name="ENV_FILES" value="" />
@@ -122,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._tmp" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.tools" />
       </list>
@@ -262,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758318405933</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adding more helper functions. Cleaning more databases as practice.">
+      <option name="closed" value="true" />
+      <created>1758416511251</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1758416511251</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +319,7 @@
     <MESSAGE value="Adding more helper functions with getting duplicate entries and gathering data type information on DataFrame and Series" />
     <MESSAGE value="Small updates. Moving databases to their own directory" />
     <MESSAGE value="Adding a few more helper functions. Updating documentation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a few more helper functions. Updating documentation." />
+    <MESSAGE value="Adding more helper functions. Cleaning more databases as practice." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more helper functions. Cleaning more databases as practice." />
   </component>
 </project>
