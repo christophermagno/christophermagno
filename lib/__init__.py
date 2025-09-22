@@ -21,9 +21,9 @@ from .tools import (
     values_counter,
     has_duplicates,
     values_counter_info,
-    err_counter,
-    data_err_rates,
-    data_err_rate,
+    error_counter,
+    error_rates,
+    error_rate,
     isrisky,
     get_filler_value,
     hasnull,
@@ -40,4 +40,8 @@ from .tools import (
     typos_corrections,
     messy_strings,
     info
+)
+
+from .performance import (
+    timer
 )

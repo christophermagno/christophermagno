@@ -11,6 +11,7 @@ import numpy as np
 from spellchecker import SpellChecker
 
 from . import logger, path
+from .performance import timer
 
 
 log = logger.getLogger(__name__)
@@ -29,13 +30,13 @@ def set_display_options(columns=None, rows=None):
     pd.set_option('display.max_rows', rows)
 
 
+@timer
 def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=True,
               *args, **kwargs):
     """
-    Helper function to read data and detect encoding of file if no encoding
-    argument is passed. Strips whitespaces on load but can be set to False
-    (we usually dont want whitespaces which is why I have it automatically
-    do it for me).
+    Read data and detect encoding of file if no encoding argument is passed.
+    Strips whitespaces on load but can be set to False (we usually dont want
+    whitespaces which is why I have it automatically do it for me).
 
     >>> df = read_data('dataset.csv')
     >>> df = read_data('dataset.csv', strip_whitespaces=False)
@@ -62,6 +63,7 @@ def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=True,
 
     return df
 
+@timer
 def export_data(p, df, df_export_fn=None, suffix='CLEAN', *args, **kwargs):
     """
     Export DataFrame to format of your choice using one of
@@ -210,7 +212,7 @@ def values_counter_info(df_or_s, max_values=20):
     if maximum_list:
         log.info(f'Columns {maximum_list} exceeded maximum values of {max_values}')
 
-def err_counter(series, err_values=None):
+def error_counter(series, err_values=None):
     """
     Get a count of all error values in a Series. If `err_values` is `None`, it
     will use null values as the error values.
@@ -233,7 +235,7 @@ def err_counter(series, err_values=None):
         count = len(hasnull(series))
     return count
 
-def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
+def error_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
     """
     Given a DataFrame or Series, check error rate of all elements. If
     `err_values` is `None`, it will check for null values as the error value.
@@ -248,9 +250,9 @@ def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
     >>>     'E':  [2,2,2]}
     >>> )
     >>>
-    >>> data_err_rates(df)
-    >>> data_err_rates(df, err_values='why')
-    >>> data_err_rates(df, err_rate=.75, err_values=2)
+    >>> error_rates(df)
+    >>> error_rates(df, err_values='why')
+    >>> error_rates(df, err_rate=.75, err_values=2)
 
     :param df_or_s: Dataframe
     :param err_rate: Acceptable error rate
@@ -267,7 +269,7 @@ def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
     if isinstance(df_or_s, pd.DataFrame):
         for col, series in df_or_s.items():
             # Get the count of the found error values
-            count = err_counter(series, err_values=err_values)
+            count = error_counter(series, err_values=err_values)
 
             # Error percent
             error_pct = count/series.size
@@ -278,7 +280,7 @@ def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
                 risky.loc[col, columns[1]] = count
     else:
         # Get the count of the found error values
-        count = err_counter(df_or_s, err_values=err_values)
+        count = error_counter(df_or_s, err_values=err_values)
 
         # Error percent
         error_pct = count / df_or_s.size
@@ -289,7 +291,7 @@ def data_err_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
             risky.loc[0, columns[1]] = count
     return risky
 
-def data_err_rate(df_or_s, err_rate=None, err_values=None, as_pct=False):
+def error_rate(df_or_s, err_rate=None, err_values=None, as_pct=False):
     """
     Given a DataFrame or Series, get the error rate based on null values to
     total size of the provided DataFrame/Series.
@@ -302,17 +304,17 @@ def data_err_rate(df_or_s, err_rate=None, err_values=None, as_pct=False):
     >>>     'D': [pd.NA,pd.NA,pd.NA]}
     >>> )
     >>>
-    >>> data_err_rate(df)
-    >>> data_err_rate(df['B'])
-    >>> data_err_rate(df['C'])
+    >>> error_rate(df)
+    >>> error_rate(df['B'])
+    >>> error_rate(df['C'])
 
     :param df_or_s: DataFrame or Series
     :return: float error rate
     """
-    err_table = data_err_rates(df_or_s,
-                               err_rate=err_rate,
-                               err_values=err_values,
-                               as_pct=False)
+    err_table = error_rates(df_or_s,
+                            err_rate=err_rate,
+                            err_values=err_values,
+                            as_pct=False)
     err_pct = err_table['error_count'].sum()/df_or_s.size
     if as_pct:
         return f"{err_pct:.2%}"
@@ -342,7 +344,7 @@ def isrisky(df_or_s, err_rate=.75, err_values=None):
     :type err_values: any
     :return: bool
     """
-    return data_err_rate(df_or_s, err_values=err_values) > err_rate
+    return error_rate(df_or_s, err_values=err_values) > err_rate
 
 def get_filler_value(series, default=None, method='mean'):
     """
@@ -568,6 +570,7 @@ def null_info(df):
     :return:
     """
 
+    logger.separator('Null INFO', logger=logger)
     # Get columns that have no null values
     not_null = notnull(df)
 
@@ -589,9 +592,8 @@ def null_info(df):
         for column in all_null_columns:
             log.info(f'\tColumn "{column}"')
 
-    log.info('')
-    log.info('Risk Rate ' + '-'*(79-len('Risk Rate ')))
-    log.info(f'\n{data_err_rates(df)}')
+    logger.separator('Risk Rate INFO')
+    log.info(f'\n{error_rates(df)}')
 
     return has_null, all_null_rows, all_null_columns
 
@@ -825,6 +827,7 @@ def messy_strings(df_or_s, n=2, cutoff=.8):
             result.update(closest)
     return result
 
+@timer
 def info(df):
     """
     Get a comprehensive set of information for the provided DataFrame.
@@ -832,19 +835,12 @@ def info(df):
     :param df: DataFrame
     """
 
-    log.info('INFO')
-    log.info('-'*79)
-    log.info('Null INFO')
     null_info(df)
 
-    log.info('-'*79)
-    log.info('Data Types Info')
-    log.info('-'*79)
+    logger.separator('Data Types INFO')
     log.info(f'\n{has_different_dtypes(df)}')
-    log.info('-'*79)
+    logger.separator()
     log.info(f'\n{dtypes_counter(df)}')
 
-    log.info('-'*79)
-    log.info('Values Counter')
-    log.info('-'*79)
+    logger.separator('Values Counter INFO')
     values_counter_info(df)
