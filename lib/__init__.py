@@ -1,8 +1,9 @@
 import importlib
-from . import logger, path, tools
+from . import logger, path, tools, performance
 importlib.reload(tools)
 importlib.reload(logger)
 importlib.reload(path)
+importlib.reload(performance)
 
 from .logger import (
     getLogger

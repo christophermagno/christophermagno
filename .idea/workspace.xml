@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Small update, updating documentation, and adding err_counter to api">
-      <change afterPath="$PROJECT_DIR$/lib/performance.py" afterDir="false" />
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/san_francisco_budget/san_francisco_budget.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/performance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,22 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python._tmp.executor": "Run",
-    "Python.imdb.executor": "Run",
-    "Python.performance.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.tools.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/christophermagno/PycharmProjects/MagnoDataAnalystPortfolio/datasets",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python._tmp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.imdb.executor&quot;: &quot;Run&quot;,
+    &quot;Python.performance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tools.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/christophermagno/PycharmProjects/MagnoDataAnalystPortfolio/datasets&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/datasets" />
@@ -357,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758488945494</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions">
+      <option name="closed" value="true" />
+      <created>1758539901556</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1758539901556</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,6 +396,7 @@
     <MESSAGE value="Making data_err_rate(s) functions more robust. More documentation." />
     <MESSAGE value="Small update and adding err_counter to api" />
     <MESSAGE value="Small update, updating documentation, and adding err_counter to api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update, updating documentation, and adding err_counter to api" />
+    <MESSAGE value="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions" />
   </component>
 </project>

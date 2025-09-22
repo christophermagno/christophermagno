@@ -570,7 +570,7 @@ def null_info(df):
     :return:
     """
 
-    logger.separator('Null INFO', logger=logger)
+    logger.separator('Null INFO', log_to_use=log)
     # Get columns that have no null values
     not_null = notnull(df)
 
@@ -592,7 +592,7 @@ def null_info(df):
         for column in all_null_columns:
             log.info(f'\tColumn "{column}"')
 
-    logger.separator('Risk Rate INFO')
+    logger.separator('Risk Rate INFO', log_to_use=log)
     log.info(f'\n{error_rates(df)}')
 
     return has_null, all_null_rows, all_null_columns
@@ -837,10 +837,10 @@ def info(df):
 
     null_info(df)
 
-    logger.separator('Data Types INFO')
+    logger.separator('Data Types INFO', log_to_use=log)
     log.info(f'\n{has_different_dtypes(df)}')
-    logger.separator()
+    logger.separator(log_to_use=log)
     log.info(f'\n{dtypes_counter(df)}')
 
-    logger.separator('Values Counter INFO')
+    logger.separator('Values Counter INFO', log_to_use=log)
     values_counter_info(df)
