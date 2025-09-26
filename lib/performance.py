@@ -79,9 +79,9 @@ class timer:
         self.end_time, self.elapsed_time, self.time_unit = self.calculate_elapsed_time()
 
     def log_time(self, name='Process'):
-        _, end_time, _ = self.calculate_elapsed_time(self._log_start_time)
+        _, end_time, time_unit = self.calculate_elapsed_time(self._log_start_time)
         self._log_start_time = time.perf_counter()
-        self._log_message(name, end_time, self.time_unit)
+        self._log_message(name, end_time, time_unit)
 
     def _log_message(self, name, elapsed_time, time_unit):
         message = f'{name} took {elapsed_time:.3f} {time_unit} to complete.'

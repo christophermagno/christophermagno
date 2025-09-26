@@ -260,11 +260,12 @@ def error_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
     :param err_values: Error values to search for. If `None`, it will check
     for null values as the error value.
     :type err_values: list, tuple, set
+    :param as_pct: If `True`, display error rate as percentage.
     :return: DataFrame of error rates and counts
     """
 
     columns = ['error_percent', f'error_count']
-    risky = pd.DataFrame(columns=columns)
+    err_table = pd.DataFrame(columns=columns)
 
     if isinstance(df_or_s, pd.DataFrame):
         for col, series in df_or_s.items():
@@ -276,8 +277,8 @@ def error_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
             if err_rate is None or error_pct >= err_rate:
                 if as_pct:
                     error_pct = f"{error_pct:.2%}"
-                risky.loc[col, columns[0]] = error_pct
-                risky.loc[col, columns[1]] = count
+                err_table.loc[col, columns[0]] = error_pct
+                err_table.loc[col, columns[1]] = count
     else:
         # Get the count of the found error values
         count = error_counter(df_or_s, err_values=err_values)
@@ -287,9 +288,9 @@ def error_rates(df_or_s, err_rate=None, err_values=None, as_pct=True):
         if err_rate is None or error_pct >= err_rate:
             if as_pct:
                 error_pct = f"{error_pct:.2%}"
-            risky.loc[0, columns[0]] = error_pct
-            risky.loc[0, columns[1]] = count
-    return risky
+            err_table.loc[0, columns[0]] = error_pct
+            err_table.loc[0, columns[1]] = count
+    return err_table
 
 def error_rate(df_or_s, err_rate=None, err_values=None, as_pct=False):
     """
@@ -309,13 +310,20 @@ def error_rate(df_or_s, err_rate=None, err_values=None, as_pct=False):
     >>> error_rate(df['C'])
 
     :param df_or_s: DataFrame or Series
+    :param err_rate: Acceptable error rate
+    :param err_values: Error values to search for. If `None`, it will check
+    :param as_pct: If `True`, display error rate as percentage.
     :return: float error rate
     """
     err_table = error_rates(df_or_s,
                             err_rate=err_rate,
                             err_values=err_values,
                             as_pct=False)
-    err_pct = err_table['error_count'].sum()/df_or_s.size
+
+    # Get the length of what was returned to get total elements of returned
+    # columns (rows from original DataFrame/Series * returned columns)
+    elements_count = (df_or_s.shape[0] * len(err_table.index))
+    err_pct = err_table['error_count'].sum()/ elements_count
     if as_pct:
         return f"{err_pct:.2%}"
     return err_pct
@@ -735,16 +743,17 @@ def has_different_dtypes(df_or_s):
     result.attrs[columns[0]] = result[columns[0]].sum()
     return result
 
-def get_values_of_dtypes(series, dtype):
+def get_values_of_dtypes(series, types):
     """
     Get values of a certain type for a Series. Useful if there are multiple
     data types in a Series.
 
     :param series: Series
-    :param dtype: type to filter by
+    :param types: type to filter by. Can either by a single type or a list of
+    types.
     :return: Filtered Series of found data types
     """
-    return series[series.apply(lambda x: isinstance(x, dtype))]
+    return series[series.apply(lambda x: isinstance(x, types))]
 
 
 def typos(txt, split=None):
@@ -774,7 +783,7 @@ def typos_corrections(misspelled):
 
 def _get_closest_matches_series(series, n=2, cutoff=.8):
     """
-    Helper function to get closest matches of items in a Series.
+    Helper function to get the closest matches of items in a Series.
 
     :param series:
     :param n:
