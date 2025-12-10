@@ -2,7 +2,7 @@ import sys
 import logging
 
 # logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-logging.basicConfig(format='%(name)s: %(levelname)s: %(message)s', level=logging.DEBUG)
+logging.basicConfig(format='%(name)s: %(levelname)s: %(message)s', level=logging.INFO)
 log = logging.getLogger('PortfolioLogger')
 
 # console_handler = logging.StreamHandler(sys.stdout)

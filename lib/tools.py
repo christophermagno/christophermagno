@@ -2,6 +2,8 @@
 Pandas tool lib for common functions/processes
 """
 
+import json
+import threading
 from collections import Counter
 from pathlib import Path
 import difflib
@@ -62,6 +64,11 @@ def read_data(p, fn=pd.read_csv, encoding=None, strip_whitespaces=True,
         df = str_strip(df)
 
     return df
+
+def read_json(p):
+    with open(p, 'r') as f:
+        data = [json.loads(line) for line in f]
+        return pd.json_normalize(data)
 
 @timer
 def export_data(p, df, df_export_fn=None, suffix='CLEAN', *args, **kwargs):
@@ -134,14 +141,20 @@ def str_strip(df_or_s, to_strip=None):
 
         # Strip whitespaces from the Series if they are of type object
         for col in df_or_s_copy.select_dtypes(include=['object']).columns:
-            df_or_s_copy[col] = df_or_s_copy[col].str.strip(to_strip)
+            try:
+                df_or_s_copy[col] = df_or_s_copy[col].str.strip(to_strip)
+            except AttributeError as e:
+                log.error(f'Could not strip whitespaces for {col}:\n{e}')
     else:
         # Strip whitespaces from the Series
         df_or_s_copy = df_or_s_copy.str.strip(to_strip)
 
         # Strip whitespaces from the column name
         if df_or_s_copy.name:
-            df_or_s_copy.name = df_or_s_copy.name.strip()
+            try:
+                df_or_s_copy.name = df_or_s_copy.name.strip()
+            except AttributeError as e:
+                log.error(f'Could not strip whitespaces for {df_or_s_copy.name}:\n{e}')
 
     return df_or_s_copy
 
@@ -168,7 +181,7 @@ def has_duplicates(series):
     :param series: Series
     :return: bool
     """
-    return any(np.array(list(values_counter(series).values())) > 1)
+    return series.duplicated().any()
 
 def _values_counter_series_info(series, maximum=20):
     """
@@ -353,6 +366,9 @@ def isrisky(df_or_s, err_rate=.75, err_values=None):
     :return: bool
     """
     return error_rate(df_or_s, err_values=err_values) > err_rate
+
+def risky_columns(df_or_s, err_rate=.75, err_values=None):
+    return error_rates(df_or_s, err_rate=err_rate, err_values=err_values)
 
 def get_filler_value(series, default=None, method='mean'):
     """
@@ -580,7 +596,7 @@ def null_info(df):
 
     logger.separator('Null INFO', log_to_use=log)
     # Get columns that have no null values
-    not_null = notnull(df)
+    # not_null = notnull(df)
 
     # Get columns that contain null values
     has_null = hasnull(df)
@@ -853,3 +869,15 @@ def info(df):
 
     logger.separator('Values Counter INFO', log_to_use=log)
     values_counter_info(df)
+
+    df.info()
+
+
+def parse_list(s, sep=','):
+
+    result = {}
+    for idx, item in s.items():
+        split = item.split(sep)
+        result[idx] = split if any(split) else []
+
+    return result

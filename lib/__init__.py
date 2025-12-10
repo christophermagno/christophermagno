@@ -1,9 +1,10 @@
 import importlib
-from . import logger, path, tools, performance
+from . import logger, path, tools, performance, threads
 importlib.reload(tools)
 importlib.reload(logger)
 importlib.reload(path)
 importlib.reload(performance)
+importlib.reload(threads)
 
 from .logger import (
     getLogger
@@ -16,6 +17,7 @@ from .path import (
 from .tools import (
     set_display_options,
     read_data,
+    read_json,
     export_data,
     memory_usage,
     str_strip,
@@ -26,6 +28,7 @@ from .tools import (
     error_rates,
     error_rate,
     isrisky,
+    risky_columns,
     get_filler_value,
     hasnull,
     notnull,
@@ -40,7 +43,8 @@ from .tools import (
     typos,
     typos_corrections,
     messy_strings,
-    info
+    info,
+    parse_list
 )
 
 from .performance import (

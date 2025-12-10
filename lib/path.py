@@ -24,16 +24,19 @@ def detect_encoding(file_path):
     result = chardet.detect(raw_data)
     return result['encoding']
 
-def get_cleaned_path(path, suffix='CLEAN'):
+def get_cleaned_path(path, suffix='CLEAN', mkdirs=True):
     """
     Helper function to quickly create a "cleaned" file path.
     # TODO: Need to accomdate different extension types
 
     :param path: Path to messy data file
     :param suffix: Suffix to append to file path
+    :param mkdirs: Whether to create the directory if it doesn't exist
     :return: Path to cleaned file
     """
     path = Path(path)
+    if mkdirs:
+        path.parent.mkdir(parents=True, exist_ok=True)
     return path.parent.joinpath(str(path.stem) + f'_{suffix}' + str(path.suffix))
 
 def _source_control(path, pad=None, directory='_source_control'):

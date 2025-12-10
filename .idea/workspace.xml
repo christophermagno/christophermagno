@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding separator function for logging, making timer contextmanager/decorator more useful">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="finishing touches">
+      <change afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_business_cleanup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_checkin_cleanup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_json_cleanup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_review_cleanup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_review_sentiment_analysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_sentiments.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_tip_cleanup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_user_cleanup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/threads.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/performance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twbx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -51,6 +67,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python._tmp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
     &quot;Python.imdb.executor&quot;: &quot;Run&quot;,
     &quot;Python.performance.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
@@ -74,7 +91,7 @@
       <recent name="$PROJECT_DIR$/datasets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.performance">
+  <component name="RunManager" selected="Python._tmp">
     <configuration name="_tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MagnoDataAnalystPortfolio" />
       <option name="ENV_FILES" value="" />
@@ -89,6 +106,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_tmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MagnoDataAnalystPortfolio" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,8 +204,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.performance" />
         <item itemvalue="Python._tmp" />
+        <item itemvalue="Python.gui" />
+        <item itemvalue="Python.performance" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.tools" />
       </list>
@@ -363,7 +403,47 @@
       <option name="project" value="LOCAL" />
       <updated>1758539901556</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="bug fixes">
+      <option name="closed" value="true" />
+      <created>1758926401682</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1758926401682</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Finalizing chicago traffic accident analysis">
+      <option name="closed" value="true" />
+      <created>1765073266621</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1765073266621</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Adding twbx for chicago accident analysi">
+      <option name="closed" value="true" />
+      <created>1765130822128</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1765130822128</updated>
+    </task>
+    <task id="LOCAL-00026" summary="finishing touches">
+      <option name="closed" value="true" />
+      <created>1765143393997</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1765143393997</updated>
+    </task>
+    <task id="LOCAL-00027" summary="finishing touches">
+      <option name="closed" value="true" />
+      <created>1765150239507</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1765150239507</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,6 +476,10 @@
     <MESSAGE value="Small update and adding err_counter to api" />
     <MESSAGE value="Small update, updating documentation, and adding err_counter to api" />
     <MESSAGE value="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions" />
+    <MESSAGE value="bug fixes" />
+    <MESSAGE value="Finalizing chicago traffic accident analysis" />
+    <MESSAGE value="Adding twbx for chicago accident analysi" />
+    <MESSAGE value="finishing touches" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing touches" />
   </component>
 </project>
