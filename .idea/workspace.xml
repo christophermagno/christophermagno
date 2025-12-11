@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="finishing touches">
-      <change afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_stars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_business_cleanup.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_checkin_cleanup.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_json_cleanup.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_review_cleanup.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_review_sentiment_analysis.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_sentiments.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_tip_cleanup.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/yelp/yelp_dataset_user_cleanup.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/threads.py" afterDir="false" />
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Submitting Yelp dataset analysis">
+      <change afterPath="$PROJECT_DIR$/datasets/garmin_connect/garmin_dataset.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twbx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -443,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765150239507</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Submitting Yelp dataset analysis">
+      <option name="closed" value="true" />
+      <created>1765361428226</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1765361428226</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,6 +474,7 @@
     <MESSAGE value="Finalizing chicago traffic accident analysis" />
     <MESSAGE value="Adding twbx for chicago accident analysi" />
     <MESSAGE value="finishing touches" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing touches" />
+    <MESSAGE value="Submitting Yelp dataset analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Submitting Yelp dataset analysis" />
   </component>
 </project>

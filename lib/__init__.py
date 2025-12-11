@@ -44,7 +44,8 @@ from .tools import (
     typos_corrections,
     messy_strings,
     info,
-    parse_list
+    parse_list,
+    convert_camel_case
 )
 
 from .performance import (

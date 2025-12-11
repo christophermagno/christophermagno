@@ -2,6 +2,7 @@
 Pandas tool lib for common functions/processes
 """
 
+import re
 import json
 import threading
 from collections import Counter
@@ -881,3 +882,7 @@ def parse_list(s, sep=','):
         result[idx] = split if any(split) else []
 
     return result
+
+def convert_camel_case(name, replace=' '):
+    pattern = re.compile(r'(?<!^)(?=[A-Z])')
+    return pattern.sub(replace, name).lower()
