@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding goodreads project">
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Updating goodreads project to be more library like and fixed some Date Read values">
+      <change afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset_fix_categories.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/health_dataset/health_dataset.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/garmin_connect/garmin_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/health_dataset/garmin_dataset.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_data_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_data_CLEAN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_categories_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_categories_CLEAN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765463732988</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Updating goodreads project to be more library like and fixed some Date Read values">
+      <option name="closed" value="true" />
+      <created>1765500239457</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1765500239457</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,6 +492,7 @@
     <MESSAGE value="finishing touches" />
     <MESSAGE value="Submitting Yelp dataset analysis" />
     <MESSAGE value="Adding goodreads project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding goodreads project" />
+    <MESSAGE value="Updating goodreads project to be more library like and fixed some Date Read values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating goodreads project to be more library like and fixed some Date Read values" />
   </component>
 </project>

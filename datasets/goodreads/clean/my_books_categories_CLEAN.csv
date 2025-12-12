@@ -1,3771 +1,1595 @@
-,Book Id,Category
-0,18400112,Language Arts & Disciplines
-1,62047984,Language Arts & Disciplines
-2,58416952,Fiction
-3,58416952,High Fantasy
-4,58416952,Series:Hierarchy
-5,20886354,Language Arts & Disciplines
-6,58778536,Language Arts & Disciplines
-7,40121378,Language Arts & Disciplines
-8,22878967,Fantasy
-9,22878967,Fantasy Fiction
-10,22878967,Fiction
-11,22878967,General
-12,42976986,Language Arts & Disciplines
-13,37640636,Action & Adventure
-14,37640636,Fantasy
-15,37640636,Fiction
-16,37640636,General
-17,37640636,Genius
-18,37640636,Science Fiction
-19,13452375,Fantasy
-20,13452375,Fantasy Fiction
-21,13452375,Fiction
-22,13452375,General
-23,13452375,Genius
-24,13452375,Gifted Persons
-25,13452375,Hallucinations And Illusions
-26,13452375,Multiple Personality
-27,13452375,Science Fiction
-28,13452375,Short Stories
-29,196915235,Language Arts & Disciplines
-30,55596771,Fiction
-31,52616342,Language Arts & Disciplines
-32,36337550,Language Arts & Disciplines
-33,623976,Abuelos (Hombres)
-34,623976,Aptitudes Motoras
-35,623976,Bibliotecarios
-36,623976,Bibliothécaires
-37,623976,Children'S Fiction
-38,623976,Clumsiness
-39,623976,Cuentos Humorosos
-40,623976,Etc. Pour La Jeunesse
-41,623976,Fantasy
-42,623976,Fantasy Fiction
-43,623976,Fiction
-44,623976,Grandfathers
-45,623976,Grandparents
-46,623976,Grands-Pères
-47,623976,Humorous Stories
-48,623976,Juvenile Fiction
-49,623976,Juvenile Fiction / Action & Adventure / General
-50,623976,Juvenile Fiction / Fantasy & Magic
-51,623976,Librarians
-52,623976,Maladresse
-53,623976,Materiales En Español
-54,623976,New York Times Bestseller
-55,623976,Nouvelles
-56,623976,Novela Fantástica
-57,623976,Novela Juvenil
-58,623976,Romans
-59,60387416,Language Arts & Disciplines
-60,56269205,English Literature
-61,56269205,Fiction
-62,56269205,Fiction / Fantasy / Action & Adventure
-63,56269205,Fiction / Fantasy / Epic
-64,56269205,Grail
-65,56269205,New York Times Bestseller
-66,56269205,Quests (Expeditions)
-67,56269205,Vampires
-68,35606041,Dark Fantasy
-69,35606041,English Literature
-70,35606041,Epic
-71,35606041,Fantasy
-72,35606041,Fantasy Fiction
-73,35606041,Fiction
-74,35606041,Geographical Myths
-75,35606041,Historical
-76,35606041,Imaginary Places
-77,35606041,Imaginary Wars And Battles
-78,35606041,Kings And Rulers
-79,35606041,Magic
-80,35606041,New York Times Bestseller
-81,35606041,Prophets
-82,35606041,Sci-Fi & Fantasy
-83,26114463,Epic
-84,26114463,Fantasy
-85,26114463,Fiction
-86,26114463,Historical
-87,26114463,Revenge
-88,50659468,Action & Adventure
-89,50659468,Adaptations
-90,50659468,Blessing And Cursing
-91,50659468,Children'S Fiction
-92,50659468,Cours Et Courtisans
-93,50659468,Courts And Courtiers
-94,50659468,Etc. Pour La Jeunesse
-95,50659468,Fairies
-96,50659468,Fantasy
-97,50659468,Fantasy & Magic
-98,50659468,Fantasy Fiction
-99,50659468,Fiction
-100,50659468,Fées
-101,50659468,General
-102,50659468,Love & Romance
-103,50659468,Magic
-104,50659468,New York Times Bestseller
-105,50659468,Nouvelles
-106,50659468,Romans
-107,50659468,Series:A Court Of Thorns And Roses
-108,60531410,Adult
-109,60531410,Fantasy
-110,60531410,Humor
-111,60531410,Science Fiction
-112,60531410,Series:Secret Projects
-113,60531410,Time Travel
-114,230824619,Crime
-115,230824619,Fiction
-116,230824619,Mystery
-117,230824619,Mystery Thriller
-118,230824619,Novella
-119,230824619,Psychological Thriller
-120,230824619,Short Stories
-121,230824619,Suspense
-122,230824619,Thriller
-123,55279022,Language Arts & Disciplines
-124,54919156,American Literature
-125,54919156,Fiction
-126,13496,Accessible Book
-127,13496,Action & Adventure
-128,13496,Adult
-129,13496,American Fantasy Fiction
-130,13496,Betrayal
-131,13496,Bien Y Mal
-132,13496,Civil War
-133,13496,Courts And Courtiers
-134,13496,Dragons
-135,13496,Epic
-136,13496,Epic Fantasy
-137,13496,Epic Fiction
-138,13496,Epic Literature
-139,13496,Family
-140,13496,Fantastic Fiction
-141,13496,Fantasy
-142,13496,Fantasy Fiction
-143,13496,Feudalism
-144,13496,Ficción
-145,13496,Fiction
-146,13496,Folk Healers
-147,13496,Forced Marriage
-148,13496,General
-149,13496,Good And Evil
-150,13496,Guerra Civil
-151,13496,Guerras Imaginarias
-152,13496,High Fantasy
-153,13496,Hugo Award Winner
-154,13496,Ignotus Award Winner
-155,13496,Imaginary Places
-156,13496,Imaginary Wars And Battles
-157,13496,Incest
-158,13496,Intrigue
-159,13496,Invierno
-160,13496,Kings And Rulers
-161,13496,Knights
-162,13496,Locus Award Winner
-163,13496,Loyalty
-164,13496,Magic
-165,13496,Moral Ambiguity
-166,13496,New York Times Bestseller
-167,13496,Novela
-168,13496,Overdrive
-169,13496,Penal Colonies
-170,13496,Persistent Vegetative States
-171,13496,Politics
-172,13496,Protected Daisy
-173,13496,Revenge
-174,13496,Reyes Y Soberanos
-175,13496,Royalty And Nobility
-176,13496,Science Fiction
-177,13496,Seasons
-178,13496,Series:A Song Of Ice And Fire
-179,13496,Seven Kingdoms (Imaginary Place)
-180,13496,Supernatural
-181,13496,Trial By Combat
-182,13496,Vengeance
-183,13496,Voyages And Travels
-184,13496,Walls
-185,13496,War And Conflict
-186,13496,Wights
-187,13496,Winter
-188,4069,1905-1997
-189,4069,1939-1945
-190,4069,Aspect Psychologique
-191,4069,Aspectos Psicológicos
-192,4069,Austria
-193,4069,Autobiography
-194,4069,Biografía
-195,4069,Biografías
-196,4069,Biographies
-197,4069,Biography
-198,4069,Camps De Concentration
-199,4069,Collected Works
-200,4069,Concentration Camp Inmates
-201,4069,Concentration Camps
-202,4069,Correspondence
-203,4069,Counseling
-204,4069,Drama
-205,4069,Erlebnisbericht
-206,4069,Existential Psychology
-207,4069,Existential Psychotherapy
-208,4069,Existentialism
-209,4069,Existentialisme
-210,4069,Existentiell Psykoterapi
-211,4069,Fen Xi Xin Li Xue
-212,4069,Frankl
-213,4069,Freedom Of Choice
-214,4069,Förintelsen
-215,4069,German
-216,4069,German Prisoners And Prisons
-217,4069,Guerre Mondiale
-218,4069,Holocaust
-219,4069,Holocaust - Personal Narratives
-220,4069,Holocaust - Study & Teaching
-221,4069,Holocaust Biographies
-222,4069,Holocauste
-223,4069,Holocausto
-224,4069,Individual Psychologists
-225,4069,Internal Medicine
-226,4069,Jewish (1939-1945)
-227,4069,Jewish (1939-1945) Fast (Ocolc)Fst00958866
-228,4069,Jing Shen Fen Xi
-229,4069,Judío (1939-1945)
-230,4069,Kapo
-231,4069,Koncentrationsläger
-232,4069,Konzentrationslager
-233,4069,Livets Mening
-234,4069,Logoterapi
-235,4069,Logoterapia
-236,4069,Logotherapie
-237,4069,Logotherapy
-238,4069,Logothérapie
-239,4069,Meaning (Psychology)
-240,4069,Meaning Of Life
-241,4069,Narrativas Personales
-242,4069,Nazi Concentration Camp Inmates
-243,4069,Nazi Concentration Camps
-244,4069,Organization & Administration
-245,4069,Pathological Psychology
-246,4069,Personal Narratives
-247,4069,Prison Psychology
-248,4069,Prisoners And Prisons
-249,4069,Prisonniers
-250,4069,Prisonniers Et Prisons Des Allemands
-251,4069,Prisons
-252,4069,Psicoterapia
-253,4069,Psychiatrie
-254,4069,Psychiatrists & Psychologists - Biography
-255,4069,Psychoanalysis And Philosophy
-256,4069,Psychoanalytic Therapy
-257,4069,Psychological Aspects
-258,4069,Psychological Aspects Of Concentration Camps
-259,4069,Psychological Aspects Of Holocaust
-260,4069,Psychologie
-261,4069,Psychologists
-262,4069,Psychologues
-263,4069,Psychology
-264,4069,Psychotherapy
-265,4069,Psykologiska Aspekter
-266,4069,Recits Personnels
-267,4069,Récits Personnels
-268,4069,Sens (Philosophie)
-269,4069,Shoah
-270,4069,Significación (Psicología)
-271,4069,Social Psychology
-272,4069,Spirituality
-273,4069,Viktor Emil
-274,4069,War
-275,4069,War And Conflict
-276,4069,World War
-277,4069,X
-278,10572,Language Arts & Disciplines
-279,56922594,Family Life
-280,56922594,Fiction
-281,56922594,General
-282,56922594,New York Times Bestseller
-283,56922594,Religious
-284,56922594,Visionary & Metaphysical
-285,16130549,Alcoholism
-286,16130549,Bien Y Mal
-287,16130549,Fiction
-288,16130549,Good And Evil
-289,16130549,Horror
-290,16130549,Horror Fiction
-291,16130549,Large Print Books
-292,16130549,Large Type Books
-293,16130549,Middle-Aged Men
-294,16130549,Novela
-295,16130549,Occult Fiction
-296,16130549,Paranormal Fiction
-297,16130549,Psychic Ability
-298,16130549,Psychics
-299,16130549,Suspense Fiction
-300,11588,Alcoholism
-301,11588,American Literature
-302,11588,Authors
-303,11588,Backstories
-304,11588,Boys
-305,11588,Cabin Fever
-306,11588,Caretakers
-307,11588,Clairvoyance
-308,11588,Colorado
-309,11588,Demonology
-310,11588,Extrasensory Perception
-311,11588,Families
-312,11588,Family
-313,11588,Fiction
-314,11588,Fiction - Horror
-315,11588,Fiction / Horror
-316,11588,Ghost Fiction
-317,11588,Ghosts
-318,11588,Gothic & Horror
-319,11588,Haunted Houses
-320,11588,Horror
-321,11588,Horror & Ghost Stories
-322,11588,Horror - General
-323,11588,Horror Fiction
-324,11588,Horror Tales
-325,11588,Hotelkeepers
-326,11588,Hotels
-327,11588,Jack (Fictitious Character)
-328,11588,Military History
-329,11588,New York Times Bestseller
-330,11588,Occult & Supernatural
-331,11588,Occultism
-332,11588,Paranormal Fiction
-333,11588,Paranormal Fiction Suspense & Thriller
-334,11588,Plays
-335,11588,Precognition
-336,11588,Property
-337,11588,Psychics
-338,11588,Psychological
-339,11588,Roque
-340,11588,Strategy
-341,11588,Supernatural Thrillers
-342,11588,Suspense
-343,11588,Telepathy
-344,11588,Thrillers
-345,11588,Topiary
-346,11588,Torrance
-347,62291,Language Arts & Disciplines
-348,13497,Language Arts & Disciplines
-349,10664113,Language Arts & Disciplines
-350,54120408,Amitié
-351,54120408,Artificial Intelligence
-352,54120408,British And Irish Fiction (Fictional Works By One Author)
-353,54120408,Dystopian
-354,54120408,Electronic Books
-355,54120408,Fiction
-356,54120408,Fiction / Literary
-357,54120408,Fiction / Science Fiction / General
-358,54120408,Fiction / Visionary & Metaphysical
-359,54120408,Friendship
-360,54120408,General
-361,54120408,Intelligence Artificielle
-362,54120408,Literary
-363,54120408,Love
-364,54120408,New York Times Bestseller
-365,54120408,Nouvelles
-366,54120408,Paid Companions (Household Employees)
-367,54120408,Robots
-368,54120408,Romance Fiction
-369,54120408,Romans
-370,54120408,Science Fiction
-371,54120408,Speculative Fiction
-372,54120408,The Future
-373,54511226,Language Arts & Disciplines
-374,34703445,Adventure
-375,34703445,Brandon Sanderson
-376,34703445,Coming-Of-Age
-377,34703445,Fantasy
-378,34703445,Female Protagonist
-379,34703445,Fiction
-380,34703445,General
-381,34703445,Healing
-382,34703445,Hope
-383,34703445,Humor
-384,34703445,Novella
-385,34703445,Self-Discovery
-386,34703445,Spiritual Journey
-387,34703445,Young Adult
-388,49021976,Action & Adventure
-389,49021976,Action And Adventure
-390,49021976,American Literature
-391,49021976,Epic
-392,49021976,Fantasy
-393,49021976,Fiction
-394,49021976,New York Times Bestseller
-395,58446227,Colonies Spatiales
-396,58446227,English Literature
-397,58446227,Epidemics
-398,58446227,Fiction
-399,58446227,New York Times Bestseller
-400,58446227,Nouvelles
-401,58446227,Romans
-402,58446227,Space And Time
-403,58446227,Space Colonies
-404,58446227,Time Travel
-405,58446227,Women Authors
-406,58446227,Écrivaines
-407,20518872,Language Arts & Disciplines
-408,45300567,College Teachers
-409,45300567,English Literature
-410,45300567,Fiction
-411,45300567,Fiction / Thrillers / Psychological
-412,45300567,Fiction / Thrillers / Suspense
-413,45300567,General
-414,45300567,Greek Mythology
-415,45300567,Murderers
-416,45300567,New York Times Bestseller
-417,45300567,Psychological
-418,45300567,Psychotherapists
-419,45300567,Secret Societies
-420,45300567,Teacher-Student Relationships
-421,45300567,Thrillers
-422,45300567,Truthfulness And Falsehood
-423,45300567,University Of Cambridge
-424,45300567,Women Psychotherapists
-425,18162954,Language Arts & Disciplines
-426,23168817,Language Arts & Disciplines
-427,52578297,Bibliothèques
-428,52578297,Choice (Psychology)
-429,52578297,Choix (Psychologie)
-430,52578297,Decision Making
-431,52578297,Fantasy
-432,52578297,Fiction
-433,52578297,Fiction / Literary
-434,52578297,Fiction / Science Fiction / Time Travel
-435,52578297,Fiction / Women
-436,52578297,Future Life
-437,52578297,General
-438,52578297,Libraries
-439,52578297,Literary
-440,52578297,New York Times Bestseller
-441,52578297,New York Times Reviewed
-442,52578297,Nouvelles
-443,52578297,Prise De Décision
-444,52578297,Regret
-445,52578297,Romans
-446,52578297,Science Fiction
-447,52578297,Vie Future
-448,25451264,Action & Adventure
-449,25451264,Alien Contact
-450,25451264,Chinese Science Fiction
-451,25451264,Extraterrestrial Beings
-452,25451264,Fiction
-453,25451264,Fiction / Science Fiction / Alien Contact
-454,25451264,Fiction / Science Fiction / Hard Science Fiction
-455,25451264,General
-456,25451264,Hard Science Fiction
-457,25451264,Human-Alien Encounters
-458,25451264,Imaginary Wars And Battles
-459,25451264,Science Fiction
-460,25451264,Survival
-461,68428,Adulto
-462,68428,Adventure
-463,68428,Courts And Courtiers
-464,68428,Covert Operations
-465,68428,Epic
-466,68428,Fantasy
-467,68428,Fantasy Fiction
-468,68428,Fantasía
-469,68428,Ficción
-470,68428,Fiction
-471,68428,General
-472,68428,Good And Evil
-473,68428,Magia
-474,68428,Magic
-475,68428,Mystical Powers
-476,68428,Nobility
-477,68428,Slaves
-478,68428,Thieves
-479,68428,Upraising
-480,68428,Women Revolutionaries
-481,58784475,American Literature
-482,58784475,Fiction
-483,58784475,Modern Fiction
-484,58784475,New York Times Bestseller
-485,68429,Cours Et Courtisans -- Romans
-486,68429,Courts And Courtiers
-487,68429,Courts And Courtiers -- Fiction
-488,68429,Epic
-489,68429,Etc
-490,68429,Fantasy
-491,68429,Fantasy Fiction
-492,68429,Fantasía
-493,68429,Fiction
-494,68429,General
-495,68429,Good And Evil
-496,68429,Good And Evil -- Fiction
-497,68429,Imaginary Places
-498,68429,Imaginary Places -- Fiction
-499,68429,Lieux Imaginaires -- Romans
-500,68429,Magic
-501,68429,Magic -- Fiction
-502,68429,Nouvelles
-503,68429,Sieges
-504,68429,Sieges -- Fiction
-505,68429,SièGes (Histoire) -- Romans
-506,2767793,Children'S Fiction
-507,2767793,Epic Fantasy
-508,2767793,Fantasy
-509,2767793,Fantasy Fiction
-510,2767793,Fiction
-511,2767793,General
-512,2767793,Imaginary Places
-513,2767793,Magic
-514,56783258,American Literature
-515,56783258,Fiction
-516,56783258,General
-517,56783258,Historical
-518,56783258,Idaho
-519,56783258,Istanbul (Turkey)
-520,56783258,Libraries
-521,56783258,Medieval
-522,56783258,Multiple Timelines
-523,56783258,New York Times Bestseller
-524,56783258,Science Fiction
-525,56783258,Space
-526,56783258,The Future
-527,60652997,American Literature
-528,60652997,Contemporary
-529,60652997,Fantasy
-530,60652997,Fiction
-531,60652997,New York Times Bestseller
-532,60652997,Occult & Supernatural
-533,60652997,Paranormal
-534,60652997,Supernatural
-535,60652997,Thrillers
-536,35133922,Biography & Autobiography
-537,17333223,Amerikanisches Englisch
-538,17333223,Art
-539,17333223,Artistas
-540,17333223,Artistes
-541,17333223,Artists
-542,17333223,Auto-Realización
-543,17333223,Bildungsromans
-544,17333223,Chang Pian Xiao Shuo
-545,17333223,Coming Of Age
-546,17333223,Family Life
-547,17333223,Ficción
-548,17333223,Fiction
-549,17333223,Fiction / Coming Of Age
-550,17333223,Fiction / Literary
-551,17333223,Fiction / Psychological
-552,17333223,Friendship
-553,17333223,Goldfinch
-554,17333223,Jeunes Hommes
-555,17333223,Jóvenes (Varones)
-556,17333223,Large Type Books
-557,17333223,Literary
-558,17333223,Loss (Psychology)
-559,17333223,New York (N.Y.)
-560,17333223,New York Times Bestseller
-561,17333223,Nouvelles
-562,17333223,Novela
-563,17333223,Perte (Psychologie)
-564,17333223,Pintores
-565,17333223,Psychological
-566,17333223,Pérdida (Psicología)
-567,17333223,Rich People
-568,17333223,Roman
-569,17333223,Romans
-570,17333223,Réalisation De Soi
-571,17333223,Self-Acceptance
-572,17333223,Self-Realization
-573,17333223,Spanish Language Materials
-574,17333223,Survival
-575,17333223,Suspense Fiction
-576,17333223,Transitional Objects (Psychology)
-577,17333223,Young Men
-578,54493401,Action & Adventure
-579,54493401,Astronautes
-580,54493401,Astronauts
-581,54493401,End Of The World
-582,54493401,Fiction
-583,54493401,Fiction / Science Fiction / Action & Adventure
-584,54493401,Fiction / Science Fiction / Hard Science Fiction
-585,54493401,Fiction / Thrillers / Suspense
-586,54493401,Fin Du Monde
-587,54493401,Habiletés De Survie
-588,54493401,Hard Sci-Fi
-589,54493401,Hard Science Fiction
-590,54493401,Hard Science-Fiction
-591,54493401,Memory Disorders
-592,54493401,New York Times Bestseller
-593,54493401,New York Times Reviewed
-594,54493401,Nouvelles
-595,54493401,Romans
-596,54493401,Sci-Fi
-597,54493401,Science Fiction
-598,54493401,Science-Fiction
-599,54493401,Shipwrecks
-600,54493401,Space Flight
-601,54493401,Survival
-602,54493401,Survival After Airplane Accidents
-603,54493401,Vol Spatial
-604,61242426,Language Arts & Disciplines
-605,61474080,Language Arts & Disciplines
-606,221733722,American Literature
-607,221733722,Fiction
-608,221733722,Horror
-609,221733722,Mystery
-610,221733722,Mystery Thriller
-611,221733722,Psychological Thriller
-612,221733722,Suspense
-613,221733722,Thriller
-614,61126612,Fiction
-615,54386622,Language Arts & Disciplines
-616,34051011,Language Arts & Disciplines
-617,41886271,Language Arts & Disciplines
-618,56791389,Language Arts & Disciplines
-619,41881472,Accounting
-620,41881472,Attitude Change
-621,41881472,Business & Economics
-622,41881472,Consumption (Economics)
-623,41881472,Ethics
-624,41881472,Finance
-625,41881472,Financial Literacy
-626,41881472,Investing
-627,41881472,Management
-628,41881472,Money
-629,41881472,Personal
-630,41881472,Personal Finance
-631,41881472,Psychological Aspects
-632,41881472,Psychology
-633,41881472,Quality Of Life
-634,41881472,Richesse
-635,41881472,Satisfaction
-636,41881472,Self-Help Techniques
-637,41881472,Wealth
-638,30646587,Language Arts & Disciplines
-639,203578847,Fiction
-640,203578847,Series:Stormlight Archive
-641,157608295,Language Arts & Disciplines
-642,15839976,Dystopia
-643,15839976,Fantasy
-644,15839976,Fiction
-645,15839976,Science Fiction
-646,15839976,Young Adult
-647,68320207,Language Arts & Disciplines
-648,25076674,Language Arts & Disciplines
-649,18693771,Abuse
-650,18693771,Addiction
-651,18693771,Alcoholism
-652,18693771,Brain
-653,18693771,Clinical Medicine
-654,18693771,Combat
-655,18693771,Diseases
-656,18693771,Evidence-Based Medicine
-657,18693771,General
-658,18693771,Health & Fitness
-659,18693771,Internal Medicine
-660,18693771,Körpererfahrung
-661,18693771,Medical
-662,18693771,Mental Health
-663,18693771,Mind And Body
-664,18693771,Neurology
-665,18693771,Neuroplasticity
-666,18693771,Neuroscience
-667,18693771,Neurowissenschaften
-668,18693771,New York Times Bestseller
-669,18693771,New York Times Reviewed
-670,18693771,Physical Violence Recovery
-671,18693771,Physiopathology
-672,18693771,Post-Traumatic
-673,18693771,Post-Traumatic Stress Disorder
-674,18693771,Post-Traumatic Stress Disorder (Ptsd)
-675,18693771,Posttraumatisches Stresssyndrom
-676,18693771,Psychic Trauma
-677,18693771,Psychisches Trauma
-678,18693771,Psychology
-679,18693771,Psychotherapie
-680,18693771,Sexual Abuse
-681,18693771,Sexual Trauma
-682,18693771,Stress Disorders
-683,18693771,Therapie
-684,18693771,Therapy
-685,18693771,Traitement
-686,18693771,Trauma Survivors
-687,18693771,Traumatisme Psychique
-688,18693771,Treatment
-689,18693771,Veterans
-690,18693771,Violence
-691,18693771,État De Stress Post-Traumatique
-692,1268479,Language Arts & Disciplines
-693,68427,Blessing And Cursing
-694,68427,Bénédiction Et Malédiction
-695,68427,City And Town Life
-696,68427,Epic
-697,68427,Fantasy
-698,68427,Fantasy Fiction
-699,68427,Fiction
-700,68427,Fiction / Fantasy / Epic
-701,68427,General
-702,68427,Klątwa
-703,68427,Nouvelles
-704,68427,Princes
-705,68427,Princesses
-706,68427,Romans
-707,68427,Vie Urbaine
-708,68427,Wojna
-709,57850265,American Literature
-710,57850265,Climate
-711,57850265,Décadence
-712,57850265,Epidemics
-713,57850265,Fiction
-714,57850265,Fiction / Humorous / General
-715,57850265,Fiction / Literary
-716,57850265,Fiction / Satire
-717,57850265,Interpersonal Relations
-718,57850265,Life On Other Planets
-719,57850265,Maladies À Virus
-720,57850265,Nouvelles
-721,57850265,Plague
-722,57850265,Regression (Civilization)
-723,57850265,Resilience (Personality Trait)
-724,57850265,Romans
-725,57850265,Résilience (Trait De Personnalité)
-726,57850265,Virus Diseases
-727,52397,813/.54
-728,52397,African American
-729,52397,African American Women
-730,52397,African Americans
-731,52397,African Americans--Fiction
-732,52397,American Literature
-733,52397,Apocalyptic & Post-Apocalyptic
-734,52397,Audiobooks
-735,52397,Black Teenage Girls
-736,52397,California
-737,52397,Comic Books
-738,52397,Comics & Graphic Novels
-739,52397,Comics & Graphic Novels / Historical Fiction
-740,52397,Comics & Graphic Novels / Science Fiction
-741,52397,Dystopian
-742,52397,Dystopias
-743,52397,Environmental Disasters
-744,52397,Faith
-745,52397,Fiction
-746,52397,General
-747,52397,Graphic Novels
-748,52397,Literary
-749,52397,New York Times Bestseller
-750,52397,Ps3552.U827 P37 2000
-751,52397,Psychic Ability
-752,52397,Science Fiction
-753,52397,Strips
-754,52397,Survival
-755,52397,Twenty-First Century
-756,52397,Twenty-First Century--Fiction
-757,52397,Women
-758,50252588,Language Arts & Disciplines
-759,49682914,Language Arts & Disciplines
-760,112974860,New York Times Bestseller
-761,112974860,Social Science
-762,18952381,Fantasy
-763,18952381,Fiction
-764,18952381,Fiction / Action & Adventure
-765,18952381,Fiction / Fantasy / Epic
-766,18952381,Fiction / Fantasy / General
-767,18952381,Friendship
-768,18952381,General
-769,18952381,Imaginary Wars And Battles
-770,18952381,Revolutions
-771,57684325,Language Arts & Disciplines
-772,51942513,Buddhism
-773,51942513,Conduct Of Life
-774,51942513,Doctrines
-775,51942513,Happiness
-776,51942513,Hinduism
-777,51942513,Meaning (Psychology)
-778,51942513,Monastic And Religious Life
-779,51942513,New York Times Bestseller
-780,51942513,Psychology
-781,51942513,Self-Help
-782,51942513,Self-Realization
-783,124950497,Language Arts & Disciplines
-784,1303,Abridged Audio - Misc. Nonfiction
-785,1303,Ambição
-786,1303,Audiobooks
-787,1303,Business
-788,1303,Business & Economics
-789,1303,Conduct Of Life
-790,1303,Control (Philosophy)
-791,1303,Control (Psychology)
-792,1303,Contrãole (Psychologie
-793,1303,Contrôle (Psychologie)
-794,1303,Contrôle (Psychologie.)
-795,1303,Gesellschaft
-796,1303,History & Theory - General
-797,1303,Influência
-798,1303,Jogo
-799,1303,Leadership
-800,1303,Liderança
-801,1303,Macht
-802,1303,Manipulação
-803,1303,Motivational
-804,1303,Nonfiction
-805,1303,Nutzung
-806,1303,Personal Growth
-807,1303,Persuasão
-808,1303,Philosophy And Ethics
-809,1303,Poder
-810,1303,Political Science
-811,1303,Political Science & Theory
-812,1303,Political Science / History & Theory
-813,1303,Politics/International Relations
-814,1303,Pouvoir (Morale)
-815,1303,Pouvoir (Morale.)
-816,1303,Power (Philosophy)
-817,1303,Power (Psychology)
-818,1303,Power (Social Sciences)
-819,1303,Psychology
-820,1303,Self-Help
-821,1303,Self-Improvement
-822,1303,Success
-823,1303,Zwischenmenschliche Beziehung
-824,83337,Chess
-825,83337,End Games
-826,83337,Games & Activities
-827,9547888,Attachment Behavior
-828,9547888,Family & Relationships
-829,9547888,Interpersonal Relations
-830,9547888,Intimacy (Psychology)
-831,9547888,Psychology
-832,12343111,Chess
-833,12343111,Combinaties
-834,12343111,Games
-835,12343111,Schaken
-836,44421460,Coffee
-837,44421460,Family
-838,44421460,Fiction
-839,44421460,Forgiveness
-840,44421460,Friendship
-841,44421460,Loss
-842,44421460,Love
-843,44421460,Magical Realism
-844,44421460,Redemption
-845,44421460,Romance
-846,44421460,Second Chances
-847,44421460,Slice-Of-Life
-848,44421460,Time Travel
-849,23168277,1961-1975
-850,23168277,Communists
-851,23168277,Espionage
-852,23168277,Fiction
-853,23168277,General
-854,23168277,Historical
-855,23168277,New York Times Bestseller
-856,23168277,New York Times Reviewed
-857,23168277,Soldiers
-858,23168277,Thrillers
-859,23168277,Vietnam
-860,23168277,Vietnam War
-861,23168277,War & Military
-862,6334,1954-
-863,6334,Clonage
-864,6334,Cloning
-865,6334,Cloning--Fiction
-866,6334,De Tissus
-867,6334,Donation Of Organs
-868,6334,Donneurs D'Organes
-869,6334,Dons D'Organes
-870,6334,England
-871,6334,English Literature
-872,6334,Etc
-873,6334,Etc--Fiction
-874,6334,Femmes
-875,6334,Fic
-876,6334,Fiction
-877,6334,Friendship
-878,6334,General
-879,6334,Human Cloning
-880,6334,Ishiguro
-881,6334,Kazuo
-882,6334,Large Type Books
-883,6334,Literary
-884,6334,Literature
-885,6334,New York Times Bestseller
-886,6334,Nouvelles
-887,6334,Novela Inglesa
-888,6334,Organ Donors
-889,6334,Organ Donors--Fiction
-890,6334,Powieść Angielska
-891,6334,Pr6059.S5 N48 2006
-892,6334,Psychological
-893,6334,Psychological Fiction
-894,6334,Reminiscing
-895,6334,Romans
-896,6334,School Children
-897,6334,Science Fiction
-898,6334,Tissues
-899,6334,Tłumaczenia Polskie
-900,6334,Women
-901,6334,Women--Fiction
-902,10846336,1000Blackgirlbooks
-903,10846336,2005
-904,10846336,African American
-905,10846336,African American & Black
-906,10846336,African American Children
-907,10846336,African American Families
-908,10846336,African American Teenage Girls
-909,10846336,African Americans
-910,10846336,Amerikanisches Englisch
-911,10846336,Brothers And Sisters
-912,10846336,Christian
-913,10846336,Family Life
-914,10846336,Fiction
-915,10846336,General
-916,10846336,Girls
-917,10846336,Hurricane Katrina
-918,10846336,Hurricane Katrina (2005) Fast (Ocolc)Fst01755264
-919,10846336,Large Type Books
-920,10846336,Literary
-921,10846336,Mississippi
-922,10846336,Motherless Families
-923,10846336,Natural Disasters
-924,10846336,Poor
-925,10846336,Poverty
-926,10846336,Reading Level-Grade 10
-927,10846336,Reading Level-Grade 11
-928,10846336,Reading Level-Grade 12
-929,10846336,Reading Level-Grade 7
-930,10846336,Reading Level-Grade 8
-931,10846336,Reading Level-Grade 9
-932,10846336,Roman
-933,10846336,Rural Poor
-934,10846336,Siblings
-935,10846336,Teenagers
-936,30558257,Language Arts & Disciplines
-937,63219094,Language Arts & Disciplines
-938,54774986,Language Arts & Disciplines
-939,23515727,American Fiction
-940,23515727,American Fiction (Fictional Works By One Author)
-941,23515727,Drug Traffic
-942,23515727,Fiction
-943,23515727,Large Type Books
-944,23515727,Literature
-945,23515727,Murderers
-946,23515727,Novela
-947,23515727,Policía
-948,23515727,Psychological
-949,23515727,Psychological Fiction
-950,23515727,Sheriffs
-951,23515727,Spanish Language Materials
-952,23515727,Suspense
-953,23515727,Suspense Fiction
-954,23515727,Tesoros Ocultos
-955,23515727,Texas
-956,23515727,Thrillers
-957,23515727,Treasure Troves
-958,23515727,Treasure-Trove
-959,23515727,Tráfico De Drogas
-960,42933,Language Arts & Disciplines
-961,36315,Language Arts & Disciplines
-962,77203,Afghanistan
-963,77203,Afghanistan-Konflikt
-964,77203,Afghans
-965,77203,American Fiction
-966,77203,Amistad Entre Hombres
-967,77203,Amitié Masculine
-968,77203,Arabic Fiction
-969,77203,Autographed Books
-970,77203,Bacha Bazi
-971,77203,Betrayal
-972,77203,Betrayal--Fiction
-973,77203,Bildungsromans
-974,77203,Boys
-975,77203,Boys--Fiction
-976,77203,Brass Knuckles
-977,77203,Clases Sociales
-978,77203,Classes Sociales
-979,77203,Coming Of Age
-980,77203,Competitions
-981,77203,Drama
-982,77203,Ficción
-983,77203,Fiction
-984,77203,Fiction Subjects
-985,77203,Fictional Works
-986,77203,Fictional Works [Publication Type]
-987,77203,Fighter Kites
-988,77203,Freundschaft
-989,77203,Friendship
-990,77203,Garçons
-991,77203,General
-992,77203,Hazaras
-993,77203,Histoire
-994,77203,Historical Fiction
-995,77203,In Library
-996,77203,Interpersonal Relations
-997,77203,Junge
-998,77203,Kites
-999,77203,Large Type Books
-1000,77203,Literary Fiction
-1001,77203,Literature
-1002,77203,Littérature Américaine
-1003,77203,Long Now Manual For Civilization
-1004,77203,Male Friendship
-1005,77203,Male Friendship--Fiction
-1006,77203,Modern & Contemporary Fiction (Post C 1945)
-1007,77203,Muchachos
-1008,77203,Mullahs
-1009,77203,New York Times Bestseller
-1010,77203,Nouvelles
-1011,77203,Novela
-1012,77203,Novelas Afganas
-1013,77203,Open Library Staff Picks
-1014,77203,Open Syllabus Project
-1015,77203,Parent And Child
-1016,77203,Pashtuns
-1017,77203,Romans
-1018,77203,Sadistic Personality Disorder
-1019,77203,Social Class
-1020,77203,Social Classes
-1021,77203,Social Classes&#X200B;
-1022,77203,Social Classes--Fiction
-1023,77203,Social Conditions
-1024,77203,Soviet-Afghan War
-1025,77203,Soziale Ungleichheit
-1026,77203,Talibans
-1027,77203,Teenage Boys
-1028,77203,Trahison (Morale)
-1029,77203,Traición
-1030,77203,Translations Into Persian
-1031,77203,World Literature
-1032,18774964,Conduct Of Life
-1033,18774964,Early Retirement
-1034,18774964,Ensamhet
-1035,18774964,Ensamstående Män
-1036,18774964,Feelgood
-1037,18774964,Ficción
-1038,18774964,Fiction
-1039,18774964,Friendship
-1040,18774964,General
-1041,18774964,Grannar
-1042,18774964,Humor
-1043,18774964,Humoristiska Skildringar
-1044,18774964,Humorous
-1045,18774964,Interpersonal Relations
-1046,18774964,Jubilación Anticipada
-1047,18774964,Large Type Books
-1048,18774964,Loss (Psychology)
-1049,18774964,Love
-1050,18774964,Neighborhoods
-1051,18774964,Neighbors
-1052,18774964,New York Times Bestseller
-1053,18774964,Novel
-1054,18774964,Older Men
-1055,18774964,Parasuicide
-1056,18774964,Pensionärer
-1057,18774964,Retirees
-1058,18774964,Romaner
-1059,18774964,Single Men
-1060,18774964,Självmordsförsök
-1061,18774964,Suicidal Behavior
-1062,18774964,Svensk Skönlitteratur
-1063,18774964,Svensk Skönlitteratur: Romaner Och Noveller
-1064,18774964,Translation
-1065,18774964,Vecinos
-1066,18774964,Viudos
-1067,18774964,Vänskap
-1068,18774964,Widowers
-1069,36642458,Action & Adventure
-1070,36642458,Air Pilots
-1071,36642458,American Literature
-1072,36642458,Children'S Fiction
-1073,36642458,Dystopian
-1074,36642458,Extraterrestrial Beings
-1075,36642458,Fiction
-1076,36642458,General
-1077,36642458,New York Times Bestseller
-1078,36642458,Science Fiction
-1079,36642458,Series:Skyward
-1080,36642458,Survival
-1081,36642458,Survival Stories
-1082,36642458,War
-1083,36642458,Young Adult Fiction
-1084,18952341,Action & Adventure
-1085,18952341,Brigands And Robbers
-1086,18952341,Epic
-1087,18952341,Fantasy
-1088,18952341,Fiction
-1089,18952341,Fiction / Action & Adventure
-1090,18952341,Fiction / Fantasy / Epic
-1091,18952341,Fiction / Fantasy / General
-1092,18952341,Friendship
-1093,18952341,General
-1094,18952341,Imaginary Places
-1095,18952341,Justice
-1096,18952341,Magic
-1097,18952341,Male Friendship
-1098,18952341,Rebellion
-1099,18952341,Revolutions
-1100,12505,Aristocracy (Social Class)
-1101,12505,Atonement
-1102,12505,Brothers
-1103,12505,Chr 2004
-1104,12505,Classic Literature
-1105,12505,Conditions Sociales
-1106,12505,Continental European Fiction (Fictional Works By One Author)
-1107,12505,Dictionaries
-1108,12505,English Fiction
-1109,12505,English Language
-1110,12505,English Literature
-1111,12505,Epileptics
-1112,12505,Fathers And Daughters
-1113,12505,Fiction
-1114,12505,Fiction In English
-1115,12505,Frères
-1116,12505,German
-1117,12505,Good And Evil
-1118,12505,Histoire
-1119,12505,Historical Fiction
-1120,12505,History
-1121,12505,Idiot (Television Program)
-1122,12505,Long Now Manual For Civilization
-1123,12505,Nouvelles
-1124,12505,Princes
-1125,12505,Pro Gotham Book Mart (Former Owner) (Gotham Book Mart Collection Copy)
-1126,12505,Pères Et Filles
-1127,12505,Romans
-1128,12505,Russia
-1129,12505,Russia In Fiction
-1130,12505,Russian Fiction
-1131,12505,Russian Literature
-1132,12505,Sanatoriums
-1133,12505,Social Conditions
-1134,12505,Social Life And Customs
-1135,12505,Television Adaptations
-1136,12505,Translations
-1137,12505,Translations From Russian
-1138,12505,Translations Into English
-1139,12505,Triangle (Relations Humaines)
-1140,12505,Triangles (Interpersonal Relations)
-1141,12505,Épileptiques
-1142,12505,Художественная Литература -- Российская Федерация -- Русская Литература -- 2-Ая Пол. 19 В. -- Романы
-1143,50898126,American Literature
-1144,50898126,American Poetry
-1145,17563539,Language Arts & Disciplines
-1146,687278,Body
-1147,687278,Buddhism
-1148,687278,Mind & Spirit
-1149,687278,Peace Of Mind
-1150,687278,Religious Aspects
-1151,687278,Religious Life
-1152,687278,Spiritual Life
-1153,687278,Suffering
-1154,49552,Language Arts & Disciplines
-1155,22294935,Language Arts & Disciplines
-1156,22299763,Language Arts & Disciplines
-1157,30753841,Cooking
-1158,30753841,Cooking Methods
-1159,30753841,New York Times Bestseller
-1160,30753841,Reference
-1161,30753841,Regional & Ethnic Cooking
-1162,65213543,Fiction
-1163,65213543,New York Times Bestseller
-1164,180357146,Drowning
-1165,180357146,Families
-1166,180357146,Fiction
-1167,180357146,Historical Fiction
-1168,180357146,New York Times Bestseller
-1169,61771675,Language Arts & Disciplines
-1170,33574273,& Magic
-1171,33574273,A Wrinkle In Time
-1172,33574273,Adventure And Adventurers
-1173,33574273,Age:Max:14
-1174,33574273,Age:Min:10
-1175,33574273,American Fiction
-1176,33574273,Award:Newbery Award
-1177,33574273,Brothers And Sisters
-1178,33574273,Children'S Fiction
-1179,33574273,Classics
-1180,33574273,Decision Making
-1181,33574273,Espacio Y Tiempo
-1182,33574273,Extraterrestrial Beings
-1183,33574273,Families
-1184,33574273,Family Life
-1185,33574273,Fantasy
-1186,33574273,Fantasy Fiction
-1187,33574273,Fathers And Daughters
-1188,33574273,Fiction
-1189,33574273,Friendship
-1190,33574273,Friendship In Adolesce
-1191,33574273,Gifted Children
-1192,33574273,Good And Evil
-1193,33574273,Grade:Max:Undefined
-1194,33574273,Grade:Min:Kindergarten And Up
-1195,33574273,Juvenile Fiction
-1196,33574273,Juvenile Fiction - Classics
-1197,33574273,Lexile Range:701-800
-1198,33574273,Lexile:740
-1199,33574273,Love
-1200,33574273,Missing Persons
-1201,33574273,Moral And Ethical Aspects
-1202,33574273,Murry Family (Fictitious Character)
-1203,33574273,Murry Family (Fictitious Characters)
-1204,33574273,Newbery Medal
-1205,33574273,Newbery Medal Books
-1206,33574273,Novela
-1207,33574273,Open Library Staff Picks
-1208,33574273,Picture Books
-1209,33574273,Poopnce
-1210,33574273,Reading Level-Grade 10
-1211,33574273,Reading Level-Grade 11
-1212,33574273,Reading Level-Grade 12
-1213,33574273,Reading Level-Grade 7
-1214,33574273,Reading Level-Grade 8
-1215,33574273,Reading Level-Grade 9
-1216,33574273,Responsibility
-1217,33574273,Sci-Fi
-1218,33574273,Science Fiction
-1219,33574273,Space And Time
-1220,33574273,Spanish: Young Adult (Gr. 10-12)
-1221,33574273,Time Travel
-1222,33574273,Tiểu Thuyết
-1223,33574273,Viaje En El Tiempo
-1224,33574273,Văn Học Mĩ
-1225,60194162,Language Arts & Disciplines
-1226,54814676,Acculturation
-1227,54814676,Américains D'Origine Asiatique
-1228,54814676,Américains D'Origine Coréenne
-1229,54814676,Asian & Asian American
-1230,54814676,Asian Americans
-1231,54814676,Autobiographies
-1232,54814676,Bereavement
-1233,54814676,Biographies
-1234,54814676,Biography
-1235,54814676,Biography & Autobiography
-1236,54814676,Biography & Memoir
-1237,54814676,Chagrin
-1238,54814676,Chanteurs
-1239,54814676,Cooking
-1240,54814676,Cultural
-1241,54814676,Death
-1242,54814676,Essays & Narratives
-1243,54814676,Ethnic & Regional
-1244,54814676,Family & Relationships
-1245,54814676,Food Memoir & Travel
-1246,54814676,Grief
-1247,54814676,Group Identity
-1248,54814676,Humans
-1249,54814676,Identité Collective
-1250,54814676,Japanese Breakfast (Musical Group)
-1251,54814676,Korean
-1252,54814676,Korean Americans
-1253,54814676,Koreans
-1254,54814676,Mother And Child
-1255,54814676,Mother-Child Relations
-1256,54814676,Mothers And Daughters
-1257,54814676,Musiciens Rock
-1258,54814676,Mère Et Enfant
-1259,54814676,Mères Et Filles
-1260,54814676,New York Times Bestseller
-1261,54814676,Republic Of Korea
-1262,54814676,Rock Musicians
-1263,54814676,Singers
-1264,54814676,Social Identification
-1265,54814676,United States
-1266,30165203,Language Arts & Disciplines
-1267,41804,American
-1268,41804,American Literature
-1269,41804,American Science Fiction
-1270,41804,American Short Stories
-1271,41804,Artificial Intelligence
-1272,41804,Asteroids
-1273,41804,Children'S Fiction
-1274,41804,Cognitive Dissonance
-1275,41804,Collections & Anthologies
-1276,41804,Computers
-1277,41804,Fiction
-1278,41804,Frankenstein Complex
-1279,41804,Heisenbugs
-1280,41804,High Tech And Hard Science Fiction
-1281,41804,Human-Robot Relations
-1282,41804,Hyperspace
-1283,41804,Long Now Manual For Civilization
-1284,41804,Morality
-1285,41804,Positronic Brains
-1286,41804,Readers
-1287,41804,Readers (Secondary)
-1288,41804,Reading Level-Grade 10
-1289,41804,Reading Level-Grade 11
-1290,41804,Reading Level-Grade 12
-1291,41804,Robopsychology
-1292,41804,Robotics
-1293,41804,Robots
-1294,41804,Robots In Fiction
-1295,41804,Roman
-1296,41804,Science Fiction
-1297,41804,Selenium
-1298,41804,Shahada
-1299,41804,Short Stories
-1300,41804,Smear Campaigns
-1301,41804,Space Stations
-1302,41804,Space-Based Solar Power
-1303,41804,Supercomputers
-1304,41804,Three Laws Of Robotics
-1305,41804,Thriller
-1306,29579,American Fantasy Fiction
-1307,29579,American Literature
-1308,29579,American Science Fiction
-1309,29579,Fiction
-1310,29579,General
-1311,29579,Hari Seldon (Fictitious Character)
-1312,29579,Historians
-1313,29579,Life On Other Planets
-1314,29579,Long Now Manual For Civilization
-1315,29579,Nouvelles
-1316,29579,Open Library Staff Picks
-1317,29579,Prophecy
-1318,29579,Psychohistoire
-1319,29579,Psychohistory
-1320,29579,Psychological Fiction
-1321,29579,Robots
-1322,29579,Romans
-1323,29579,Science Fiction
-1324,29579,Vie Extraterrestre
-1325,39943621,Dragons
-1326,39943621,Epic
-1327,39943621,Epic Fiction
-1328,39943621,Fantasy
-1329,39943621,Fiction
-1330,39943621,Fiction / Action & Adventure
-1331,39943621,Fiction / Fantasy / Dragons & Mythical Creatures
-1332,39943621,Fiction / Fantasy / Epic
-1333,39943621,Good And Evil
-1334,39943621,Imaginary Places
-1335,39943621,Imaginary Wars And Battles
-1336,39943621,Kings And Rulers
-1337,39943621,Knights And Knighthood
-1338,39943621,Magic
-1339,39943621,Medieval Kings And Rulers
-1340,39943621,Monarchy
-1341,39943621,New York Times Bestseller
-1342,39943621,Royal Houses
-1343,39943621,Seven Kingdoms (Imaginary Place)
-1344,39943621,Succession
-1345,39943621,Westeros (Imaginary Place)
-1346,3836,Language Arts & Disciplines
-1347,228665,2001-02
-1348,228665,Al'Thor Rand (Fictitious Character)
-1349,228665,American Fantasy
-1350,228665,American Literature
-1351,228665,Children'S Fiction
-1352,228665,Children'S Stories
-1353,228665,Comic Books
-1354,228665,Comics & Graphic Novels
-1355,228665,Epic
-1356,228665,Fantasy
-1357,228665,Fantasy .
-1358,228665,Fantasy Fiction
-1359,228665,Fiction
-1360,228665,General
-1361,228665,Good And Evil
-1362,228665,Monsters
-1363,228665,New York Times Bestseller
-1364,228665,Rand Al'Thor (Fictitious Character)
-1365,228665,Reader Recommended
-1366,228665,Science Fiction
-1367,228665,Series:The Wheel Of Time
-1368,228665,Strips
-1369,14817,American Science Fiction
-1370,14817,California
-1371,14817,Comics & Graphic Novels
-1372,14817,Detective And Mystery Stories
-1373,14817,Drug Abuse
-1374,14817,Fiction
-1375,14817,Fiction In English
-1376,14817,General
-1377,14817,Impostors And Imposture
-1378,14817,Multiple Personality
-1379,14817,Narcotic Habit
-1380,14817,Pasadena (Calif.)
-1381,14817,Police
-1382,14817,Science Fiction
-1383,14817,Stories Without Words
-1384,49189494,American Literature
-1385,49189494,Fiction
-1386,32186143,Language Arts & Disciplines
-1387,20170404,Action & Adventure
-1388,20170404,Actors
-1389,20170404,Adventure
-1390,20170404,Amerikanisches Englisch
-1391,20170404,Canadian Fiction
-1392,20170404,Collection:Canada Reads
-1393,20170404,Collection:Canada Reads 2023
-1394,20170404,Dystopian
-1395,20170404,Epidemics
-1396,20170404,Fiction
-1397,20170404,Fiction / Literary
-1398,20170404,Fiction / Science Fiction / Adventure
-1399,20170404,Large Type Books
-1400,20170404,Literary
-1401,20170404,New York Times Bestseller
-1402,20170404,New York Times Reviewed
-1403,20170404,Science Fiction
-1404,20170404,Shakespearean Actors And Actresses
-1405,20170404,Symphonies
-1406,20170404,Time Travel
-1407,20170404,Traveling Theater
-1408,45754981,Brothers And Sisters
-1409,45754981,Cruise Ships
-1410,45754981,English Literature
-1411,45754981,Fiction
-1412,45754981,Fiction / Literary
-1413,45754981,Fiction / Mystery & Detective / Traditional
-1414,45754981,Fiction / Psychological
-1415,45754981,Fraud
-1416,45754981,General
-1417,45754981,Missing Persons
-1418,45754981,Mystery & Detective
-1419,45754981,Mystery Fiction
-1420,45754981,New York Times Bestseller
-1421,45754981,New York Times Reviewed
-1422,45754981,Ponzi Schemes
-1423,45754981,Psychological
-1424,45754981,Siblings
-1425,66797,Language Arts & Disciplines
-1426,24400501,Fantasy
-1427,24400501,Fiction
-1428,24400501,Fiction / Fantasy / General
-1429,24400501,Finnish Epic Poetry
-1430,24400501,General
-1431,24400501,History And Criticism
-1432,24400501,Kalevala
-1433,24400501,Magicians
-1434,24400501,Revenge
-1435,24400501,Slavery
-1436,24400501,Young Men
-1437,18247597,Fantasy
-1438,18247597,Fantasy Fiction
-1439,18247597,Fiction
-1440,18247597,General
-1441,32620332,Authorship
-1442,32620332,Biographers
-1443,32620332,Biography
-1444,32620332,Calif.)
-1445,32620332,Contemporary
-1446,32620332,Fiction
-1447,32620332,General
-1448,32620332,Hollywood (Los Angeles
-1449,32620332,Lgbtq Novels
-1450,32620332,Man-Woman Relationships
-1451,32620332,Motion Picture Actors And Actresses
-1452,32620332,Motion Picture Industry
-1453,32620332,New York Times Bestseller
-1454,32620332,Romance
-1455,32620332,Women Journalists
-1456,52845775,American Poets
-1457,52845775,Américaines D'Origine Asiatique
-1458,52845775,Américains D'Origine Asiatique
-1459,52845775,Asian & Asian American
-1460,52845775,Asian American Women
-1461,52845775,Asian Americans
-1462,52845775,Biographies
-1463,52845775,Biography
-1464,52845775,Biography & Autobiography
-1465,52845775,Biography & Autobiography / Cultural
-1466,52845775,Cultural
-1467,52845775,Ethnic & Regional
-1468,52845775,Ethnic & Regional / Asian & Asian American
-1469,52845775,Ethnic Relations
-1470,52845775,History
-1471,52845775,Literary Criticism / American
-1472,52845775,New York Times Bestseller
-1473,52845775,New York Times Reviewed
-1474,52845775,Poets
-1475,52845775,Poètes Américains
-1476,52845775,Social Science / Ethnic Studies / American / Asian American Studies
-1477,52845775,United States
-1478,52845775,Women
-1479,52845775,Women Poets
-1480,8694,Anachronism
-1481,8694,Arthur (Fictitious Character)
-1482,8694,Arthur (Fictitious Character) Fiction
-1483,8694,Arthur Dent (Fictitious Character)
-1484,8694,Bird Language
-1485,8694,Dent
-1486,8694,English Literature
-1487,8694,Fantasy
-1488,8694,Fiction
-1489,8694,Ford (Fictitious Character)
-1490,8694,Ford (Fictitious Character) Fiction
-1491,8694,Ford Prefect (Fictitious Character)
-1492,8694,General
-1493,8694,Heart Of Gold
-1494,8694,Humorous
-1495,8694,Infinite Improbability Drive
-1496,8694,Interplanetary Voyages
-1497,8694,Interstellar Travel
-1498,8694,Paradoxes
-1499,8694,Prefect
-1500,8694,Reverse Engineering
-1501,8694,Science Fiction
-1502,8694,Sofas
-1503,8694,Space-Time Eddy
-1504,8694,The Ashes
-1505,8694,Trilogy Of Five
-1506,8694,Wikkit Gate
-1507,8694,Xenophobia
-1508,338691,Armand (Fictitious Character)
-1509,338691,Armand (Fictitious Character) -- Fiction
-1510,338691,Armand (Personnage Fictif) -- Romans
-1511,338691,Armand Gamache (Fictitious Character)
-1512,338691,Detective And Mystery Stories
-1513,338691,Etc
-1514,338691,Fiction
-1515,338691,Gamache
-1516,338691,Large Print Books
-1517,338691,Large Type Books
-1518,338691,Livres En Gros CaractèRes
-1519,338691,Mystery & Detective
-1520,338691,New York Times Bestseller
-1521,338691,Nouvelles
-1522,338691,Police
-1523,338691,Police -- Queì¹Bec (Province) -- Fiction
-1524,338691,Police Procedural
-1525,338691,Quebec (Province)
-1526,338691,Suspense
-1527,338691,Victimes De Violence -- Romans
-1528,338691,Victims Of Violent Crimes
-1529,338691,Victims Of Violent Crimes -- Fiction
-1530,8695,Language Arts & Disciplines
-1531,11,Language Arts & Disciplines
-1532,33385229,Adventure And Adventurers
-1533,33385229,Children'S Fiction
-1534,33385229,Death
-1535,33385229,Fiction
-1536,33385229,Friendship
-1537,33385229,Gay Men
-1538,33385229,Gays
-1539,33385229,Hispanic Americans
-1540,33385229,Homosexuality
-1541,33385229,Juvenile Fiction
-1542,33385229,Lgbtq Young Adult
-1543,33385229,Love
-1544,33385229,New York (N.Y.)
-1545,33385229,New York Times Bestseller
-1546,33385229,Romance Fiction
-1547,33385229,Young Adult Fiction
-1548,33917107,20Th Century
-1549,33917107,Civics & Citizenship
-1550,33917107,Democracy
-1551,33917107,Despotism
-1552,33917107,Essays
-1553,33917107,Europe
-1554,33917107,History
-1555,33917107,Modern
-1556,33917107,Modern History
-1557,33917107,New York Times Bestseller
-1558,33917107,Political Culture
-1559,33917107,Political Ethics
-1560,33917107,Political Science
-1561,33917107,Politics And Government
-1562,33917107,Social Science
-1563,33917107,Totalitarianism
-1564,33917107,Twentieth Century
-1565,33917107,Tyranny
-1566,100915,Language Arts & Disciplines
-1567,10534,Language Arts & Disciplines
-1568,1371,883.01
-1569,1371,883/.001
-1570,1371,883/.01
-1571,1371,Achille (Mythologie Grecque)
-1572,1371,Achilles
-1573,1371,Achilles (Greek Mythology)
-1574,1371,Achilles (Greek Mythology) In Literature
-1575,1371,Achilles (Greek Mythology)--Fiction
-1576,1371,Achilles (Greek Mythology)--Poetry
-1577,1371,Achilles--Poetry
-1578,1371,Adventure
-1579,1371,Ancient Greek Poetry
-1580,1371,Aquiles (Mitología Griega)
-1581,1371,Children'S Fiction
-1582,1371,Church History
-1583,1371,Classical & Medieval
-1584,1371,Classical Literature
-1585,1371,Classical Philology
-1586,1371,Collections
-1587,1371,Comics & Graphic Novels
-1588,1371,Continental European Fiction (Fictional Works By One Author)
-1589,1371,Criticism And Interpretation
-1590,1371,Dactylic Hexameter
-1591,1371,Dictionaries
-1592,1371,Early Works To 1800
-1593,1371,English Language
-1594,1371,English Literature
-1595,1371,English Translations
-1596,1371,Epic Poem
-1597,1371,Epic Poetry
-1598,1371,Etc. Pour La Jeunesse
-1599,1371,Examinations
-1600,1371,Fiction
-1601,1371,Fiction (Fictional Works By One Author)
-1602,1371,Fiction / Classics
-1603,1371,General
-1604,1371,German Poetry
-1605,1371,Grammar
-1606,1371,Great Books Of The Western World
-1607,1371,Greco-Roman Folklore & Mythology
-1608,1371,Gree Epic Poetry
-1609,1371,Greek
-1610,1371,Greek (Classical)
-1611,1371,Greek Epic Poetry
-1612,1371,Greek Gods
-1613,1371,Greek Language
-1614,1371,Greek Language Materials
-1615,1371,Greek Literature
-1616,1371,Greek Mythology
-1617,1371,Greek Poetry
-1618,1371,Greek--Fiction
-1619,1371,Greek--Translations Into English
-1620,1371,Greeks
-1621,1371,Greeks--Turkey--Fiction
-1622,1371,Grekisk Hjältediktning
-1623,1371,Guerra De Troya
-1624,1371,Guerre De Troie
-1625,1371,Hector (Legendary Character)
-1626,1371,Helen Of Troy (Greek Mythology)
-1627,1371,Hexameter
-1628,1371,Historical
-1629,1371,History And Criticism
-1630,1371,Homer
-1631,1371,Homer.
-1632,1371,Homer. 4
-1633,1371,Hymns
-1634,1371,Iliad (Homer)
-1635,1371,Ilias (Homerus)
-1636,1371,In Literature
-1637,1371,Juvenile Literature
-1638,1371,Juvenile Poetry
-1639,1371,Kommentar
-1640,1371,Korean
-1641,1371,Latin American Literature
-1642,1371,Latin Literature
-1643,1371,Literary Collections / Ancient
-1644,1371,Literatura Grega Clássica
-1645,1371,Literature
-1646,1371,Literature And The War
-1647,1371,Literature In Spanish
-1648,1371,Long Now Manual For Civilization
-1649,1371,Medieval And Modern Latin Literature
-1650,1371,Miami University (Oxford
-1651,1371,Mythologie Grecque
-1652,1371,Mythology
-1653,1371,Notre-Dame De Reims (Cathedral)
-1654,1371,Nouvelles
-1655,1371,Odysseus (Greek Mythology)
-1656,1371,Ohio)
-1657,1371,Ohio). Erodelphian Society
-1658,1371,Open Library Staff Picks
-1659,1371,Pa4020 .A1 1978
-1660,1371,Pa4020 .P9 1995
-1661,1371,Pa4025.A2 J67 2008
-1662,1371,Pa4025.A2 L38 2011
-1663,1371,Pa4025.A2 R53 2003
-1664,1371,Pa4025.A2 V47 2011
-1665,1371,Papyrus Bodmer
-1666,1371,Patroclus (Greek Mythology)
-1667,1371,Poesi
-1668,1371,Poesia Épica
-1669,1371,Poesias Epicas Griegas
-1670,1371,Poesía
-1671,1371,Poesía Épica Griega
-1672,1371,Poetry
-1673,1371,Poetry (Poetic Works By One Author)
-1674,1371,Poetry / Ancient & Classical
-1675,1371,Poésie
-1676,1371,Poésie Épique Grecque
-1677,1371,Readers
-1678,1371,Romans
-1679,1371,Study Guides
-1680,1371,Textual Criticism
-1681,1371,Title
-1682,1371,Traducciones Al Español
-1683,1371,Traductions Anglaises
-1684,1371,Translations
-1685,1371,Translations Into Arabic
-1686,1371,Translations Into Armenian
-1687,1371,Translations Into Chinese
-1688,1371,Translations Into Croatian
-1689,1371,Translations Into Dutch
-1690,1371,Translations Into English
-1691,1371,Translations Into French
-1692,1371,Translations Into German
-1693,1371,Translations Into Greek (Modern)
-1694,1371,Translations Into Icelandic
-1695,1371,Translations Into Irish
-1696,1371,Translations Into Italian
-1697,1371,Translations Into Latin
-1698,1371,Translations Into Spanish
-1699,1371,Translations Into Turkish
-1700,1371,Translations Into Ukrainian
-1701,1371,Trojan War
-1702,1371,Trojan War Fast (Ocolc)Fst01157294 (Uri) Http://Id.Worldcat.Org/Fast/Fst01157294
-1703,1371,Trojan War In Literature
-1704,1371,Trojan War--Fiction
-1705,1371,Trojan War--Poetry
-1706,1371,Trojan War. Cct
-1707,1371,Trojan War. Fast (Ocolc)Fst01157294
-1708,1371,Trojanska Kriget
-1709,1371,Versification
-1710,1371,War
-1711,1371,War & Military
-1712,1371,War Poetry
-1713,1371,Översättning Till Engelska
-1714,18656031,Fantasy
-1715,18656031,Fiction
-1716,18656031,General
-1717,18656031,Powieść Fantastyczna Polska
-1718,14781491,Action & Adventure
-1719,14781491,Assasins
-1720,14781491,Assassins
-1721,14781491,Criminals
-1722,14781491,Epic
-1723,14781491,Fantasy
-1724,14781491,Fiction
-1725,14781491,General
-1726,14781491,Magic
-1727,14781491,Monsters
-1728,14781491,Murder
-1729,14781491,Polish Fantasy Fiction
-1730,14781491,Powieść Fantastyczna Polska
-1731,14781491,Prophecy
-1732,14781491,Suffering
-1733,14781491,Wizards
-1734,6043781,Language Arts & Disciplines
-1735,40603587,Language Arts & Disciplines
-1736,14061957,Language Arts & Disciplines
-1737,14061955,Language Arts & Disciplines
-1738,4865,Language Arts & Disciplines
-1739,6900,Language Arts & Disciplines
-1740,37781,Language Arts & Disciplines
-1741,19351,Assyro-Babylonian
-1742,19351,Epic Poetry
-1743,19351,Poetry
-1744,19351,Poetry (Poetic Works By One Author)
-1745,19351,Poetry / Ancient & Classical
-1746,19351,Poetry / Epic
-1747,19351,Translations Into English
-1748,35959740,813/.6
-1749,35959740,Ancient
-1750,35959740,Animals
-1751,35959740,Circe
-1752,35959740,Circe (Greek Mythology)
-1753,35959740,Circe (Greek Mythology)--Fiction
-1754,35959740,Fantasy
-1755,35959740,Fiction
-1756,35959740,Fiction / Historical / Ancient
-1757,35959740,Fiction / Historical / General
-1758,35959740,Fiction / Literary
-1759,35959740,General
-1760,35959740,Gods
-1761,35959740,Gods--Fiction
-1762,35959740,Greek
-1763,35959740,Greek Mythology
-1764,35959740,Greek--Fiction
-1765,35959740,Historical
-1766,35959740,Historical Fiction
-1767,35959740,Literary
-1768,35959740,Magic
-1769,35959740,Magic--Fiction
-1770,35959740,Mythical
-1771,35959740,Mythical Animals
-1772,35959740,Mythical--Fiction
-1773,35959740,Mythology
-1774,35959740,New York Times Bestseller
-1775,35959740,New York Times Reviewed
-1776,35959740,Paranormal Fiction
-1777,35959740,Ps3613.I5445 C57 2018B
-1778,35959740,Retellings
-1779,35959740,Witchcraft
-1780,35959740,Witchcraft--Fiction
-1781,35959740,Witches
-1782,35959740,Witches--Fiction
-1783,10194157,Ability
-1784,13623848,Language Arts & Disciplines
-1785,597790,British And Irish Fiction (Fictional Works By One Author)
-1786,597790,Curses
-1787,597790,English Fiction
-1788,597790,Epic
-1789,597790,Fantastique
-1790,597790,Fantasy
-1791,597790,Fantasy Fiction
-1792,597790,Ficción
-1793,597790,Fiction
-1794,597790,Incest
-1795,597790,Middle Earth (Imaginary Place)
-1796,597790,New York Times Bestseller
-1797,597790,Novela Fantástica
-1798,597790,Open Library Staff Picks
-1799,597790,Roman
-1800,597790,Tierra Media (Lugar Imaginario)
-1801,597790,Tragedy
-1802,597790,Vengeance
-1803,7332,Action & Adventure
-1804,7332,Bilbo Baggins (Fictitious Character)
-1805,7332,British And Irish Fiction (Fictional Works By One Author)
-1806,7332,Dragons & Mythical Creatures
-1807,7332,Elves
-1808,7332,Engelse Fiksie
-1809,7332,English Fantasy Fiction
-1810,7332,English Fiction
-1811,7332,English Literature
-1812,7332,Epic
-1813,7332,Fairy Tales
-1814,7332,Fantasy
-1815,7332,Fantasy Fiction
-1816,7332,Fiction
-1817,7332,Folk Tales
-1818,7332,Legends & Mythology
-1819,7332,Middle Earth (Imaginary Place)
-1820,7332,Short Stories
-1821,7332,Silmaril
-1822,17184,1866-1946
-1823,17184,20Th Century
-1824,17184,Adaptations
-1825,17184,Animal Experimentation
-1826,17184,British And Irish Fiction (Fictional Works By One Author)
-1827,17184,Cartoons And Comics
-1828,17184,Children'S Fiction
-1829,17184,Ciencia-Ficción
-1830,17184,Classic Literature
-1831,17184,Comic And Graphic Books
-1832,17184,Comic Books
-1833,17184,Elementary Education Of Adults
-1834,17184,England
-1835,17184,English Fiction
-1836,17184,English Language
-1837,17184,English Literature
-1838,17184,English Science Fiction
-1839,17184,Experiments
-1840,17184,Fiction
-1841,17184,Fiction / Classics
-1842,17184,Fiction / Horror
-1843,17184,Fiction / Science Fiction / General
-1844,17184,French
-1845,17184,General
-1846,17184,German
-1847,17184,H. G. (Herbert George)
-1848,17184,Historical
-1849,17184,History And Criticism
-1850,17184,Horror Tales
-1851,17184,Juvenile Fiction
-1852,17184,Korean
-1853,17184,Literature And Fiction
-1854,17184,Long Now Manual For Civilization
-1855,17184,Mentally Ill
-1856,17184,Mentally Ill -- Fiction
-1857,17184,Mystery And Detective Stories
-1858,17184,Psychological Fiction
-1859,17184,Readers
-1860,17184,Reading
-1861,17184,Remedial Teaching
-1862,17184,Roman Pour La Jeunesse
-1863,17184,Science
-1864,17184,Science -- Experiments
-1865,17184,Science -- Experiments -- Fiction
-1866,17184,Science Fiction
-1867,17184,Science Fiction & Fantasy
-1868,17184,Scientists
-1869,17184,Scientists -- Fiction
-1870,17184,Spanish Language
-1871,17184,Strips
-1872,17184,Time Travel
-1873,17184,Wells
-1874,5129,American Fiction (Fictional Works By One Author)
-1875,5129,Angleška Književnost
-1876,5129,Aspectos Morales Y Éticos
-1877,5129,Atomic Bomb
-1878,5129,Audiobooks
-1879,5129,Brainwashing
-1880,5129,British And Irish Fiction (Fictional Works By One Author)
-1881,5129,Capitalism
-1882,5129,Capitalist Civilization
-1883,5129,Ciencia
-1884,5129,Ciencia Y Estado
-1885,5129,Ciencia-Ficción
-1886,5129,Class Systems
-1887,5129,Classics
-1888,5129,Collectivism
-1889,5129,Collectivisme
-1890,5129,Control (Psicología)
-1891,5129,Control (Psychology)
-1892,5129,Culture
-1893,5129,Desertification
-1894,5129,Dystopia
-1895,5129,Dystopian
-1896,5129,Dystopias
-1897,5129,Effect Of Human Beings On
-1898,5129,English Fiction
-1899,5129,English Literature
-1900,5129,English Science Fiction
-1901,5129,Environmental Aspects
-1902,5129,Ethics
-1903,5129,Ficción
-1904,5129,Fiction
-1905,5129,Fiction In English
-1906,5129,Forecasting
-1907,5129,Future
-1908,5129,General
-1909,5129,Genetic Engineering
-1910,5129,Gesellschaft
-1911,5129,History And Criticism
-1912,5129,Human Behavior
-1913,5129,Large Type Books
-1914,5129,Lavado De Cerebro
-1915,5129,Literature
-1916,5129,London
-1917,5129,Long Now Manual For Civilization
-1918,5129,Moral And Ethical Aspects
-1919,5129,Moral And Ethical Aspects Of Science
-1920,5129,Nature
-1921,5129,New York Times Reviewed
-1922,5129,Nouvelles
-1923,5129,Passivity (Psychology)
-1924,5129,Passivité (Psychologie)
-1925,5129,Political
-1926,5129,Political Fiction
-1927,5129,Propaganda
-1928,5129,Psychological
-1929,5129,Psychological Fiction
-1930,5129,Radioactive Pollution
-1931,5129,Reading Level-Grade 10
-1932,5129,Reading Level-Grade 11
-1933,5129,Reading Level-Grade 12
-1934,5129,Reading Level-Grade 9
-1935,5129,Realism In Literature
-1936,5129,Roman
-1937,5129,Romans
-1938,5129,Satire
-1939,5129,Science
-1940,5129,Science And State
-1941,5129,Science Fiction
-1942,5129,Science-Fiction
-1943,5129,Science-Fiction Anglaise
-1944,5129,Social Problems
-1945,5129,Spanish Fiction
-1946,5129,Totalitarianism
-1947,5129,Totalitarisme
-1948,5129,Totalitarismus
-1949,5129,Utopias
-1950,8908,Correspondants De Guerre
-1951,8908,Epidemics
-1952,8908,Ficción
-1953,8908,Fiction
-1954,8908,Guerras Imaginarias
-1955,8908,Guerres Et Batailles Imaginaires
-1956,8908,Habiletés De Survie
-1957,8908,Horror
-1958,8908,Horror Fiction
-1959,8908,Horror Tales
-1960,8908,Humor
-1961,8908,Imaginary Wars And Battles
-1962,8908,Large Type Books
-1963,8908,New York Times Bestseller
-1964,8908,Nouvelles
-1965,8908,Oral History
-1966,8908,Reading Level-Grade 11
-1967,8908,Reading Level-Grade 12
-1968,8908,Romans
-1969,8908,Survival
-1970,8908,War
-1971,8908,War & Military
-1972,8908,War Correspondents
-1973,8908,War Stories
-1974,8908,Zombies
-1975,43263680,Dark Fantasy
-1976,43263680,Fantasy
-1977,43263680,Fiction
-1978,43263680,General
-1979,43263680,Magic
-1980,43263680,New York Times Bestseller
-1981,43263680,New York Times Reviewed
-1982,43263680,Occult & Supernatural
-1983,43263680,Paranormal
-1984,43263680,Secret Societies
-1985,43263680,Thrillers
-1986,43263680,Women College Students
-1987,43263680,Yale University
-1988,2493,Language Arts & Disciplines
-1989,7015403,Amor A Sí Mismo (Psicología)
-1990,7015403,Aprobación De Sí Mismo
-1991,7015403,New York Times Bestseller
-1992,7015403,Self-Acceptance
-1993,7015403,Self-Esteem
-1994,7015403,Self-Help
-1995,13588356,Assertiveness
-1996,13588356,Assertiveness (Psychology)
-1997,13588356,Business & Economics
-1998,13588356,Courage
-1999,13588356,Morale
-2000,13588356,New York Times Bestseller
-2001,13588356,Risk
-2002,33,823/.912
-2003,33,Baggins
-2004,33,Bilbo (Fictitious Character)
-2005,33,British And Irish Fiction (Fictional Works By One Author)
-2006,33,English
-2007,33,English Fantasy Fiction
-2008,33,English Language
-2009,33,English Literature
-2010,33,Epic
-2011,33,Fantasy
-2012,33,Fantasy Fiction
-2013,33,Ficción
-2014,33,Ficción Fantástica Inglesa
-2015,33,Fiction
-2016,33,Fiction In English
-2017,33,Frodo
-2018,33,Frodo (Fictitious Character)
-2019,33,Frodo Baggins (Fictitious Character)
-2020,33,Gandalf (Fictitious Character)
-2021,33,General
-2022,33,Gift Books
-2023,33,Hobbits (Fictitious Characters)
-2024,33,Hobbits (Personnages Fictifs)
-2025,33,J.R.R.)
-2026,33,Lord Of The Rings (Tolkien
-2027,33,Media Tie-In
-2028,33,Middle Earth (Imaginary Place)
-2029,33,Middle Earth (Imaginary Place)--Fiction
-2030,33,Nouvelles
-2031,33,Open Library Staff Picks
-2032,33,Pr6039.O32 L6 2005
-2033,33,Quests (Expeditions)
-2034,33,Quête
-2035,33,Romans
-2036,33,Terre Du Milieu (Lieu Imaginaire)
-2037,33,The Lord Of The Rings
-2038,33,Wizards
-2039,33,Повести
-2040,33,Рассказы. Романы Ужасов
-2041,33,Филологические Науки. Художественная Литература -- Великобритания -- Английская Литература -- С 1945 Г. -- Произведения Художественной Литературы -- Художественная Проза -- Романы. Повести. Рассказы -- Фантастические И Мистические Романы
-2042,23613,Language Arts & Disciplines
-2043,13497818,Black Humor (Literature)
-2044,13497818,City And Town Life
-2045,13497818,City Council Members
-2046,13497818,Ciudades Y Pueblos
-2047,13497818,Country Life
-2048,13497818,Death
-2049,13497818,Elecciones Locales
-2050,13497818,Elections
-2051,13497818,England
-2052,13497818,Englisch
-2053,13497818,English Literature
-2054,13497818,Fiction
-2055,13497818,General
-2056,13497818,Humorous
-2057,13497818,Local Elections
-2058,13497818,Lokalne Volitve
-2059,13497818,New York Times Bestseller
-2060,13497818,New York Times Reviewed
-2061,13497818,Novela
-2062,13497818,Občinski Svetniki
-2063,13497818,Polish Language Materials
-2064,13497818,Psychological
-2065,13497818,Roman
-2066,13497818,Smrt
-2067,13497818,Spanish Language Materials
-2068,13497818,V Leposlovju
-2069,13497818,Vida Urbana
-2070,13497818,Življenje Na Podeželju
-2071,61439040,Adaptations
-2072,61439040,Authoritarianism
-2073,61439040,Authors And Publishers
-2074,61439040,Brainwashing
-2075,61439040,British And Irish Drama (Dramatic Works By One Author)
-2076,61439040,British And Irish Fiction (Fictional Works By One Author)
-2077,61439040,Cautionary Tales And Verse
-2078,61439040,Censorship
-2079,61439040,Ciencia-Ficción
-2080,61439040,Classic Literature
-2081,61439040,Classics
-2082,61439040,Comic Books
-2083,61439040,Contemporary Fiction
-2084,61439040,Correspondence
-2085,61439040,Correspondence..
-2086,61439040,Cult Of Personality
-2087,61439040,Distopías
-2088,61439040,Drama
-2089,61439040,Dystopian
-2090,61439040,Dystopian Plays
-2091,61439040,Dystopias
-2092,61439040,Dystopias In Literature
-2093,61439040,English Authors
-2094,61439040,English Fiction
-2095,61439040,English Literature
-2096,61439040,English Manuscripts
-2097,61439040,English Political Fiction
-2098,61439040,English Science Fiction
-2099,61439040,Essays
-2100,61439040,Facsimiles
-2101,61439040,Fantasy
-2102,61439040,Ficción
-2103,61439040,Fiction
-2104,61439040,Fiction Classics
-2105,61439040,Futurology
-2106,61439040,General
-2107,61439040,George)
-2108,61439040,Historical
-2109,61439040,Historical Negationism
-2110,61439040,History And Criticism
-2111,61439040,Husbands
-2112,61439040,Indic Fiction (English)
-2113,61439040,Ingsoc
-2114,61439040,Insurance Agents
-2115,61439040,Journalists
-2116,61439040,Language & Literary Studies
-2117,61439040,Lexicography
-2118,61439040,Literary
-2119,61439040,Literature
-2120,61439040,London (England)
-2121,61439040,Long Now Manual For Civilization
-2122,61439040,Man-Woman Relationships
-2123,61439040,Manuscripts
-2124,61439040,Memory Holes
-2125,61439040,Middle Aged Men
-2126,61439040,Nationalism
-2127,61439040,Newspeak
-2128,61439040,Nineteen Eighty-Four (Orwell
-2129,61439040,Nouvelles
-2130,61439040,Novela
-2131,61439040,Novela Inglesa
-2132,61439040,Novela Política
-2133,61439040,Novelas Inglesas
-2134,61439040,Open Syllabus Project
-2135,61439040,Outer Party
-2136,61439040,Perpetual War
-2137,61439040,Political
-2138,61439040,Political Fiction
-2139,61439040,Political Science
-2140,61439040,Politique
-2141,61439040,Polizeistaat
-2142,61439040,Pr6029.R8 N49 2003
-2143,61439040,Psychological Fiction
-2144,61439040,Reading Level-Grade 11
-2145,61439040,Reading Level-Grade 12
-2146,61439040,Rebels
-2147,61439040,Resistance Movements
-2148,61439040,Romans
-2149,61439040,Satire
-2150,61439040,Satirical Literature
-2151,61439040,Science Fiction
-2152,61439040,Short Stories (Single Author)
-2153,61439040,Sting Operations
-2154,61439040,Strips
-2155,61439040,Suburban Life
-2156,61439040,Surveillance
-2157,61439040,Telescreens
-2158,61439040,Thoughtcrime
-2159,61439040,Totalitarianism
-2160,61439040,Totalitarianism And Literature
-2161,61439040,Totalitarianism--Fiction
-2162,61439040,Totalitarisme
-2163,61439040,Totalitarismo
-2164,61439040,Traducciones Al Español
-2165,61439040,Translating And Interpreting
-2166,61439040,Translations Into Russian
-2167,61439040,Translations Into Spanish
-2168,61439040,Translations Into Urdu
-2169,61439040,Zukunft
-2170,43306206,Language Arts & Disciplines
-2171,5107,1919-2010
-2172,5107,1991
-2173,5107,813.5 S 3-8
-2174,5107,Adolescence
-2175,5107,Adolescence In Literature
-2176,5107,Adolescents Fugueurs Dans La Littérature
-2177,5107,Alienation In Teenagers
-2178,5107,American Fiction
-2179,5107,American Fiction (Fictional Works By One Author)
-2180,5107,American Young Adult Fiction
-2181,5107,Bildungsromans
-2182,5107,Book: Sga Sal
-2183,5107,Brothers And Sisters
-2184,5107,Catcher In The Rye (Salinger
-2185,5107,Caulfield
-2186,5107,Chang Pian Xiao Shuo
-2187,5107,Classics
-2188,5107,Coming Of Age
-2189,5107,Conduct Of Life
-2190,5107,Emotionally Disturbed Teenage Boys
-2191,5107,Engelsk Skönlitteratur
-2192,5107,Fiction
-2193,5107,Fictional Works
-2194,5107,Fictional Works Publication Type
-2195,5107,Fictional Works [Publication Type]
-2196,5107,Garçons Adolescents Dans La Littérature
-2197,5107,General
-2198,5107,Governors
-2199,5107,Heranwachsender
-2200,5107,Holden (Fictitious Character)
-2201,5107,Holden (Fictitious Character)--Fiction
-2202,5107,Holden (Personnage Fictif)
-2203,5107,Holden Acaulfield (Fictitious Character)
-2204,5107,Holden Caulfield (Fictitious Character)
-2205,5107,Interpersonal Relations
-2206,5107,J. D. (Jerome David)
-2207,5107,J.D.)
-2208,5107,Juvenile Fiction
-2209,5107,Juvenile Works
-2210,5107,Long Now Manual For Civilization
-2211,5107,New York (N.Y.)
-2212,5107,New York Times Reviewed
-2213,5107,Nouvelles
-2214,5107,Open Library Staff Picks
-2215,5107,Preparatory Schools
-2216,5107,Ps3537.A426 C315 1991
-2217,5107,Romans
-2218,5107,Runaway Teenagers
-2219,5107,Runaway Teenagers In Literature
-2220,5107,Runaway Teenagers--Fiction
-2221,5107,Salinger
-2222,5107,Teenage Boys
-2223,5107,Teenage Boys In Literature
-2224,5107,Translations Into Chinese
-2225,5107,Universidad Sergio Arboleda
-2226,7624,1911-1993
-2227,7624,Adventure
-2228,7624,Adventure And Adventurers
-2229,7624,Adventure Stories
-2230,7624,Airplane Crash Survival
-2231,7624,Allegories
-2232,7624,Boys
-2233,7624,British And Irish Fiction (Fictional Works By One Author)
-2234,7624,Castaway
-2235,7624,Castaways
-2236,7624,Childhood
-2237,7624,Children
-2238,7624,Death
-2239,7624,English Literature
-2240,7624,Etc.
-2241,7624,Ethics
-2242,7624,Fiction
-2243,7624,Fiction / Action & Adventure
-2244,7624,Fiction / Classics
-2245,7624,Fiction / Psychological
-2246,7624,Golding
-2247,7624,Good And Evil
-2248,7624,History And Criticism
-2249,7624,Human Relations
-2250,7624,Interpersonal Relations
-2251,7624,Interpersonal Relations In Children
-2252,7624,Islands
-2253,7624,Leadership
-2254,7624,Literature And Fiction (General)
-2255,7624,Moral Conditions
-2256,7624,Morality
-2257,7624,Outlines
-2258,7624,Psychological
-2259,7624,Psychological Aspects
-2260,7624,Psychological Fiction
-2261,7624,Regression
-2262,7624,Regression (Psychology)
-2263,7624,Relationships
-2264,7624,Shipwreck
-2265,7624,Shipwreck Survival
-2266,7624,Shipwrecks
-2267,7624,Survival
-2268,7624,Survival After Airplane Accidents
-2269,7624,Syllabi
-2270,7624,Thriller
-2271,7624,William
-2272,7624,Zhang Pian Xiao Shuo
-2273,45869112,Fiction
-2274,153747,813/.3
-2275,153747,Academic Literacy
-2276,153747,Achab (Personnage Fictif)
-2277,153747,Action & Adventure
-2278,153747,Action And Adventure
-2279,153747,Adventure And Adventurers
-2280,153747,Adventure Fiction
-2281,153747,Ahab
-2282,153747,Allegories
-2283,153747,American Adventure Stories
-2284,153747,American Fiction (Fictional Works By One Author)
-2285,153747,American Literature
-2286,153747,American Sea Stories
-2287,153747,Baleines
-2288,153747,Ballenas
-2289,153747,Capitaines De Navire
-2290,153747,Capitanes De Barcos
-2291,153747,Captain (Fictitious Character)
-2292,153747,Captain (Fictitious Character)--Fiction
-2293,153747,Captain Ahab (Fictitious Character)
-2294,153747,Chasse
-2295,153747,Classic Literature
-2296,153747,Comic Books
-2297,153747,Comics & Graphic Novels / General
-2298,153747,Comics & Graphic Novels / Literary
-2299,153747,Cuentos De Mar
-2300,153747,Drama
-2301,153747,Drama (Dramatic Works By One Author)
-2302,153747,Enfermos Mentales
-2303,153747,Epic
-2304,153747,Epic Literature
-2305,153747,Fantasy
-2306,153747,Fate And Fatalism
-2307,153747,Ficción
-2308,153747,Fiction
-2309,153747,Fictional Works
-2310,153747,General
-2311,153747,Great Books Of The Western World
-2312,153747,Herman)
-2313,153747,Historical
-2314,153747,History
-2315,153747,History And Criticism
-2316,153747,Illustrations
-2317,153747,Literatura Infantil
-2318,153747,Literature
-2319,153747,Literature And Fiction
-2320,153747,Literature And Fiction (General)
-2321,153747,Long Now Manual For Civilization
-2322,153747,Mentally Ill
-2323,153747,Mentally Ill--Fiction
-2324,153747,Moby Dick
-2325,153747,Moby Dick (Melville
-2326,153747,Naufragios
-2327,153747,Nouvelles
-2328,153747,Novela Psicológica
-2329,153747,Open Library Staff Picks
-2330,153747,Open Syllabus Project
-2331,153747,Personnes Vivant Avec Un Trouble De Santé Mentale
-2332,153747,Pictorial Works
-2333,153747,Picture-Writing In Literature
-2334,153747,Poetry (Poetic Works By One Author)
-2335,153747,Prohibition
-2336,153747,Ps2384 .M6 2001C
-2337,153747,Ps2384.M6 M45 1992
-2338,153747,Psychological
-2339,153747,Psychological Fiction
-2340,153747,Psychology
-2341,153747,Readers (Primary)
-2342,153747,Readers For New Literates
-2343,153747,Reading Level-Grade 10
-2344,153747,Reading Level-Grade 11
-2345,153747,Reading Level-Grade 12
-2346,153747,Reading Level-Grade 8
-2347,153747,Reading Level-Grade 9
-2348,153747,Revenge
-2349,153747,Romance Literature
-2350,153747,Romans
-2351,153747,Récits De Mer
-2352,153747,Sailors
-2353,153747,Sailors--Fiction
-2354,153747,Science Fiction & Fantasy
-2355,153747,Sea Stories
-2356,153747,Ship Captains
-2357,153747,Ship Captains--Fiction
-2358,153747,Shipwrecks
-2359,153747,Shipwrecks--Fiction
-2360,153747,Strips
-2361,153747,Symbolism
-2362,153747,Translations Into French
-2363,153747,Walfang
-2364,153747,Whalers (Persons)
-2365,153747,Whales
-2366,153747,Whales In Literature
-2367,153747,Whales--Fiction
-2368,153747,Whaling
-2369,153747,Whaling In Literature
-2370,153747,Whaling Ships
-2371,153747,Whaling Ships--Fiction
-2372,153747,Whaling--Fiction
-2373,6892870,Fiction
-2374,6892870,General
-2375,6892870,Large Type Books
-2376,6892870,New York Times Bestseller
-2377,6892870,Political
-2378,6892870,Political Corruption
-2379,6892870,Revenge
-2380,6892870,Sweden
-2381,6892870,Thrillers
-2382,13624688,American Fantasy Fiction
-2383,13624688,Amerikanisches Englisch
-2384,13624688,Fantasy
-2385,13624688,Fantasy Fiction
-2386,13624688,Fantasía
-2387,13624688,Father Time (Symbolic Character)
-2388,13624688,Fiction
-2389,13624688,Freedom
-2390,13624688,General
-2391,13624688,Heaven
-2392,13624688,Hour-Glasses
-2393,13624688,Large Type Books
-2394,13624688,Magic
-2395,13624688,New York Times Bestseller
-2396,13624688,Nouvelles
-2397,13624688,Novela
-2398,13624688,Polish Language Materials
-2399,13624688,Redemption
-2400,13624688,Roman
-2401,13624688,Romans
-2402,13624688,Rédemption
-2403,13624688,Sabliers
-2404,13624688,Specimens
-2405,13624688,Spirituality
-2406,13624688,Temps
-2407,13624688,Tiempo
-2408,13624688,Time
-2409,375802,Aliens
-2410,375802,American
-2411,375802,American Science Fiction
-2412,375802,Amerikanisches Englisch
-2413,375802,Artificial Intelligence
-2414,375802,Automation
-2415,375802,Außerirdische Intelligenz
-2416,375802,Award:Hugo Award=1986
-2417,375802,Award:Hugo Award=Novel
-2418,375802,Award:Nebula Award=Novel
-2419,375802,Battle School (Imaginary Place)
-2420,375802,Bean (Fictitious Character : Card)
-2421,375802,Brothers And Sisters
-2422,375802,Child Soldiers
-2423,375802,Children'S Stories
-2424,375802,Ciencia-Ficción
-2425,375802,Data Processing
-2426,375802,End Of The World
-2427,375802,Ender (Fictitious Character)
-2428,375802,Ender Wiggin (Fictitious Character)
-2429,375802,Ficción
-2430,375802,Fiction
-2431,375802,Genetic Engineering
-2432,375802,Hard Science Fiction
-2433,375802,Hegemony
-2434,375802,Hermanos
-2435,375802,Hugo Award Winner
-2436,375802,Krieg
-2437,375802,Long Now Manual For Civilization
-2438,375802,Maniobras De Guerra
-2439,375802,Military Art And Science
-2440,375802,Military Education
-2441,375802,New York Times Bestseller
-2442,375802,Open Library Staff Picks
-2443,375802,Peter Wiggin (Fictitious Character)
-2444,375802,Prize:Nebula
-2445,375802,Reading Level-Grade 10
-2446,375802,Reading Level-Grade 11
-2447,375802,Reading Level-Grade 12
-2448,375802,Reading Level-Grade 7
-2449,375802,Reading Level-Grade 8
-2450,375802,Reading Level-Grade 9
-2451,375802,Science Fiction
-2452,375802,Science-Fiction-Literatur
-2453,375802,Siblings
-2454,375802,Space Warfare
-2455,375802,The Ender Quintet
-2456,375802,War Games
-2457,375802,Wiggin
-2458,34002132,Language Arts & Disciplines
-2459,8909,1866-1946
-2460,8909,823.912
-2461,8909,Action & Adventure
-2462,8909,Adaptations
-2463,8909,Adventure And Adventurers
-2464,8909,Aladdin (Legendary Character)
-2465,8909,British And Irish Fiction (Fictional Works By One Author)
-2466,8909,Children'S Fiction
-2467,8909,Classic Literature
-2468,8909,Comic Books
-2469,8909,Diseases
-2470,8909,Earth
-2471,8909,English Language
-2472,8909,English Literature
-2473,8909,English Science Fiction
-2474,8909,Examinations
-2475,8909,Extraterrestrial Beings
-2476,8909,Fantasy
-2477,8909,Ficcion
-2478,8909,Fiction
-2479,8909,General
-2480,8909,Graphic Novels
-2481,8909,Guerra
-2482,8909,Guerra Espacial
-2483,8909,Guerras Imaginarias
-2484,8909,H. G. (Herbert George)
-2485,8909,Human-Alien Encounters
-2486,8909,Imaginary Wars And Battles
-2487,8909,Imaginary Wars And Battles -- Fiction
-2488,8909,Imaginary Wars And Battles In Literature
-2489,8909,Imaginary Wars And Battles--Fiction
-2490,8909,Invasions
-2491,8909,Juvenile Fiction
-2492,8909,Life On Other Planets
-2493,8909,Literature
-2494,8909,Long Now Manual For Civilization
-2495,8909,Mars (Planet)
-2496,8909,Mars (Planet) -- Fiction
-2497,8909,Martians
-2498,8909,Novela
-2499,8909,Open Library Staff Picks
-2500,8909,Open Syllabus Project
-2501,8909,Outer Space
-2502,8909,Pr5774 .W3 2005Dx
-2503,8909,Romance Ingles
-2504,8909,Sat (Educational Test)
-2505,8909,Science Fiction
-2506,8909,Science Fiction & Fantasy
-2507,8909,Seres Extraterrestres
-2508,8909,Space Vehicles
-2509,8909,Space Warfare
-2510,8909,Space Warfare -- Fiction
-2511,8909,Space Warfare--Fiction
-2512,8909,Strips
-2513,8909,Study Guides
-2514,8909,Vocabulary
-2515,8909,War
-2516,8909,War & Military
-2517,8909,War Stories
-2518,8909,Wells
-2519,26082916,Action & Adventure
-2520,26082916,Buried Treasure
-2521,26082916,Dystopian
-2522,26082916,Dystopias
-2523,26082916,Décadence
-2524,26082916,Fiction
-2525,26082916,General
-2526,26082916,Jeux Intellectuels
-2527,26082916,New York Times Bestseller
-2528,26082916,Nouvelles
-2529,26082916,Puzzles
-2530,26082916,Regression (Civilization)
-2531,26082916,Romans
-2532,26082916,Réalité Virtuelle
-2533,26082916,Science Fiction
-2534,26082916,Technologie
-2535,26082916,Technology
-2536,26082916,Thrillers
-2537,26082916,Utopian Fiction
-2538,26082916,Utopias
-2539,26082916,Utopies
-2540,26082916,Virtual Reality
-2541,17332218,Epic
-2542,17332218,Epic Fantasy
-2543,17332218,Fantasy
-2544,17332218,Fantasy Fiction
-2545,17332218,Fiction
-2546,17332218,Grandes Puissances
-2547,17332218,Great Powers
-2548,17332218,Guerres Et Batailles Imaginaires
-2549,17332218,High Fantasy
-2550,17332218,Imaginary Wars And Battles
-2551,17332218,Imaginary Wars And Battles -- Fiction
-2552,17332218,Life On Other Planets
-2553,17332218,Magic
-2554,17332218,New York Times Bestseller
-2555,17332218,Nouvelles
-2556,17332218,Romans
-2557,7235533,American Literature
-2558,7235533,Epic
-2559,7235533,Epic Fantasy
-2560,7235533,Fantasy
-2561,7235533,Fiction
-2562,7235533,General
-2563,7235533,High Fantasy
-2564,7235533,Imaginary Places
-2565,7235533,Imaginary Wars And Battles
-2566,7235533,Kings And Rulers
-2567,7235533,Magic
-2568,7235533,Manuscripts
-2569,7235533,New York Times Bestseller
-2570,7235533,Series:Stormlight Archive
-2571,7235533,Slavery
-2572,9590632,Americans
-2573,9590632,Fiction
-2574,9590632,Filipino Americans
-2575,9590632,Gay Men
-2576,9590632,Gays
-2577,9590632,General
-2578,9590632,Philippines
-2579,873809,Action & Adventure
-2580,873809,Dune (Imaginary Place)
-2581,873809,Fiction
-2582,873809,General
-2583,873809,Literature
-2584,873809,Science Fiction
-2585,44492287,American Science Fiction
-2586,44492287,Anglais (Langue)
-2587,44492287,Dune (Imaginary Place)
-2588,44492287,Dune (Lieu Imaginaire)
-2589,44492287,Fiction
-2590,44492287,General
-2591,44492287,Imaginary Places
-2592,44492287,Nouvelles
-2593,44492287,Roman AméRicain
-2594,44492287,Romans
-2595,44492287,Science Fiction
-2596,44492287,Science-Fiction AméRicaine
-2597,40293,America In Fiction
-2598,40293,Christopher Columbus In Fiction
-2599,40293,Discoveries In Geography
-2600,40293,Discoveries In Geography In Fiction
-2601,40293,Discovery And Exploration
-2602,40293,Explorers
-2603,40293,Explorers In Fiction
-2604,40293,Fiction
-2605,40293,General
-2606,40293,Science Fiction
-2607,40293,Spanish
-2608,40293,Spanish Discovery And Exploration
-2609,40293,Time Travel
-2610,40293,Time Travel In Fiction
-2611,76658,American Fantasy Fiction
-2612,76658,Death
-2613,76658,Fantasy
-2614,76658,Fiction
-2615,76658,General
-2616,76658,Magic
-2617,29100194,Caring
-2618,29100194,Compassion
-2619,29100194,Empathy
-2620,29100194,New York Times Reviewed
-2621,29100194,Psychology
-2622,29100194,Psychology / Social Psychology
-2623,29100194,Social Psychology
-2624,29100194,Social Science / Sociology
-2625,849380,306.81
-2626,849380,Communication
-2627,849380,Communication In Marriage
-2628,849380,Comunicación En El Matrimonio
-2629,849380,Couples Mariés
-2630,849380,Family & Relationships
-2631,849380,Hq 734 G686 1999
-2632,849380,Hq734 .G7136 1999
-2633,849380,Hq734 .G7136 1999Bx
-2634,849380,Interpersonal Relations
-2635,849380,Intimacy (Psychology)
-2636,849380,Man-Woman Relationships
-2637,849380,Mariage
-2638,849380,Marriage
-2639,849380,Marriage--Psychology
-2640,849380,Married People
-2641,849380,Married People -- Psychology
-2642,849380,Married People--Psychology
-2643,849380,Matrimonio
-2644,849380,Matrimonios
-2645,849380,New York Times Bestseller
-2646,849380,Nonfiction
-2647,849380,Political Science / Public Policy / Cultural Policy
-2648,849380,Psicología
-2649,849380,Psychologie
-2650,849380,Psychology
-2651,849380,Relaciones Hombre-Mujer
-2652,849380,Relations Entre Hommes Et Femmes
-2653,849380,Social Science / Anthropology / Cultural
-2654,849380,Social Science / Popular Culture
-2655,849380,Spouses
-2656,26152839,Angela
-2657,26152839,Children'S Fiction
-2658,26152839,Dragons
-2659,26152839,Fantasy
-2660,26152839,Fantasy Fiction
-2661,26152839,Fiction
-2662,26152839,Juvenile Fiction
-2663,26152839,New York Times Bestseller
-2664,26152839,Young Adult Fiction
-2665,44439415,American Science Fiction
-2666,44439415,Dune (Imaginary Place)
-2667,44439415,Fiction
-2668,44439415,Français (Langue)
-2669,44439415,General
-2670,44439415,Lectures Et Morceaux Choisis
-2671,44439415,Littérature Fantastique
-2672,44439415,Roman
-2673,44439415,Science Fiction
-2674,44439415,Science-Fiction
-2675,10239382,Fiction
-2676,10239382,Hiking
-2677,44492286,American Science Fiction
-2678,44492286,Dune (Imaginary Place)
-2679,44492286,Fantasy
-2680,44492286,Fiction
-2681,44492286,Fiction In English
-2682,44492286,General
-2683,44492286,Reading Level-Grade 10
-2684,44492286,Reading Level-Grade 11
-2685,44492286,Reading Level-Grade 12
-2686,44492286,Reading Level-Grade 7
-2687,44492286,Reading Level-Grade 8
-2688,44492286,Reading Level-Grade 9
-2689,44492286,Science Fiction
-2690,44492285,American Science Fiction
-2691,44492285,Anglais (Langue)
-2692,44492285,Dune (Imaginary Place)
-2693,44492285,Dune (Lugar Imaginario)
-2694,44492285,Fiction
-2695,44492285,General
-2696,44492285,Imaginary Places
-2697,44492285,Lectures Et Morceaux Choisis
-2698,44492285,Long Now Manual For Civilization
-2699,44492285,Novela
-2700,44492285,Roman Ame Ricain
-2701,44492285,Roman AméRicain
-2702,44492285,Science Fiction
-2703,44492285,Science-Fiction Ame Ricaine
-2704,44492285,Science-Fiction AméRicaine
-2705,44492285,Translations Into Russian
-2706,52382796,Fiction
-2707,44767458,American Literature
-2708,44767458,American Science Fiction
-2709,44767458,Award:Hugo Award=1966
-2710,44767458,Award:Hugo Award=Novel
-2711,44767458,Award:Nebula Award=Novel
-2712,44767458,Dune (Imaginary Place)
-2713,44767458,Ecology
-2714,44767458,Fantasy Fiction
-2715,44767458,Fiction
-2716,44767458,General
-2717,44767458,Hugo Award Winner
-2718,44767458,Long Now Manual For Civilization
-2719,44767458,New York Times Bestseller
-2720,44767458,New York Times Reviewed
-2721,44767458,Science Fiction
-2722,44767458,Science-Fiction
-2723,8520610,Extraversion
-2724,8520610,Extraversion (Psychology)
-2725,8520610,Interpersonal Relations
-2726,8520610,Introversion
-2727,8520610,Introversion (Psychology)
-2728,8520610,Introverts
-2729,8520610,Large Print Type Books
-2730,8520610,Large Type Books
-2731,8520610,New York Times Bestseller
-2732,8520610,New York Times Reviewed
-2733,8520610,Personality
-2734,8520610,Popular Works
-2735,8520610,Psychological Extraversion
-2736,8520610,Psychological Introversion
-2737,8520610,Psychology
-2738,8520610,Reading Level-Grade 11
-2739,8520610,Reading Level-Grade 12
-2740,8520610,Self-Actualization (Psychology)
-2741,8520610,Temperament
-2742,8520610,Tempérament
-2743,7144,Language Arts & Disciplines
-2744,7664041,American Fantasy Fiction
-2745,7664041,Children'S Fiction
-2746,7664041,Dragons
-2747,7664041,Fantasy
-2748,7664041,Fantasy Fiction
-2749,7664041,Fiction
-2750,7664041,Imaginary Places
-2751,7664041,Inheritance - The Inheritance Cycle
-2752,7664041,Juvenile Fiction
-2753,7664041,Magic
-2754,7664041,New York Times Bestseller
-2755,7664041,The Inheritance Cycle
-2756,7664041,Young Adult Fiction
-2757,42188104,Language Arts & Disciplines
-2758,2248573,Battles
-2759,2248573,Bedrohung
-2760,2248573,Children'S Fiction
-2761,2248573,Das BoSe
-2762,2248573,Das Gute
-2763,2248573,Drache
-2764,2248573,Dragones
-2765,2248573,Dragons
-2766,2248573,Dragons -- Fiction
-2767,2248573,Erwachsenwerden
-2768,2248573,Escritos De Adolescentes
-2769,2248573,Etc. Pour La Jeunesse
-2770,2248573,Fantasmes
-2771,2248573,Fantasy
-2772,2248573,Fantasy Fiction
-2773,2248573,Ficción Juvenil
-2774,2248573,Fiction
-2775,2248573,Flucht
-2776,2248573,Good And Evil
-2777,2248573,Juvenile Fiction
-2778,2248573,Kampf
-2779,2248573,Loyalty
-2780,2248573,Magia
-2781,2248573,Magic
-2782,2248573,MaNnliche Jugend
-2783,2248573,New York Times Bestseller
-2784,2248573,Nouvelles
-2785,2248573,Novela Fantástica
-2786,2248573,Romans
-2787,2248573,Teenage Fiction
-2788,2248573,Vietnamese Language
-2789,2248573,Young Adult Fiction
-2790,2248573,Youth'S Writings
-2791,2248573,Youths' Writings
-2792,45978,Action & Adventure
-2793,45978,Adolescentes
-2794,45978,Animals
-2795,45978,Chang Pian Xiao Shuo
-2796,45978,Children'S Fiction
-2797,45978,Dragones
-2798,45978,Dragons
-2799,45978,Dragons -- Fiction
-2800,45978,Fantasy
-2801,45978,Fantasy Fiction
-2802,45978,Fantasía
-2803,45978,Ficción Juvenil
-2804,45978,Fiction
-2805,45978,General
-2806,45978,Imaginary Places
-2807,45978,Juvenile Fiction
-2808,45978,Magic
-2809,45978,Mythical Creatures
-2810,45978,New York Times Bestseller
-2811,45978,Novela Fantástica Estadounidense
-2812,45978,Novela Juvenil
-2813,45978,Novelas Juvenil
-2814,45978,Spanish Language Materials
-2815,45978,Teenagers
-2816,45978,Traducciones Al Español
-2817,45978,Young Adult Fiction
-2818,45978,Young Men
-2819,45978,Youths' Writings
-2820,11449,American Short Stories
-2821,11449,Duan Pian Xiao Shuo
-2822,11449,English Literature
-2823,11449,Fiction
-2824,11449,General
-2825,11449,Manners And Customs
-2826,11449,Short Stories
-2827,11449,Zuo Pin Ji
-2828,113436,& Magic
-2829,113436,Action & Adventure
-2830,113436,Adventure
-2831,113436,Adventure And Adventurers
-2832,113436,American Fantasy Fiction
-2833,113436,American Fiction
-2834,113436,Animals
-2835,113436,Bedrohung
-2836,113436,Children'S Fiction
-2837,113436,Das Böse
-2838,113436,Das Gute
-2839,113436,Drache
-2840,113436,Dragones
-2841,113436,Dragons
-2842,113436,Dwarves
-2843,113436,Elves
-2844,113436,Epic
-2845,113436,Erwachsenwerden
-2846,113436,Etc. Pour La Jeunesse
-2847,113436,Fairy Tales & Folklore - General
-2848,113436,Fairy Tales & Folklore - Single Title
-2849,113436,Fantasmes
-2850,113436,Fantasy
-2851,113436,Fantasy - General
-2852,113436,Fantasy Fiction
-2853,113436,Ficción Juvenil
-2854,113436,Fiction
-2855,113436,Fiction - Fantasy
-2856,113436,Fiction - Science Fiction
-2857,113436,Fighting
-2858,113436,Flucht
-2859,113436,German Language Materials
-2860,113436,Heather'S Pick
-2861,113436,Humans
-2862,113436,Juvenile Fantasy
-2863,113436,Juvenile Fiction
-2864,113436,Juvenile Literature
-2865,113436,Magia
-2866,113436,Magic
-2867,113436,Mythical Creatures
-2868,113436,Männliche Jugend
-2869,113436,New York Times Bestseller
-2870,113436,Nouvelles
-2871,113436,Novela Fantástica
-2872,113436,Novela Juvenil
-2873,113436,Phantastische Erzählung
-2874,113436,Reading Level-Grade 10
-2875,113436,Reading Level-Grade 11
-2876,113436,Reading Level-Grade 12
-2877,113436,Reading Level-Grade 6
-2878,113436,Reading Level-Grade 7
-2879,113436,Reading Level-Grade 8
-2880,113436,Reading Level-Grade 9
-2881,113436,Roman Pour La Jeunesse
-2882,113436,Romans
-2883,113436,Science Fiction
-2884,113436,Spanish Language Materials
-2885,113436,Spanish: Grades 3-4
-2886,113436,Translations Into German
-2887,113436,Violence
-2888,113436,War
-2889,113436,Young Adult Fiction
-2890,113436,Young Men
-2891,113436,Youths' Writings
-2892,113436,Écrits De Jeunes
-2893,238137,Computer Viruses
-2894,238137,Crime
-2895,238137,Dallas
-2896,238137,Detective And Mystery Stories
-2897,238137,Eve (Fictitious Character)
-2898,238137,Eve Dallas (Fictitious Character)
-2899,238137,Fiction
-2900,238137,General
-2901,238137,Large Type Books
-2902,238137,Mystery & Detective
-2903,238137,Mystery Fiction
-2904,238137,New York (State)
-2905,238137,Open Library Staff Picks
-2906,238137,Police
-2907,238137,Police Procedural
-2908,238137,Policewomen
-2909,238137,Women Detectives
-2910,18143977,18.06 Anglo-American Literature
-2911,18143977,1939-1945
-2912,18143977,American Fiction
-2913,18143977,Amerikanisches Englisch
-2914,18143977,Berliner Mauer
-2915,18143977,Bildungsromans
-2916,18143977,Blind
-2917,18143977,Children
-2918,18143977,Ciegos
-2919,18143977,Enfants Aveugles
-2920,18143977,Enfants Et Guerre
-2921,18143977,Fathers And Daughters
-2922,18143977,Fiction
-2923,18143977,Fiction / General
-2924,18143977,Fiction / Historical
-2925,18143977,Fiction / Literary
-2926,18143977,France
-2927,18143977,Friendship
-2928,18143977,General
-2929,18143977,German Occupation Of France (1940-1945) Fast (Ocolc)Fst01353176
-2930,18143977,Germany
-2931,18143977,Guerra Mundial Ii
-2932,18143977,Guerre Mondiale
-2933,18143977,Histoire
-2934,18143977,Historia
-2935,18143977,Historical
-2936,18143977,Historical Fiction
-2937,18143977,History
-2938,18143977,Jeunesse
-2939,18143977,Juventud
-2940,18143977,Large Type Books
-2941,18143977,Literary
-2942,18143977,New York Times Bestseller
-2943,18143977,New York Times Reviewed
-2944,18143977,Nouvelles
-2945,18143977,Novela
-2946,18143977,Novela Histórica
-2947,18143977,People With Disabilities
-2948,18143977,Personnes Aveugles
-2949,18143977,Portuguese Language Materials
-2950,18143977,Reading Level-Grade 10
-2951,18143977,Reading Level-Grade 11
-2952,18143977,Reading Level-Grade 12
-2953,18143977,Reading Level-Grade 9
-2954,18143977,Roman
-2955,18143977,Romans
-2956,18143977,Survival
-2957,18143977,Tweede Wereldoorlog
-2958,18143977,World War
-2959,18143977,World War (1939-1945) Fast (Ocolc)Fst01180924
-2960,18143977,Youth
-2961,119322,& Magic
-2962,119322,Action & Adventure
-2963,119322,Action & Adventure - General
-2964,119322,Adventure
-2965,119322,Adventure Stories
-2966,119322,Amitie
-2967,119322,Amitié
-2968,119322,Arctic Regions
-2969,119322,Arctic Regions -- Fiction
-2970,119322,Arctic Regions -- Juvenile Fiction
-2971,119322,Artic Regions
-2972,119322,Belacqua
-2973,119322,Bien Y Mal
-2974,119322,Carnegie Medal
-2975,119322,Children
-2976,119322,Children And Adults
-2977,119322,Children'S 12-Up - Fiction - Fantasy
-2978,119322,Children'S Books - Young Adult
-2979,119322,Children'S Books - Young Adult Fiction
-2980,119322,Children'S Fiction
-2981,119322,Children'S Stories
-2982,119322,Children: Grades 4-6
-2983,119322,Children: Young Adult (Gr. 10-12)
-2984,119322,Children: Young Adult (Gr. 7-9)
-2985,119322,Demonology
-2986,119322,Dämon
-2987,119322,English
-2988,119322,English Fantasy Fiction
-2989,119322,Enlevement
-2990,119322,Entführung
-2991,119322,Etc. Pour La Jeunesse
-2992,119322,Experimentos
-2993,119322,Experiments
-2994,119322,Familiars (Spirits)
-2995,119322,Fantasy
-2996,119322,Fantasy - General
-2997,119322,Fantasy Fiction
-2998,119322,Ficción Juvenil
-2999,119322,Fiction
-3000,119322,Fiction - General
-3001,119322,General
-3002,119322,Geographical Myths
-3003,119322,Good And Evil
-3004,119322,Great Britain
-3005,119322,Horror
-3006,119322,Imaginary Places
-3007,119322,Imaginärer Schauplatz
-3008,119322,Juvenile Fiction
-3009,119322,Juvenile Fiction -- Action & Adventure
-3010,119322,Juvenile Fiction -- Fantasy & Magic
-3011,119322,Juvenile Fiction -- Social Themes -- Self-Esteem & Self-Reliance
-3012,119322,Juvenile Literature
-3013,119322,Kidnapping
-3014,119322,Kidnapping -- Fiction
-3015,119322,Kidnapping -- Juvenile Fiction
-3016,119322,Kind
-3017,119322,Large Print Books
-3018,119322,Large Type Books
-3019,119322,Livres En Gros Caractères
-3020,119322,Lugares Imaginarios
-3021,119322,Lyra (Fictitious Character)
-3022,119322,Lyra (Fictitious Character) -- Juvenile Fiction
-3023,119322,Lyra (Personaje Literario)
-3024,119322,Lyra Belacqua (Fictitious Character)
-3025,119322,Magia
-3026,119322,Magic
-3027,119322,Magie
-3028,119322,Menschenversuch
-3029,119322,Merveilleux
-3030,119322,Missing Persons
-3031,119322,Missing Persons -- Experiments
-3032,119322,Missing Persons -- Experiments -- Juvenile Fiction
-3033,119322,Missing Persons -- Fiction
-3034,119322,Mythical Animals
-3035,119322,Mädchen
-3036,119322,Niños
-3037,119322,Nouvelles
-3038,119322,Novela Fantástica
-3039,119322,Novela Fantástica Inglesa
-3040,119322,Novela Juvenil
-3041,119322,Open Library Staff Picks
-3042,119322,Orphans
-3043,119322,Parry
-3044,119322,Personas Desaparecidas
-3045,119322,Personnes Disparues
-3046,119322,Polar Bears
-3047,119322,Political Theology
-3048,119322,Quests (Expeditions)
-3049,119322,Readers
-3050,119322,Reading Level-Grade 10
-3051,119322,Reading Level-Grade 11
-3052,119322,Reading Level-Grade 12
-3053,119322,Romans
-3054,119322,Science
-3055,119322,Science Fiction
-3056,119322,Secuestro
-3057,119322,Skjønnlitteratur
-3058,119322,Spanish Language
-3059,119322,Spanish Language Materials
-3060,119322,Spanish: Adult Fiction
-3061,119322,Survival
-3062,119322,Teachers
-3063,119322,Teenage Fiction
-3064,119322,Teens
-3065,119322,The Marvelous
-3066,119322,Traducciones Al Español
-3067,119322,Uncles
-3068,119322,Will (Personaje Literario)
-3069,119322,Will Parry (Fictitious Character)
-3070,119322,Witches
-3071,119322,Young Adult Fiction
-3072,119322,Zigeuner
-3073,5060378,Adventure
-3074,5060378,Asesinato
-3075,5060378,Computadoras
-3076,5060378,Computer Hackers
-3077,5060378,Crime
-3078,5060378,Crime Fiction
-3079,5060378,Detectives
-3080,5060378,Editores
-3081,5060378,Esclavitud
-3082,5060378,Ficción
-3083,5060378,Fiction
-3084,5060378,Fictional Works
-3085,5060378,Gritty
-3086,5060378,Hackers
-3087,5060378,Human Trafficking
-3088,5060378,Investigación
-3089,5060378,Investigation
-3090,5060378,Italian Fiction
-3091,5060378,Journalists
-3092,5060378,Lisbeth Salander (Fictitious Character)
-3093,5060378,Mikael Blomqvist (Fictitious Character)
-3094,5060378,Murder
-3095,5060378,Mystery And Suspense Stories
-3096,5060378,New York Times Bestseller
-3097,5060378,Periodical Editors
-3098,5060378,Periodistas
-3099,5060378,Stockholm (Sweden)
-3100,5060378,Suspense
-3101,5060378,Suspense Fiction
-3102,5060378,Thrillers
-3103,5060378,Thrillers & Mystery
-3104,5060378,Translations From Swedish
-3105,5060378,Tráfico De Seres Humanos
-3106,5060378,Violence
-3107,2429135,21St Century Film And Literature
-3108,2429135,Aristocracy
-3109,2429135,Audiobooks
-3110,2429135,Aufklärung
-3111,2429135,Aufklärung <Kriminologie>
-3112,2429135,Belletristische Darstellung
-3113,2429135,Book Of Leviticus
-3114,2429135,Child Sexual Abuse
-3115,2429135,Clase Alta
-3116,2429135,Comparative Literature
-3117,2429135,Computer Hackers
-3118,2429135,Computer Hackers Sweden Stockholm Fiction
-3119,2429135,Corruption
-3120,2429135,Crime
-3121,2429135,Crime Fiction
-3122,2429135,Death
-3123,2429135,Detective
-3124,2429135,Disappeared Persons
-3125,2429135,Enquêtes
-3126,2429135,Familie
-3127,2429135,Families
-3128,2429135,Family Secrets
-3129,2429135,Faschismus
-3130,2429135,Fiction
-3131,2429135,Fiction: Literature
-3132,2429135,Fictional Works
-3133,2429135,Finance
-3134,2429135,Gender And Violence
-3135,2429135,General
-3136,2429135,German Language Materials
-3137,2429135,Hackers
-3138,2429135,Heiresses
-3139,2429135,Industrialists
-3140,2429135,Internet Archive Wishlis
-3141,2429135,Investigate
-3142,2429135,Investigation
-3143,2429135,Investigative Reporting
-3144,2429135,Journalisme D'Enquête
-3145,2429135,Journalist
-3146,2429135,Journalistes
-3147,2429135,Journalists
-3148,2429135,Journalists Sweden Stockholm Fiction
-3149,2429135,Junge Frau
-3150,2429135,Justice
-3151,2429135,Kriminalfall
-3152,2429135,Kriminalliteratur
-3153,2429135,Kriminalroman
-3154,2429135,Large Type Books
-3155,2429135,Lisbeth
-3156,2429135,Lisbeth Salander (Fictitious Character)
-3157,2429135,Mikael Blomkvist
-3158,2429135,Mikael Blomkvist (Fictitious Character)
-3159,2429135,Mikael Blomqvist (Fictitious Character)
-3160,2429135,Misogyny
-3161,2429135,Missing Persons
-3162,2429135,Missing Persons Investigation Sweden Oland Fiction
-3163,2429135,Murder
-3164,2429135,Mystery
-3165,2429135,Mystery & Detective
-3166,2429135,Mystery Fiction
-3167,2429135,New York Times Bestseller
-3168,2429135,Nouvelles
-3169,2429135,Novela
-3170,2429135,Novels
-3171,2429135,Personas Desaparecidas
-3172,2429135,Personnes Disparues
-3173,2429135,Punk
-3174,2429135,Rape
-3175,2429135,Reading Level-Grade 10
-3176,2429135,Reading Level-Grade 11
-3177,2429135,Reading Level-Grade 12
-3178,2429135,Reading Level-Grade 9
-3179,2429135,Reading Materials
-3180,2429135,Revenge
-3181,2429135,Rich
-3182,2429135,Rich People
-3183,2429135,Romans
-3184,2429135,Scandinavian Comparative Literature
-3185,2429135,Schwedisch
-3186,2429135,Secrecy
-3187,2429135,Sex
-3188,2429135,Sexueller Missbrauch
-3189,2429135,Spanish Language
-3190,2429135,Spanish Language Materials
-3191,2429135,Stockholm (Sweden)
-3192,2429135,Suspense
-3193,2429135,Suspense Fiction
-3194,2429135,Swedish Fiction
-3195,2429135,Tattooing
-3196,2429135,Text
-3197,2429135,Thriller
-3198,2429135,Thrillers
-3199,2429135,Translations Into English
-3200,2429135,Trilogy
-3201,2429135,Upper Class
-3202,2429135,Verschwinden
-3203,2429135,Woman
-3204,2429135,Women Private Investigators
-3205,2429135,Women'S And Gender Studies
-3206,2429135,Ética
-3207,17245,18.05 English Literature
-3208,17245,1847-1912
-3209,17245,Action & Adventure
-3210,17245,Adaptations
-3211,17245,Bram
-3212,17245,Bram)
-3213,17245,British
-3214,17245,British And Irish Drama (Dramatic Works By One Author)
-3215,17245,British And Irish Fiction (Fictional Works By One Author)
-3216,17245,Classics
-3217,17245,Count (Fictitious Character)
-3218,17245,Count Dracula (Fictional Character)
-3219,17245,County Dracula (Fictitious Character)
-3220,17245,Criticism And Interpretation
-3221,17245,Dictionaries
-3222,17245,Dracula
-3223,17245,Dracula (Personaje Literario)
-3224,17245,Dracula (Stoker
-3225,17245,Dracula (Stoker)
-3226,17245,Dracula I Litteraturen
-3227,17245,Drama
-3228,17245,England
-3229,17245,English Horror Tales
-3230,17245,English Language
-3231,17245,English Literature
-3232,17245,Epistolary Novels
-3233,17245,Fantasy
-3234,17245,Fiction
-3235,17245,Film And Video Adaptations
-3236,17245,French
-3237,17245,General
-3238,17245,German
-3239,17245,Ghost
-3240,17245,Gothic
-3241,17245,Gothic Literature
-3242,17245,Historical
-3243,17245,History And Criticism
-3244,17245,Horror
-3245,17245,Horror Fiction
-3246,17245,Horror Stories
-3247,17245,Horror Tales
-3248,17245,Irish Authors
-3249,17245,Irish Fiction
-3250,17245,Legends
-3251,17245,Literary Criticism
-3252,17245,Literature
-3253,17245,Long Now Manual For Civilization
-3254,17245,Monsters
-3255,17245,Nouvelles
-3256,17245,Novela
-3257,17245,Psychological
-3258,17245,Psychological Fiction
-3259,17245,Readers For New Literates
-3260,17245,Religion
-3261,17245,Rhetoric
-3262,17245,Romania
-3263,17245,Romanians
-3264,17245,Romans
-3265,17245,Science Fiction
-3266,17245,Spanish
-3267,17245,Stoker
-3268,17245,Study And Teaching
-3269,17245,Temples
-3270,17245,Textbooks For Foreign Speakers
-3271,17245,Thriller
-3272,17245,Vampires
-3273,17245,Vampires In Literature
-3274,17245,Vampiros
-3275,238140,Crime
-3276,238140,Dallas
-3277,238140,Eve (Fictitious Character)
-3278,238140,Eve Dallas (Fictitious Character)
-3279,238140,Fiction
-3280,238140,General
-3281,238140,Large Type Books
-3282,238140,Mystery & Detective
-3283,238140,New York (N.Y.)
-3284,238140,New York (State)
-3285,238140,Nouvelles
-3286,238140,Open Library Staff Picks
-3287,238140,Police
-3288,238140,Police Procedural
-3289,238140,Policewomen
-3290,238140,Policières
-3291,238140,Romans
-3292,238140,Women Detectives
-3293,238140,Women Sleuths
-3294,133518,1961-1975
-3295,133518,American Short Stories
-3296,133518,American War Stories
-3297,133518,Amitié Masculine
-3298,133518,Anciens Combattants
-3299,133518,Family Life
-3300,133518,Fiction
-3301,133518,Fictional Works
-3302,133518,Guerre Du Viêt-Nam
-3303,133518,Loneliness
-3304,133518,Male Friendship
-3305,133518,Married People
-3306,133518,Military Personnel
-3307,133518,Minnesota
-3308,133518,Missing Persons
-3309,133518,Nouvelles
-3310,133518,Nouvelles Américaines
-3311,133518,Politicians
-3312,133518,Psychological
-3313,133518,Reading Level-Grade 10
-3314,133518,Reading Level-Grade 11
-3315,133518,Reading Level-Grade 12
-3316,133518,Reading Level-Grade 9
-3317,133518,Romans
-3318,133518,Récits De Guerre Américains
-3319,133518,Short Stories
-3320,133518,Short Stories (Single Author)
-3321,133518,Soldiers
-3322,133518,Solitude
-3323,133518,Veterans
-3324,133518,Vietnam Conflict
-3325,133518,Vietnam War
-3326,133518,War
-3327,133518,Warfare
-3328,39795040,Language Arts & Disciplines
-3329,6498356,2000S
-3330,6498356,Eve Dallas (Fictitious Character)
-3331,6498356,Fiction
-3332,6498356,Futuristic Fiction
-3333,6498356,Missing Persons
-3334,6498356,Police
-3335,6498356,Policewomen
-3336,6498356,Suspense Fiction
-3337,61170765,Language Arts & Disciplines
-3338,7445,362.82/092 B
-3339,7445,Adult Children
-3340,7445,Alcoholism
-3341,7445,Biografi A.
-3342,7445,Biografía
-3343,7445,Biographie
-3344,7445,Biographies
-3345,7445,Biography
-3346,7445,Biography & Autobiography
-3347,7445,Cas
-3348,7445,Case Studies
-3349,7445,Casos De Estudio
-3350,7445,Child Of Impaired Parents
-3351,7445,Childhood And Youth
-3352,7445,Children Of Alcoholics
-3353,7445,Children Of Alcoholics--United States--Biography
-3354,7445,Children Of Alcoholics--West Virginia--Welch--Biography
-3355,7445,Desamparados
-3356,7445,Document
-3357,7445,Dysfunctional Families
-3358,7445,Dysfunctional Families--United States--Case Studies
-3359,7445,Dysfunctional Families--West Virginia--Welch--Case Studies
-3360,7445,Enfance Et Jeunesse
-3361,7445,Enfant D'Alcoolique
-3362,7445,Enfant De Parents Alcooliques
-3363,7445,Enfants D'Alcooliques
-3364,7445,Extraterrestrial Beings
-3365,7445,Familias
-3366,7445,Familias Problema Ticas
-3367,7445,Familias Problemáticas
-3368,7445,Families
-3369,7445,Famille
-3370,7445,Famille Dysfonctionnelle
-3371,7445,Familles Inadaptées
-3372,7445,Family Memoirs - Biography
-3373,7445,Family Relations
-3374,7445,Family Relationships
-3375,7445,Fiction
-3376,7445,General & Miscellaneous Biography
-3377,7445,Hijos De Alcohólicos
-3378,7445,Hijos De Padres Alcoho Licos
-3379,7445,Hijos De Padres Alcohólicos
-3380,7445,Homeless Persons
-3381,7445,Homeless Persons--Family Relationships
-3382,7445,Homeless Persons--Family Relationships--New York (State)--New York
-3383,7445,Homeless Persons--New York (State)--New York--Family Relationships
-3384,7445,Hv5132 .W35 2005
-3385,7445,Itinérance
-3386,7445,Jeannette
-3387,7445,Jeunesse (Biographie)
-3388,7445,Journalists
-3389,7445,Large Type Books
-3390,7445,New York Times Bestseller
-3391,7445,New York Times Reviewed
-3392,7445,Patient Narratives
-3393,7445,Pauvres
-3394,7445,Pauvreté
-3395,7445,Personal Narratives
-3396,7445,Personas Sin Hogar
-3397,7445,Pobres
-3398,7445,Pobreza
-3399,7445,Poor
-3400,7445,Poor--West Virginia--Welch--Biography
-3401,7445,Poverty
-3402,7445,Problem Families
-3403,7445,Problemas Familiares
-3404,7445,Public Affairs & Policies
-3405,7445,Reading Level-Grade 11
-3406,7445,Reading Level-Grade 12
-3407,7445,Relaciones De Familia
-3408,7445,Relaciones Familiares
-3409,7445,Relations Familiales
-3410,7445,Rural Poor
-3411,7445,Sans-Abri
-3412,7445,Science Fiction
-3413,7445,Social Problems
-3414,7445,Social Work & Human Services
-3415,7445,Survival
-3416,7445,United States
-3417,7445,United States Studies
-3418,7445,Walls
-3419,7445,War
-3420,7445,West Virginia
-3421,7445,Women Journalists
-3422,7445,Ws 105.5.F2 W215G 2005
-3423,7445,Études De
-3424,1150161,Fiction
-3425,1150161,Figure Skaters
-3426,1150161,Figure Skating
-3427,1150161,Large Type Books
-3428,1150161,Mystery Fiction
-3429,1150161,Officiating
-3430,1150161,Skating
-3431,1150161,Sports Stories
-3432,1150161,Tournaments
-3433,19286587,Coming Of Age
-3434,19286587,Cultural Heritage
-3435,19286587,Ethnic Conflict
-3436,19286587,Families
-3437,19286587,Family Life
-3438,19286587,Female Friendship
-3439,19286587,Fiction
-3440,19286587,Fiction / Coming Of Age
-3441,19286587,Fiction / Cultural Heritage
-3442,19286587,Friendship
-3443,19286587,General
-3444,19286587,New York Times Reviewed
-3445,19286587,Sinhalese (Sri Lankan People)
-3446,19286587,Sri Lanka
-3447,19286587,Tamil (Indic People)
-3448,937017,Fiction
-3449,937017,Granddaughters
-3450,937017,Grandmothers
-3451,937017,Nebraska
-3452,937017,Sagas
-3453,32920226,Language Arts & Disciplines
-3454,168981,Business & Economics
-3455,168981,Choice (Psychology)
-3456,168981,Decision Making
-3457,168981,Problem Solving
-3458,168981,Responsibility
-3459,35356383,Adventure
-3460,35356383,America
-3461,35356383,Bicycle Touring
-3462,35356383,Biography & Autobiography
-3463,35356383,Cycling
-3464,35356383,Description And Travel
-3465,35356383,Literary
-3466,35356383,New York Times Bestseller
-3467,35356383,Personal Memoirs
-3468,35356383,Self-Actualization (Psychology)
-3469,35356383,Special Interest
-3470,35356383,Travel
-3471,39715684,Self-Help
-3472,3153910,American Fiction
-3473,3153910,Animals
-3474,3153910,Automobile Racing Drivers
-3475,3153910,Custody Of Children
-3476,3153910,Dog Owners
-3477,3153910,Dogs
-3478,3153910,Fiction
-3479,3153910,General
-3480,3153910,Large Type Books
-3481,3153910,Literature
-3482,3153910,Literature & Fiction -- World Literature -- United States
-3483,3153910,New York Times Bestseller
-3484,3153910,Pets
-3485,51326977,Action & Adventure
-3486,51326977,Fiction
-3487,51326977,General
-3488,51326977,Historical
-3489,51113,Chinese
-3490,51113,Chinos
-3491,51113,Cuentos De Amor
-3492,51113,Ficción
-3493,51113,Fiction
-3494,51113,General
-3495,51113,Historia
-3496,51113,Historical
-3497,51113,History
-3498,51113,Japan
-3499,51113,Man-Woman Relationships
-3500,51113,Novela Histórica
-3501,51113,Open Library Staff Picks
-3502,51113,Relaciones Hombre-Mujer
-3503,51113,Romance
-3504,51113,Travel
-3505,51113,Viaje
-3506,19288043,American Detective And Mystery Stories
-3507,19288043,Amerikanisches Englisch
-3508,19288043,Chang Pian Xiao Shuo
-3509,19288043,Crimes Against
-3510,19288043,Desaparecidos
-3511,19288043,Detective And Mystery Fiction
-3512,19288043,Diaries
-3513,19288043,Disappeared Persons
-3514,19288043,Esposas Maltratadas
-3515,19288043,Esposos
-3516,19288043,Ficción
-3517,19288043,Fiction
-3518,19288043,Fiction / Mystery & Detective / General
-3519,19288043,Fiction / Suspense
-3520,19288043,Fiction / Thrillers
-3521,19288043,General
-3522,19288043,Husbands
-3523,19288043,Large Type Books
-3524,19288043,Marriage
-3525,19288043,Married People
-3526,19288043,Missing Persons
-3527,19288043,Mystery & Detective
-3528,19288043,Mystery & Detective Fiction
-3529,19288043,Mystery Fiction
-3530,19288043,New List 20120630
-3531,19288043,New York Times Bestseller
-3532,19288043,New York Times Reviewed
-3533,19288043,Novela
-3534,19288043,Personas Casadas
-3535,19288043,Roman
-3536,19288043,Secrets
-3537,19288043,Suspense
-3538,19288043,Suspense Fiction
-3539,19288043,Thrillers
-3540,19288043,Victims Of Crimes
-3541,19288043,Wives
-3542,12262741,Adventure
-3543,12262741,American
-3544,12262741,American Authors
-3545,12262741,Authors
-3546,12262741,Biographies As Topic
-3547,12262741,Biography
-3548,12262741,Biography & Autobiography
-3549,12262741,Biography As Topic
-3550,12262741,Ca
-3551,12262741,Description And Travel
-3552,12262741,General
-3553,12262741,Healing Power Of Nature
-3554,12262741,Hi
-3555,12262741,Hiking
-3556,12262741,Literary
-3557,12262741,Literary Criticism
-3558,12262741,New York Times Bestseller
-3559,12262741,Nv
-3560,12262741,Or
-3561,12262741,Pacific (Ak
-3562,12262741,Pacific Crest Trail
-3563,12262741,Personal Memoirs
-3564,12262741,Self-Actualization (Psychology) In Women
-3565,12262741,Travel
-3566,12262741,Wa)
-3567,40102,153.4/4
-3568,40102,Aspects Psychologiques
-3569,40102,Besluitvorming
-3570,40102,Bf 448 G543 2007
-3571,40102,Bf448 .G53 2007
-3572,40102,Business
-3573,40102,Cognitive Psychology & Cognition
-3574,40102,Decision Making
-3575,40102,Decisiones
-3576,40102,Développement Personnel
-3577,40102,Education
-3578,40102,General
-3579,40102,History
-3580,40102,Intuición
-3581,40102,Intuicíon
-3582,40102,Intuition
-3583,40102,Intuïtie
-3584,40102,Jugement (Logique)
-3585,40102,Large Type Books
-3586,40102,Leadership
-3587,40102,New York Times Bestseller
-3588,40102,New York Times Reviewed
-3589,40102,Nonfiction
-3590,40102,Open Library Staff Picks
-3591,40102,Pensée
-3592,40102,Personal Growth
-3593,40102,Ponderación Y Decisión
-3594,40102,Popular Works
-3595,40102,Prise De Décision
-3596,40102,Prise De Décision (Psychologie)
-3597,40102,Prise De Décision (Relations Humaines)
-3598,40102,Psychology
-3599,40102,Recovery
-3600,40102,Relations Humaines
-3601,40102,Sciences Cognitives
-3602,40102,Self-Help
-3603,40102,Social Psychology
-3604,40102,Teoría De Las
-3605,40102,Toma De Decisiones
-3606,29780253,Apartheid
-3607,29780253,Biographies
-3608,29780253,Biography
-3609,29780253,Biography & Autobiography
-3610,29780253,Biography & Autobiography / Personal Memoirs
-3611,29780253,Childhood And Youth
-3612,29780253,Comedians
-3613,29780253,Comedy
-3614,29780253,Comiques
-3615,29780253,Essays
-3616,29780253,Ethnic & Regional
-3617,29780253,History
-3618,29780253,Humor
-3619,29780253,Humor / Essays
-3620,29780253,Humor / Form / Essays
-3621,29780253,Humor / Topic / Cultural
-3622,29780253,Mothers And Sons
-3623,29780253,Métis
-3624,29780253,New York Times Bestseller
-3625,29780253,Performing Arts
-3626,29780253,Performing Arts / Comedy
-3627,29780253,Personal Memoirs
-3628,29780253,Racially Mixed People
-3629,29780253,Social Conditions
-3630,29780253,South Africa
-3631,29780253,Television Personalities
-3632,29780253,Vedettes De Télévision
-3633,27214080,Biography
-3634,27214080,Biography & Autobiography
-3635,27214080,Employees
-3636,27214080,New York Times Bestseller
-3637,27214080,Officials And Employees
-3638,27214080,Presidents
-3639,27214080,Protection
-3640,27214080,Secret Service
-3641,27214080,United States
-3642,27214080,United States. Secret Service
-3643,2612,Language Arts & Disciplines
-3644,34273236,Adoption
-3645,34273236,Asian American
-3646,34273236,Bibliography
-3647,34273236,Cleveland (Ohio)
-3648,34273236,Cultural Heritage
-3649,34273236,Custody Of Children
-3650,34273236,Domestic Fiction
-3651,34273236,Dometic Fiction
-3652,34273236,Family Life
-3653,34273236,Family Secrets
-3654,34273236,Female Friendship
-3655,34273236,Fiction
-3656,34273236,Fiction / Literary
-3657,34273236,Friendship
-3658,34273236,General
-3659,34273236,Interracial Adoption
-3660,34273236,Literary
-3661,34273236,Motherhood
-3662,34273236,Mothers And Daughters
-3663,34273236,New York Times Bestseller
-3664,34273236,New York Times Reviewed
-3665,34273236,Secrecy
-3666,34273236,Sentimental Fiction
-3667,34273236,Single Mothers
-3668,34273236,Woman'S Fiction
-3669,6288,Adventure
-3670,6288,American Fiction (Fictional Works By One Author)
-3671,6288,Apocalypse
-3672,6288,Apocalyptic Fiction
-3673,6288,Civilization
-3674,6288,Description And Travel
-3675,6288,Disasters
-3676,6288,Dystopia
-3677,6288,Dystopian
-3678,6288,Ethics
-3679,6288,Extinction Event
-3680,6288,Father-Son Relationship
-3681,6288,Fathers And Sons
-3682,6288,Fathers And Sons Fiction; Fiction Dystopian; Fiction Science Fiction General; American Fiction (Fict
-3683,6288,Fathers And Sons--Fiction
-3684,6288,Fiction
-3685,6288,General
-3686,6288,Horror
-3687,6288,Hunger
-3688,6288,Large Type Books
-3689,6288,Literary Fiction
-3690,6288,Long Now Manual For Civilization
-3691,6288,New York Times Bestseller
-3692,6288,New York Times Reviewed
-3693,6288,Novels
-3694,6288,Open Library Staff Picks
-3695,6288,Post-Apocalyptic Fiction
-3696,6288,Reading Level-Grade 10
-3697,6288,Reading Level-Grade 11
-3698,6288,Reading Level-Grade 12
-3699,6288,Reading Level-Grade 6
-3700,6288,Reading Level-Grade 7
-3701,6288,Reading Level-Grade 8
-3702,6288,Reading Level-Grade 9
-3703,6288,Regression (Civilization)
-3704,6288,Regression (Civilization)--Fiction
-3705,6288,Road Fiction
-3706,6288,Robinsonades
-3707,6288,Science Fiction
-3708,6288,Survival
-3709,6288,Survival Skills
-3710,6288,Travel
-3711,6288,Voyages And Travels
-3712,6288,Voyages And Travels--Fiction
-3713,36124936,Alibi
-3714,36124936,Crime
-3715,36124936,Criminal Evidence
-3716,36124936,Fantasy
-3717,36124936,Fiction
-3718,36124936,General
-3719,36124936,Horror
-3720,36124936,Investigation
-3721,36124936,Large Type Books
-3722,36124936,Murder
-3723,36124936,Mystery
-3724,36124936,Mystery Thriller
-3725,36124936,New York Times Bestseller
-3726,36124936,New York Times Reviewed
-3727,36124936,Psychological Horror
-3728,36124936,Rape Victims
-3729,36124936,Shapeshifters
-3730,36124936,Supernatural
-3731,36124936,Suspense
-3732,36124936,Thriller
-3733,36124936,Thrillers
-3734,40097951,Artists
-3735,40097951,Family Violence
-3736,40097951,Fiction
-3737,40097951,Fiction / Thrillers / General
-3738,40097951,Fiction / Thrillers / Psychological
-3739,40097951,Fiction / Thrillers / Suspense
-3740,40097951,General
-3741,40097951,London (England)
-3742,40097951,Marriage
-3743,40097951,New York Times Bestseller
-3744,40097951,Psychological
-3745,40097951,Psychotherapy Patients
-3746,40097951,Thrillers
-3747,40389527,Language Arts & Disciplines
-3748,38389488,Language Arts & Disciplines
-3749,39863488,Australia
-3750,39863488,Brothers
-3751,39863488,Fiction
-3752,39863488,General
-3753,39863488,New York Times Bestseller
-3754,39863488,Psychological
-3755,39863488,Thrillers
-3756,43848929,Applied Psychology
-3757,43848929,Conduct Of Life
-3758,43848929,Interpersonal Communication
-3759,43848929,Interpersonal Relations
-3760,43848929,Language Arts & Disciplines / Communication
-3761,43848929,Miscellanea
-3762,43848929,New York Times Bestseller
-3763,43848929,New York Times Reviewed
-3764,43848929,Social Psychology
-3765,43848929,Social Science
-3766,43848929,Strangers
-3767,43848929,Threat (Psychology)
-3768,43848929,Trust
-3769,30141085,Language Arts & Disciplines
+,Unnamed: 0,Book Id,Category
+3,3,58416952,High Fantasy
+8,8,22878967,Fantasy
+9,9,22878967,Fantasy Fiction
+13,13,37640636,Action & Adventure
+14,14,37640636,Fantasy
+17,17,37640636,Genius
+18,18,37640636,Science Fiction
+19,19,13452375,Fantasy
+20,20,13452375,Fantasy Fiction
+23,23,13452375,Genius
+26,26,13452375,Multiple Personality
+27,27,13452375,Science Fiction
+28,28,13452375,Short Stories
+37,37,623976,Children'S Fiction
+40,40,623976,Etc. Pour La Jeunesse
+41,41,623976,Fantasy
+42,42,623976,Fantasy Fiction
+48,48,623976,Juvenile Fiction
+55,55,623976,Nouvelles
+56,56,623976,Novela Fantástica
+57,57,623976,Novela Juvenil
+60,60,56269205,English Literature
+63,63,56269205,Fiction / Fantasy / Epic
+66,66,56269205,Quests (Expeditions)
+67,67,56269205,Vampires
+68,68,35606041,Dark Fantasy
+69,69,35606041,English Literature
+70,70,35606041,Epic
+71,71,35606041,Fantasy
+72,72,35606041,Fantasy Fiction
+74,74,35606041,Geographical Myths
+75,75,35606041,Historical
+76,76,35606041,Imaginary Places
+77,77,35606041,Imaginary Wars And Battles
+78,78,35606041,Kings And Rulers
+79,79,35606041,Magic
+83,83,26114463,Epic
+84,84,26114463,Fantasy
+86,86,26114463,Historical
+87,87,26114463,Revenge
+88,88,50659468,Action & Adventure
+89,89,50659468,Adaptations
+90,90,50659468,Blessing And Cursing
+91,91,50659468,Children'S Fiction
+93,93,50659468,Courts And Courtiers
+94,94,50659468,Etc. Pour La Jeunesse
+96,96,50659468,Fantasy
+98,98,50659468,Fantasy Fiction
+103,103,50659468,Magic
+105,105,50659468,Nouvelles
+108,108,60531410,Adult
+109,109,60531410,Fantasy
+110,110,60531410,Humor
+111,111,60531410,Science Fiction
+113,113,60531410,Time Travel
+114,114,230824619,Crime
+116,116,230824619,Mystery
+117,117,230824619,Mystery Thriller
+118,118,230824619,Novella
+119,119,230824619,Psychological Thriller
+120,120,230824619,Short Stories
+121,121,230824619,Suspense
+122,122,230824619,Thriller
+124,124,54919156,American Literature
+127,127,13496,Action & Adventure
+128,128,13496,Adult
+129,129,13496,American Fantasy Fiction
+130,130,13496,Betrayal
+131,131,13496,Bien Y Mal
+133,133,13496,Courts And Courtiers
+134,134,13496,Dragons
+135,135,13496,Epic
+136,136,13496,Epic Fantasy
+137,137,13496,Epic Fiction
+138,138,13496,Epic Literature
+139,139,13496,Family
+141,141,13496,Fantasy
+142,142,13496,Fantasy Fiction
+149,149,13496,Good And Evil
+151,151,13496,Guerras Imaginarias
+152,152,13496,High Fantasy
+153,153,13496,Hugo Award Winner
+155,155,13496,Imaginary Places
+156,156,13496,Imaginary Wars And Battles
+157,157,13496,Incest
+160,160,13496,Kings And Rulers
+163,163,13496,Loyalty
+164,164,13496,Magic
+173,173,13496,Revenge
+176,176,13496,Science Fiction
+179,179,13496,Seven Kingdoms (Imaginary Place)
+180,180,13496,Supernatural
+182,182,13496,Vengeance
+183,183,13496,Voyages And Travels
+184,184,13496,Walls
+185,185,13496,War And Conflict
+189,189,4069,1939-1945
+194,194,4069,Biografía
+196,196,4069,Biographies
+197,197,4069,Biography
+202,202,4069,Correspondence
+204,204,4069,Drama
+215,215,4069,German
+217,217,4069,Guerre Mondiale
+225,225,4069,Internal Medicine
+239,239,4069,Meaning (Psychology)
+246,246,4069,Personal Narratives
+257,257,4069,Psychological Aspects
+260,260,4069,Psychologie
+263,263,4069,Psychology
+271,271,4069,Social Psychology
+272,272,4069,Spirituality
+274,274,4069,War
+275,275,4069,War And Conflict
+276,276,4069,World War
+279,279,56922594,Family Life
+285,285,16130549,Alcoholism
+286,286,16130549,Bien Y Mal
+288,288,16130549,Good And Evil
+289,289,16130549,Horror
+290,290,16130549,Horror Fiction
+291,291,16130549,Large Print Books
+296,296,16130549,Paranormal Fiction
+297,297,16130549,Psychic Ability
+298,298,16130549,Psychics
+299,299,16130549,Suspense Fiction
+300,300,11588,Alcoholism
+301,301,11588,American Literature
+302,302,11588,Authors
+304,304,11588,Boys
+309,309,11588,Demonology
+311,311,11588,Families
+312,312,11588,Family
+315,315,11588,Fiction / Horror
+320,320,11588,Horror
+323,323,11588,Horror Fiction
+324,324,11588,Horror Tales
+330,330,11588,Occult & Supernatural
+332,332,11588,Paranormal Fiction
+337,337,11588,Psychics
+338,338,11588,Psychological
+342,342,11588,Suspense
+344,344,11588,Thrillers
+350,350,54120408,Amitié
+351,351,54120408,Artificial Intelligence
+352,352,54120408,British And Irish Fiction (Fictional Works By One Author)
+353,353,54120408,Dystopian
+356,356,54120408,Fiction / Literary
+357,357,54120408,Fiction / Science Fiction / General
+359,359,54120408,Friendship
+362,362,54120408,Literary
+363,363,54120408,Love
+365,365,54120408,Nouvelles
+367,367,54120408,Robots
+368,368,54120408,Romance Fiction
+370,370,54120408,Science Fiction
+372,372,54120408,The Future
+374,374,34703445,Adventure
+377,377,34703445,Fantasy
+383,383,34703445,Humor
+384,384,34703445,Novella
+387,387,34703445,Young Adult
+388,388,49021976,Action & Adventure
+389,389,49021976,Action And Adventure
+390,390,49021976,American Literature
+391,391,49021976,Epic
+392,392,49021976,Fantasy
+396,396,58446227,English Literature
+397,397,58446227,Epidemics
+400,400,58446227,Nouvelles
+402,402,58446227,Space And Time
+404,404,58446227,Time Travel
+409,409,45300567,English Literature
+411,411,45300567,Fiction / Thrillers / Psychological
+412,412,45300567,Fiction / Thrillers / Suspense
+414,414,45300567,Greek Mythology
+415,415,45300567,Murderers
+417,417,45300567,Psychological
+419,419,45300567,Secret Societies
+421,421,45300567,Thrillers
+428,428,52578297,Choice (Psychology)
+430,430,52578297,Decision Making
+431,431,52578297,Fantasy
+433,433,52578297,Fiction / Literary
+438,438,52578297,Libraries
+439,439,52578297,Literary
+442,442,52578297,Nouvelles
+443,443,52578297,Prise De Décision
+446,446,52578297,Science Fiction
+448,448,25451264,Action & Adventure
+451,451,25451264,Extraterrestrial Beings
+454,454,25451264,Fiction / Science Fiction / Hard Science Fiction
+456,456,25451264,Hard Science Fiction
+457,457,25451264,Human-Alien Encounters
+458,458,25451264,Imaginary Wars And Battles
+459,459,25451264,Science Fiction
+460,460,25451264,Survival
+462,462,68428,Adventure
+463,463,68428,Courts And Courtiers
+465,465,68428,Epic
+466,466,68428,Fantasy
+467,467,68428,Fantasy Fiction
+468,468,68428,Fantasía
+472,472,68428,Good And Evil
+473,473,68428,Magia
+474,474,68428,Magic
+481,481,58784475,American Literature
+486,486,68429,Courts And Courtiers
+488,488,68429,Epic
+489,489,68429,Etc
+490,490,68429,Fantasy
+491,491,68429,Fantasy Fiction
+492,492,68429,Fantasía
+495,495,68429,Good And Evil
+497,497,68429,Imaginary Places
+500,500,68429,Magic
+502,502,68429,Nouvelles
+506,506,2767793,Children'S Fiction
+507,507,2767793,Epic Fantasy
+508,508,2767793,Fantasy
+509,509,2767793,Fantasy Fiction
+512,512,2767793,Imaginary Places
+513,513,2767793,Magic
+514,514,56783258,American Literature
+517,517,56783258,Historical
+520,520,56783258,Libraries
+524,524,56783258,Science Fiction
+526,526,56783258,The Future
+527,527,60652997,American Literature
+528,528,60652997,Contemporary
+529,529,60652997,Fantasy
+532,532,60652997,Occult & Supernatural
+533,533,60652997,Paranormal
+534,534,60652997,Supernatural
+535,535,60652997,Thrillers
+536,536,35133922,Biography & Autobiography
+537,537,17333223,Amerikanisches Englisch
+541,541,17333223,Artists
+543,543,17333223,Bildungsromans
+544,544,17333223,Chang Pian Xiao Shuo
+545,545,17333223,Coming Of Age
+546,546,17333223,Family Life
+549,549,17333223,Fiction / Coming Of Age
+550,550,17333223,Fiction / Literary
+551,551,17333223,Fiction / Psychological
+552,552,17333223,Friendship
+557,557,17333223,Literary
+558,558,17333223,Loss (Psychology)
+559,559,17333223,New York (N.Y.)
+561,561,17333223,Nouvelles
+565,565,17333223,Psychological
+567,567,17333223,Rich People
+568,568,17333223,Roman
+571,571,17333223,Self-Acceptance
+572,572,17333223,Self-Realization
+573,573,17333223,Spanish Language Materials
+574,574,17333223,Survival
+575,575,17333223,Suspense Fiction
+577,577,17333223,Young Men
+578,578,54493401,Action & Adventure
+581,581,54493401,End Of The World
+584,584,54493401,Fiction / Science Fiction / Hard Science Fiction
+585,585,54493401,Fiction / Thrillers / Suspense
+587,587,54493401,Habiletés De Survie
+589,589,54493401,Hard Science Fiction
+594,594,54493401,Nouvelles
+596,596,54493401,Sci-Fi
+597,597,54493401,Science Fiction
+598,598,54493401,Science-Fiction
+599,599,54493401,Shipwrecks
+601,601,54493401,Survival
+602,602,54493401,Survival After Airplane Accidents
+606,606,221733722,American Literature
+608,608,221733722,Horror
+609,609,221733722,Mystery
+610,610,221733722,Mystery Thriller
+611,611,221733722,Psychological Thriller
+612,612,221733722,Suspense
+613,613,221733722,Thriller
+621,621,41881472,Business & Economics
+623,623,41881472,Ethics
+624,624,41881472,Finance
+631,631,41881472,Psychological Aspects
+632,632,41881472,Psychology
+640,640,203578847,Series:Stormlight Archive
+642,642,15839976,Dystopia
+643,643,15839976,Fantasy
+645,645,15839976,Science Fiction
+646,646,15839976,Young Adult
+651,651,18693771,Alcoholism
+655,655,18693771,Diseases
+659,659,18693771,Internal Medicine
+678,678,18693771,Psychology
+689,689,18693771,Veterans
+690,690,18693771,Violence
+693,693,68427,Blessing And Cursing
+695,695,68427,City And Town Life
+696,696,68427,Epic
+697,697,68427,Fantasy
+698,698,68427,Fantasy Fiction
+700,700,68427,Fiction / Fantasy / Epic
+703,703,68427,Nouvelles
+704,704,68427,Princes
+709,709,57850265,American Literature
+711,711,57850265,Décadence
+712,712,57850265,Epidemics
+715,715,57850265,Fiction / Literary
+717,717,57850265,Interpersonal Relations
+718,718,57850265,Life On Other Planets
+720,720,57850265,Nouvelles
+722,722,57850265,Regression (Civilization)
+728,728,52397,African American
+730,730,52397,African Americans
+732,732,52397,American Literature
+734,734,52397,Audiobooks
+736,736,52397,California
+737,737,52397,Comic Books
+738,738,52397,Comics & Graphic Novels
+741,741,52397,Dystopian
+742,742,52397,Dystopias
+747,747,52397,Graphic Novels
+748,748,52397,Literary
+751,751,52397,Psychic Ability
+752,752,52397,Science Fiction
+753,753,52397,Strips
+754,754,52397,Survival
+757,757,52397,Women
+761,761,112974860,Social Science
+762,762,18952381,Fantasy
+764,764,18952381,Fiction / Action & Adventure
+765,765,18952381,Fiction / Fantasy / Epic
+766,766,18952381,Fiction / Fantasy / General
+767,767,18952381,Friendship
+769,769,18952381,Imaginary Wars And Battles
+770,770,18952381,Revolutions
+772,772,51942513,Buddhism
+773,773,51942513,Conduct Of Life
+777,777,51942513,Meaning (Psychology)
+780,780,51942513,Psychology
+781,781,51942513,Self-Help
+782,782,51942513,Self-Realization
+786,786,1303,Audiobooks
+787,787,1303,Business
+788,788,1303,Business & Economics
+789,789,1303,Conduct Of Life
+791,791,1303,Control (Psychology)
+795,795,1303,Gesellschaft
+799,799,1303,Leadership
+804,804,1303,Nonfiction
+806,806,1303,Personal Growth
+810,810,1303,Political Science
+819,819,1303,Psychology
+820,820,1303,Self-Help
+824,824,83337,Chess
+828,828,9547888,Family & Relationships
+829,829,9547888,Interpersonal Relations
+830,830,9547888,Intimacy (Psychology)
+831,831,9547888,Psychology
+832,832,12343111,Chess
+837,837,44421460,Family
+840,840,44421460,Friendship
+842,842,44421460,Love
+844,844,44421460,Redemption
+845,845,44421460,Romance
+848,848,44421460,Time Travel
+849,849,23168277,1961-1975
+854,854,23168277,Historical
+857,857,23168277,Soldiers
+858,858,23168277,Thrillers
+860,860,23168277,Vietnam War
+861,861,23168277,War & Military
+870,870,6334,England
+871,871,6334,English Literature
+872,872,6334,Etc
+877,877,6334,Friendship
+883,883,6334,Literary
+884,884,6334,Literature
+886,886,6334,Nouvelles
+887,887,6334,Novela Inglesa
+892,892,6334,Psychological
+893,893,6334,Psychological Fiction
+897,897,6334,Science Fiction
+900,900,6334,Women
+904,904,10846336,African American
+909,909,10846336,African Americans
+910,910,10846336,Amerikanisches Englisch
+911,911,10846336,Brothers And Sisters
+913,913,10846336,Family Life
+920,920,10846336,Literary
+924,924,10846336,Poor
+925,925,10846336,Poverty
+929,929,10846336,Reading Level-Grade 7
+930,930,10846336,Reading Level-Grade 8
+932,932,10846336,Roman
+933,933,10846336,Rural Poor
+934,934,10846336,Siblings
+935,935,10846336,Teenagers
+939,939,23515727,American Fiction
+940,940,23515727,American Fiction (Fictional Works By One Author)
+944,944,23515727,Literature
+945,945,23515727,Murderers
+948,948,23515727,Psychological
+949,949,23515727,Psychological Fiction
+951,951,23515727,Spanish Language Materials
+952,952,23515727,Suspense
+953,953,23515727,Suspense Fiction
+956,956,23515727,Thrillers
+965,965,77203,American Fiction
+967,967,77203,Amitié Masculine
+971,971,77203,Betrayal
+973,973,77203,Bildungsromans
+974,974,77203,Boys
+979,979,77203,Coming Of Age
+981,981,77203,Drama
+985,985,77203,Fictional Works
+986,986,77203,Fictional Works [Publication Type]
+989,989,77203,Friendship
+993,993,77203,Histoire
+994,994,77203,Historical Fiction
+996,996,77203,Interpersonal Relations
+1000,1000,77203,Literary Fiction
+1001,1001,77203,Literature
+1004,1004,77203,Male Friendship
+1010,1010,77203,Nouvelles
+1014,1014,77203,Open Syllabus Project
+1023,1023,77203,Social Conditions
+1027,1027,77203,Teenage Boys
+1032,1032,18774964,Conduct Of Life
+1039,1039,18774964,Friendship
+1042,1042,18774964,Humor
+1044,1044,18774964,Humorous
+1045,1045,18774964,Interpersonal Relations
+1048,1048,18774964,Loss (Psychology)
+1049,1049,18774964,Love
+1069,1069,36642458,Action & Adventure
+1071,1071,36642458,American Literature
+1072,1072,36642458,Children'S Fiction
+1073,1073,36642458,Dystopian
+1074,1074,36642458,Extraterrestrial Beings
+1078,1078,36642458,Science Fiction
+1080,1080,36642458,Survival
+1082,1082,36642458,War
+1083,1083,36642458,Young Adult Fiction
+1084,1084,18952341,Action & Adventure
+1086,1086,18952341,Epic
+1087,1087,18952341,Fantasy
+1089,1089,18952341,Fiction / Action & Adventure
+1090,1090,18952341,Fiction / Fantasy / Epic
+1091,1091,18952341,Fiction / Fantasy / General
+1092,1092,18952341,Friendship
+1094,1094,18952341,Imaginary Places
+1095,1095,18952341,Justice
+1096,1096,18952341,Magic
+1097,1097,18952341,Male Friendship
+1099,1099,18952341,Revolutions
+1102,1102,12505,Brothers
+1104,1104,12505,Classic Literature
+1106,1106,12505,Continental European Fiction (Fictional Works By One Author)
+1107,1107,12505,Dictionaries
+1108,1108,12505,English Fiction
+1109,1109,12505,English Language
+1110,1110,12505,English Literature
+1112,1112,12505,Fathers And Daughters
+1114,1114,12505,Fiction In English
+1116,1116,12505,German
+1117,1117,12505,Good And Evil
+1118,1118,12505,Histoire
+1119,1119,12505,Historical Fiction
+1120,1120,12505,History
+1123,1123,12505,Nouvelles
+1124,1124,12505,Princes
+1133,1133,12505,Social Conditions
+1136,1136,12505,Translations
+1138,1138,12505,Translations Into English
+1143,1143,50898126,American Literature
+1147,1147,687278,Buddhism
+1153,1153,687278,Suffering
+1157,1157,30753841,Cooking
+1165,1165,180357146,Families
+1167,1167,180357146,Historical Fiction
+1170,1170,33574273,& Magic
+1172,1172,33574273,Adventure And Adventurers
+1175,1175,33574273,American Fiction
+1177,1177,33574273,Brothers And Sisters
+1178,1178,33574273,Children'S Fiction
+1179,1179,33574273,Classics
+1180,1180,33574273,Decision Making
+1182,1182,33574273,Extraterrestrial Beings
+1183,1183,33574273,Families
+1184,1184,33574273,Family Life
+1185,1185,33574273,Fantasy
+1186,1186,33574273,Fantasy Fiction
+1187,1187,33574273,Fathers And Daughters
+1189,1189,33574273,Friendship
+1192,1192,33574273,Good And Evil
+1195,1195,33574273,Juvenile Fiction
+1199,1199,33574273,Love
+1200,1200,33574273,Missing Persons
+1201,1201,33574273,Moral And Ethical Aspects
+1213,1213,33574273,Reading Level-Grade 7
+1214,1214,33574273,Reading Level-Grade 8
+1216,1216,33574273,Responsibility
+1217,1217,33574273,Sci-Fi
+1218,1218,33574273,Science Fiction
+1219,1219,33574273,Space And Time
+1221,1221,33574273,Time Travel
+1227,1227,54814676,Américains D'Origine Asiatique
+1229,1229,54814676,Asian & Asian American
+1230,1230,54814676,Asian Americans
+1233,1233,54814676,Biographies
+1234,1234,54814676,Biography
+1235,1235,54814676,Biography & Autobiography
+1239,1239,54814676,Cooking
+1240,1240,54814676,Cultural
+1241,1241,54814676,Death
+1243,1243,54814676,Ethnic & Regional
+1244,1244,54814676,Family & Relationships
+1248,1248,54814676,Humans
+1251,1251,54814676,Korean
+1256,1256,54814676,Mothers And Daughters
+1265,1265,54814676,United States
+1267,1267,41804,American
+1268,1268,41804,American Literature
+1269,1269,41804,American Science Fiction
+1270,1270,41804,American Short Stories
+1271,1271,41804,Artificial Intelligence
+1273,1273,41804,Children'S Fiction
+1284,1284,41804,Morality
+1286,1286,41804,Readers
+1293,1293,41804,Robots
+1295,1295,41804,Roman
+1296,1296,41804,Science Fiction
+1299,1299,41804,Short Stories
+1305,1305,41804,Thriller
+1306,1306,29579,American Fantasy Fiction
+1307,1307,29579,American Literature
+1308,1308,29579,American Science Fiction
+1313,1313,29579,Life On Other Planets
+1315,1315,29579,Nouvelles
+1317,1317,29579,Prophecy
+1320,1320,29579,Psychological Fiction
+1321,1321,29579,Robots
+1323,1323,29579,Science Fiction
+1325,1325,39943621,Dragons
+1326,1326,39943621,Epic
+1327,1327,39943621,Epic Fiction
+1328,1328,39943621,Fantasy
+1330,1330,39943621,Fiction / Action & Adventure
+1332,1332,39943621,Fiction / Fantasy / Epic
+1333,1333,39943621,Good And Evil
+1334,1334,39943621,Imaginary Places
+1335,1335,39943621,Imaginary Wars And Battles
+1336,1336,39943621,Kings And Rulers
+1338,1338,39943621,Magic
+1343,1343,39943621,Seven Kingdoms (Imaginary Place)
+1350,1350,228665,American Literature
+1351,1351,228665,Children'S Fiction
+1352,1352,228665,Children'S Stories
+1353,1353,228665,Comic Books
+1354,1354,228665,Comics & Graphic Novels
+1355,1355,228665,Epic
+1356,1356,228665,Fantasy
+1358,1358,228665,Fantasy Fiction
+1361,1361,228665,Good And Evil
+1362,1362,228665,Monsters
+1366,1366,228665,Science Fiction
+1368,1368,228665,Strips
+1369,1369,14817,American Science Fiction
+1370,1370,14817,California
+1371,1371,14817,Comics & Graphic Novels
+1372,1372,14817,Detective And Mystery Stories
+1375,1375,14817,Fiction In English
+1378,1378,14817,Multiple Personality
+1381,1381,14817,Police
+1382,1382,14817,Science Fiction
+1384,1384,49189494,American Literature
+1387,1387,20170404,Action & Adventure
+1389,1389,20170404,Adventure
+1390,1390,20170404,Amerikanisches Englisch
+1394,1394,20170404,Dystopian
+1395,1395,20170404,Epidemics
+1397,1397,20170404,Fiction / Literary
+1400,1400,20170404,Literary
+1403,1403,20170404,Science Fiction
+1406,1406,20170404,Time Travel
+1408,1408,45754981,Brothers And Sisters
+1410,1410,45754981,English Literature
+1412,1412,45754981,Fiction / Literary
+1414,1414,45754981,Fiction / Psychological
+1417,1417,45754981,Missing Persons
+1418,1418,45754981,Mystery & Detective
+1419,1419,45754981,Mystery Fiction
+1423,1423,45754981,Psychological
+1424,1424,45754981,Siblings
+1426,1426,24400501,Fantasy
+1428,1428,24400501,Fiction / Fantasy / General
+1431,1431,24400501,History And Criticism
+1434,1434,24400501,Revenge
+1435,1435,24400501,Slavery
+1436,1436,24400501,Young Men
+1437,1437,18247597,Fantasy
+1438,1438,18247597,Fantasy Fiction
+1443,1443,32620332,Biography
+1445,1445,32620332,Contemporary
+1450,1450,32620332,Man-Woman Relationships
+1454,1454,32620332,Romance
+1455,1455,32620332,Women Journalists
+1458,1458,52845775,Américains D'Origine Asiatique
+1459,1459,52845775,Asian & Asian American
+1461,1461,52845775,Asian Americans
+1462,1462,52845775,Biographies
+1463,1463,52845775,Biography
+1464,1464,52845775,Biography & Autobiography
+1466,1466,52845775,Cultural
+1467,1467,52845775,Ethnic & Regional
+1470,1470,52845775,History
+1477,1477,52845775,United States
+1478,1478,52845775,Women
+1486,1486,8694,English Literature
+1487,1487,8694,Fantasy
+1494,1494,8694,Humorous
+1501,1501,8694,Science Fiction
+1512,1512,338691,Detective And Mystery Stories
+1513,1513,338691,Etc
+1516,1516,338691,Large Print Books
+1519,1519,338691,Mystery & Detective
+1521,1521,338691,Nouvelles
+1522,1522,338691,Police
+1524,1524,338691,Police Procedural
+1526,1526,338691,Suspense
+1532,1532,33385229,Adventure And Adventurers
+1533,1533,33385229,Children'S Fiction
+1534,1534,33385229,Death
+1536,1536,33385229,Friendship
+1537,1537,33385229,Gay Men
+1538,1538,33385229,Gays
+1541,1541,33385229,Juvenile Fiction
+1543,1543,33385229,Love
+1544,1544,33385229,New York (N.Y.)
+1546,1546,33385229,Romance Fiction
+1547,1547,33385229,Young Adult Fiction
+1548,1548,33917107,20Th Century
+1552,1552,33917107,Essays
+1554,1554,33917107,History
+1560,1560,33917107,Political Science
+1562,1562,33917107,Social Science
+1563,1563,33917107,Totalitarianism
+1578,1578,1371,Adventure
+1581,1581,1371,Children'S Fiction
+1587,1587,1371,Comics & Graphic Novels
+1588,1588,1371,Continental European Fiction (Fictional Works By One Author)
+1589,1589,1371,Criticism And Interpretation
+1591,1591,1371,Dictionaries
+1593,1593,1371,English Language
+1594,1594,1371,English Literature
+1597,1597,1371,Epic Poetry
+1598,1598,1371,Etc. Pour La Jeunesse
+1599,1599,1371,Examinations
+1602,1602,1371,Fiction / Classics
+1606,1606,1371,Great Books Of The Western World
+1609,1609,1371,Greek
+1616,1616,1371,Greek Mythology
+1618,1618,1371,Greek--Fiction
+1628,1628,1371,Historical
+1629,1629,1371,History And Criticism
+1637,1637,1371,Juvenile Literature
+1640,1640,1371,Korean
+1645,1645,1371,Literature
+1652,1652,1371,Mythology
+1654,1654,1371,Nouvelles
+1672,1672,1371,Poetry
+1673,1673,1371,Poetry (Poetic Works By One Author)
+1674,1674,1371,Poetry / Ancient & Classical
+1677,1677,1371,Readers
+1679,1679,1371,Study Guides
+1682,1682,1371,Traducciones Al Español
+1684,1684,1371,Translations
+1687,1687,1371,Translations Into Chinese
+1690,1690,1371,Translations Into English
+1691,1691,1371,Translations Into French
+1692,1692,1371,Translations Into German
+1698,1698,1371,Translations Into Spanish
+1710,1710,1371,War
+1711,1711,1371,War & Military
+1714,1714,18656031,Fantasy
+1717,1717,18656031,Powieść Fantastyczna Polska
+1718,1718,14781491,Action & Adventure
+1722,1722,14781491,Epic
+1723,1723,14781491,Fantasy
+1726,1726,14781491,Magic
+1727,1727,14781491,Monsters
+1728,1728,14781491,Murder
+1730,1730,14781491,Powieść Fantastyczna Polska
+1731,1731,14781491,Prophecy
+1732,1732,14781491,Suffering
+1733,1733,14781491,Wizards
+1742,1742,19351,Epic Poetry
+1743,1743,19351,Poetry
+1744,1744,19351,Poetry (Poetic Works By One Author)
+1745,1745,19351,Poetry / Ancient & Classical
+1747,1747,19351,Translations Into English
+1750,1750,35959740,Animals
+1754,1754,35959740,Fantasy
+1758,1758,35959740,Fiction / Literary
+1762,1762,35959740,Greek
+1763,1763,35959740,Greek Mythology
+1764,1764,35959740,Greek--Fiction
+1765,1765,35959740,Historical
+1766,1766,35959740,Historical Fiction
+1767,1767,35959740,Literary
+1768,1768,35959740,Magic
+1771,1771,35959740,Mythical Animals
+1773,1773,35959740,Mythology
+1776,1776,35959740,Paranormal Fiction
+1781,1781,35959740,Witches
+1785,1785,597790,British And Irish Fiction (Fictional Works By One Author)
+1787,1787,597790,English Fiction
+1788,1788,597790,Epic
+1790,1790,597790,Fantasy
+1791,1791,597790,Fantasy Fiction
+1794,1794,597790,Incest
+1795,1795,597790,Middle Earth (Imaginary Place)
+1797,1797,597790,Novela Fantástica
+1799,1799,597790,Roman
+1802,1802,597790,Vengeance
+1803,1803,7332,Action & Adventure
+1805,1805,7332,British And Irish Fiction (Fictional Works By One Author)
+1807,1807,7332,Elves
+1809,1809,7332,English Fantasy Fiction
+1810,1810,7332,English Fiction
+1811,1811,7332,English Literature
+1812,1812,7332,Epic
+1814,1814,7332,Fantasy
+1815,1815,7332,Fantasy Fiction
+1819,1819,7332,Middle Earth (Imaginary Place)
+1820,1820,7332,Short Stories
+1822,1822,17184,1866-1946
+1823,1823,17184,20Th Century
+1824,1824,17184,Adaptations
+1826,1826,17184,British And Irish Fiction (Fictional Works By One Author)
+1828,1828,17184,Children'S Fiction
+1829,1829,17184,Ciencia-Ficción
+1830,1830,17184,Classic Literature
+1832,1832,17184,Comic Books
+1834,1834,17184,England
+1835,1835,17184,English Fiction
+1836,1836,17184,English Language
+1837,1837,17184,English Literature
+1838,1838,17184,English Science Fiction
+1839,1839,17184,Experiments
+1841,1841,17184,Fiction / Classics
+1842,1842,17184,Fiction / Horror
+1843,1843,17184,Fiction / Science Fiction / General
+1844,1844,17184,French
+1846,1846,17184,German
+1847,1847,17184,H. G. (Herbert George)
+1848,1848,17184,Historical
+1849,1849,17184,History And Criticism
+1850,1850,17184,Horror Tales
+1851,1851,17184,Juvenile Fiction
+1852,1852,17184,Korean
+1853,1853,17184,Literature And Fiction
+1855,1855,17184,Mentally Ill
+1858,1858,17184,Psychological Fiction
+1859,1859,17184,Readers
+1862,1862,17184,Roman Pour La Jeunesse
+1863,1863,17184,Science
+1866,1866,17184,Science Fiction
+1867,1867,17184,Science Fiction & Fantasy
+1870,1870,17184,Spanish Language
+1871,1871,17184,Strips
+1872,1872,17184,Time Travel
+1873,1873,17184,Wells
+1874,1874,5129,American Fiction (Fictional Works By One Author)
+1878,1878,5129,Audiobooks
+1879,1879,5129,Brainwashing
+1880,1880,5129,British And Irish Fiction (Fictional Works By One Author)
+1885,1885,5129,Ciencia-Ficción
+1887,1887,5129,Classics
+1891,1891,5129,Control (Psychology)
+1894,1894,5129,Dystopia
+1895,1895,5129,Dystopian
+1896,1896,5129,Dystopias
+1898,1898,5129,English Fiction
+1899,1899,5129,English Literature
+1900,1900,5129,English Science Fiction
+1902,1902,5129,Ethics
+1905,1905,5129,Fiction In English
+1909,1909,5129,Genetic Engineering
+1910,1910,5129,Gesellschaft
+1911,1911,5129,History And Criticism
+1915,1915,5129,Literature
+1918,1918,5129,Moral And Ethical Aspects
+1922,1922,5129,Nouvelles
+1925,1925,5129,Political
+1926,1926,5129,Political Fiction
+1928,1928,5129,Psychological
+1929,1929,5129,Psychological Fiction
+1936,1936,5129,Roman
+1938,1938,5129,Satire
+1939,1939,5129,Science
+1941,1941,5129,Science Fiction
+1942,1942,5129,Science-Fiction
+1944,1944,5129,Social Problems
+1946,1946,5129,Totalitarianism
+1947,1947,5129,Totalitarisme
+1949,1949,5129,Utopias
+1951,1951,8908,Epidemics
+1954,1954,8908,Guerras Imaginarias
+1955,1955,8908,Guerres Et Batailles Imaginaires
+1956,1956,8908,Habiletés De Survie
+1957,1957,8908,Horror
+1958,1958,8908,Horror Fiction
+1959,1959,8908,Horror Tales
+1960,1960,8908,Humor
+1961,1961,8908,Imaginary Wars And Battles
+1964,1964,8908,Nouvelles
+1969,1969,8908,Survival
+1970,1970,8908,War
+1971,1971,8908,War & Military
+1973,1973,8908,War Stories
+1975,1975,43263680,Dark Fantasy
+1976,1976,43263680,Fantasy
+1979,1979,43263680,Magic
+1982,1982,43263680,Occult & Supernatural
+1983,1983,43263680,Paranormal
+1984,1984,43263680,Secret Societies
+1985,1985,43263680,Thrillers
+1992,1992,7015403,Self-Acceptance
+1994,1994,7015403,Self-Help
+1997,1997,13588356,Business & Economics
+2005,2005,33,British And Irish Fiction (Fictional Works By One Author)
+2006,2006,33,English
+2007,2007,33,English Fantasy Fiction
+2008,2008,33,English Language
+2009,2009,33,English Literature
+2010,2010,33,Epic
+2011,2011,33,Fantasy
+2012,2012,33,Fantasy Fiction
+2016,2016,33,Fiction In English
+2028,2028,33,Middle Earth (Imaginary Place)
+2030,2030,33,Nouvelles
+2033,2033,33,Quests (Expeditions)
+2038,2038,33,Wizards
+2044,2044,13497818,City And Town Life
+2048,2048,13497818,Death
+2051,2051,13497818,England
+2053,2053,13497818,English Literature
+2056,2056,13497818,Humorous
+2063,2063,13497818,Polish Language Materials
+2064,2064,13497818,Psychological
+2065,2065,13497818,Roman
+2067,2067,13497818,Spanish Language Materials
+2071,2071,61439040,Adaptations
+2074,2074,61439040,Brainwashing
+2075,2075,61439040,British And Irish Drama (Dramatic Works By One Author)
+2076,2076,61439040,British And Irish Fiction (Fictional Works By One Author)
+2079,2079,61439040,Ciencia-Ficción
+2080,2080,61439040,Classic Literature
+2081,2081,61439040,Classics
+2082,2082,61439040,Comic Books
+2084,2084,61439040,Correspondence
+2088,2088,61439040,Drama
+2089,2089,61439040,Dystopian
+2091,2091,61439040,Dystopias
+2094,2094,61439040,English Fiction
+2095,2095,61439040,English Literature
+2098,2098,61439040,English Science Fiction
+2099,2099,61439040,Essays
+2101,2101,61439040,Fantasy
+2108,2108,61439040,Historical
+2110,2110,61439040,History And Criticism
+2111,2111,61439040,Husbands
+2115,2115,61439040,Journalists
+2118,2118,61439040,Literary
+2119,2119,61439040,Literature
+2120,2120,61439040,London (England)
+2122,2122,61439040,Man-Woman Relationships
+2123,2123,61439040,Manuscripts
+2129,2129,61439040,Nouvelles
+2131,2131,61439040,Novela Inglesa
+2134,2134,61439040,Open Syllabus Project
+2137,2137,61439040,Political
+2138,2138,61439040,Political Fiction
+2139,2139,61439040,Political Science
+2143,2143,61439040,Psychological Fiction
+2149,2149,61439040,Satire
+2151,2151,61439040,Science Fiction
+2152,2152,61439040,Short Stories (Single Author)
+2154,2154,61439040,Strips
+2159,2159,61439040,Totalitarianism
+2162,2162,61439040,Totalitarisme
+2164,2164,61439040,Traducciones Al Español
+2166,2166,61439040,Translations Into Russian
+2167,2167,61439040,Translations Into Spanish
+2178,2178,5107,American Fiction
+2179,2179,5107,American Fiction (Fictional Works By One Author)
+2181,2181,5107,Bildungsromans
+2183,2183,5107,Brothers And Sisters
+2186,2186,5107,Chang Pian Xiao Shuo
+2187,2187,5107,Classics
+2188,2188,5107,Coming Of Age
+2189,2189,5107,Conduct Of Life
+2193,2193,5107,Fictional Works
+2195,2195,5107,Fictional Works [Publication Type]
+2205,2205,5107,Interpersonal Relations
+2208,2208,5107,Juvenile Fiction
+2211,2211,5107,New York (N.Y.)
+2213,2213,5107,Nouvelles
+2222,2222,5107,Teenage Boys
+2224,2224,5107,Translations Into Chinese
+2227,2227,7624,Adventure
+2228,2228,7624,Adventure And Adventurers
+2229,2229,7624,Adventure Stories
+2231,2231,7624,Allegories
+2232,2232,7624,Boys
+2233,2233,7624,British And Irish Fiction (Fictional Works By One Author)
+2237,2237,7624,Children
+2238,2238,7624,Death
+2239,2239,7624,English Literature
+2241,2241,7624,Ethics
+2243,2243,7624,Fiction / Action & Adventure
+2244,2244,7624,Fiction / Classics
+2245,2245,7624,Fiction / Psychological
+2247,2247,7624,Good And Evil
+2248,2248,7624,History And Criticism
+2250,2250,7624,Interpersonal Relations
+2253,2253,7624,Leadership
+2254,2254,7624,Literature And Fiction (General)
+2256,2256,7624,Morality
+2258,2258,7624,Psychological
+2259,2259,7624,Psychological Aspects
+2260,2260,7624,Psychological Fiction
+2266,2266,7624,Shipwrecks
+2267,2267,7624,Survival
+2268,2268,7624,Survival After Airplane Accidents
+2270,2270,7624,Thriller
+2277,2277,153747,Action & Adventure
+2278,2278,153747,Action And Adventure
+2279,2279,153747,Adventure And Adventurers
+2282,2282,153747,Allegories
+2284,2284,153747,American Fiction (Fictional Works By One Author)
+2285,2285,153747,American Literature
+2295,2295,153747,Classic Literature
+2296,2296,153747,Comic Books
+2300,2300,153747,Drama
+2303,2303,153747,Epic
+2304,2304,153747,Epic Literature
+2305,2305,153747,Fantasy
+2309,2309,153747,Fictional Works
+2311,2311,153747,Great Books Of The Western World
+2313,2313,153747,Historical
+2314,2314,153747,History
+2315,2315,153747,History And Criticism
+2318,2318,153747,Literature
+2319,2319,153747,Literature And Fiction
+2320,2320,153747,Literature And Fiction (General)
+2322,2322,153747,Mentally Ill
+2327,2327,153747,Nouvelles
+2330,2330,153747,Open Syllabus Project
+2334,2334,153747,Poetry (Poetic Works By One Author)
+2338,2338,153747,Psychological
+2339,2339,153747,Psychological Fiction
+2340,2340,153747,Psychology
+2342,2342,153747,Readers For New Literates
+2346,2346,153747,Reading Level-Grade 8
+2348,2348,153747,Revenge
+2354,2354,153747,Science Fiction & Fantasy
+2358,2358,153747,Shipwrecks
+2360,2360,153747,Strips
+2362,2362,153747,Translations Into French
+2377,2377,6892870,Political
+2379,2379,6892870,Revenge
+2381,2381,6892870,Thrillers
+2382,2382,13624688,American Fantasy Fiction
+2383,2383,13624688,Amerikanisches Englisch
+2384,2384,13624688,Fantasy
+2385,2385,13624688,Fantasy Fiction
+2386,2386,13624688,Fantasía
+2394,2394,13624688,Magic
+2396,2396,13624688,Nouvelles
+2398,2398,13624688,Polish Language Materials
+2399,2399,13624688,Redemption
+2400,2400,13624688,Roman
+2405,2405,13624688,Spirituality
+2410,2410,375802,American
+2411,2411,375802,American Science Fiction
+2412,2412,375802,Amerikanisches Englisch
+2413,2413,375802,Artificial Intelligence
+2417,2417,375802,Award:Hugo Award=Novel
+2418,2418,375802,Award:Nebula Award=Novel
+2421,2421,375802,Brothers And Sisters
+2423,2423,375802,Children'S Stories
+2424,2424,375802,Ciencia-Ficción
+2426,2426,375802,End Of The World
+2431,2431,375802,Genetic Engineering
+2432,2432,375802,Hard Science Fiction
+2435,2435,375802,Hugo Award Winner
+2448,2448,375802,Reading Level-Grade 7
+2449,2449,375802,Reading Level-Grade 8
+2451,2451,375802,Science Fiction
+2453,2453,375802,Siblings
+2454,2454,375802,Space Warfare
+2459,2459,8909,1866-1946
+2461,2461,8909,Action & Adventure
+2462,2462,8909,Adaptations
+2463,2463,8909,Adventure And Adventurers
+2465,2465,8909,British And Irish Fiction (Fictional Works By One Author)
+2466,2466,8909,Children'S Fiction
+2467,2467,8909,Classic Literature
+2468,2468,8909,Comic Books
+2469,2469,8909,Diseases
+2471,2471,8909,English Language
+2472,2472,8909,English Literature
+2473,2473,8909,English Science Fiction
+2474,2474,8909,Examinations
+2475,2475,8909,Extraterrestrial Beings
+2476,2476,8909,Fantasy
+2480,2480,8909,Graphic Novels
+2483,2483,8909,Guerras Imaginarias
+2484,2484,8909,H. G. (Herbert George)
+2485,2485,8909,Human-Alien Encounters
+2486,2486,8909,Imaginary Wars And Battles
+2487,2487,8909,Imaginary Wars And Battles -- Fiction
+2491,2491,8909,Juvenile Fiction
+2492,2492,8909,Life On Other Planets
+2493,2493,8909,Literature
+2500,2500,8909,Open Syllabus Project
+2505,2505,8909,Science Fiction
+2506,2506,8909,Science Fiction & Fantasy
+2509,2509,8909,Space Warfare
+2512,2512,8909,Strips
+2513,2513,8909,Study Guides
+2515,2515,8909,War
+2516,2516,8909,War & Military
+2517,2517,8909,War Stories
+2518,2518,8909,Wells
+2519,2519,26082916,Action & Adventure
+2521,2521,26082916,Dystopian
+2522,2522,26082916,Dystopias
+2523,2523,26082916,Décadence
+2528,2528,26082916,Nouvelles
+2530,2530,26082916,Regression (Civilization)
+2533,2533,26082916,Science Fiction
+2536,2536,26082916,Thrillers
+2538,2538,26082916,Utopias
+2541,2541,17332218,Epic
+2542,2542,17332218,Epic Fantasy
+2543,2543,17332218,Fantasy
+2544,2544,17332218,Fantasy Fiction
+2548,2548,17332218,Guerres Et Batailles Imaginaires
+2549,2549,17332218,High Fantasy
+2550,2550,17332218,Imaginary Wars And Battles
+2551,2551,17332218,Imaginary Wars And Battles -- Fiction
+2552,2552,17332218,Life On Other Planets
+2553,2553,17332218,Magic
+2555,2555,17332218,Nouvelles
+2557,2557,7235533,American Literature
+2558,2558,7235533,Epic
+2559,2559,7235533,Epic Fantasy
+2560,2560,7235533,Fantasy
+2563,2563,7235533,High Fantasy
+2564,2564,7235533,Imaginary Places
+2565,2565,7235533,Imaginary Wars And Battles
+2566,2566,7235533,Kings And Rulers
+2567,2567,7235533,Magic
+2568,2568,7235533,Manuscripts
+2570,2570,7235533,Series:Stormlight Archive
+2571,2571,7235533,Slavery
+2575,2575,9590632,Gay Men
+2576,2576,9590632,Gays
+2579,2579,873809,Action & Adventure
+2580,2580,873809,Dune (Imaginary Place)
+2583,2583,873809,Literature
+2584,2584,873809,Science Fiction
+2585,2585,44492287,American Science Fiction
+2586,2586,44492287,Anglais (Langue)
+2587,2587,44492287,Dune (Imaginary Place)
+2591,2591,44492287,Imaginary Places
+2592,2592,44492287,Nouvelles
+2593,2593,44492287,Roman AméRicain
+2595,2595,44492287,Science Fiction
+2596,2596,44492287,Science-Fiction AméRicaine
+2606,2606,40293,Science Fiction
+2607,2607,40293,Spanish
+2609,2609,40293,Time Travel
+2611,2611,76658,American Fantasy Fiction
+2612,2612,76658,Death
+2613,2613,76658,Fantasy
+2616,2616,76658,Magic
+2621,2621,29100194,Psychology
+2623,2623,29100194,Social Psychology
+2630,2630,849380,Family & Relationships
+2634,2634,849380,Interpersonal Relations
+2635,2635,849380,Intimacy (Psychology)
+2636,2636,849380,Man-Woman Relationships
+2638,2638,849380,Marriage
+2640,2640,849380,Married People
+2646,2646,849380,Nonfiction
+2649,2649,849380,Psychologie
+2650,2650,849380,Psychology
+2651,2651,849380,Relaciones Hombre-Mujer
+2657,2657,26152839,Children'S Fiction
+2658,2658,26152839,Dragons
+2659,2659,26152839,Fantasy
+2660,2660,26152839,Fantasy Fiction
+2662,2662,26152839,Juvenile Fiction
+2664,2664,26152839,Young Adult Fiction
+2665,2665,44439415,American Science Fiction
+2666,2666,44439415,Dune (Imaginary Place)
+2670,2670,44439415,Lectures Et Morceaux Choisis
+2672,2672,44439415,Roman
+2673,2673,44439415,Science Fiction
+2674,2674,44439415,Science-Fiction
+2676,2676,10239382,Hiking
+2677,2677,44492286,American Science Fiction
+2678,2678,44492286,Dune (Imaginary Place)
+2679,2679,44492286,Fantasy
+2681,2681,44492286,Fiction In English
+2686,2686,44492286,Reading Level-Grade 7
+2687,2687,44492286,Reading Level-Grade 8
+2689,2689,44492286,Science Fiction
+2690,2690,44492285,American Science Fiction
+2691,2691,44492285,Anglais (Langue)
+2692,2692,44492285,Dune (Imaginary Place)
+2696,2696,44492285,Imaginary Places
+2697,2697,44492285,Lectures Et Morceaux Choisis
+2701,2701,44492285,Roman AméRicain
+2702,2702,44492285,Science Fiction
+2704,2704,44492285,Science-Fiction AméRicaine
+2705,2705,44492285,Translations Into Russian
+2707,2707,44767458,American Literature
+2708,2708,44767458,American Science Fiction
+2710,2710,44767458,Award:Hugo Award=Novel
+2711,2711,44767458,Award:Nebula Award=Novel
+2712,2712,44767458,Dune (Imaginary Place)
+2714,2714,44767458,Fantasy Fiction
+2717,2717,44767458,Hugo Award Winner
+2721,2721,44767458,Science Fiction
+2722,2722,44767458,Science-Fiction
+2725,2725,8520610,Interpersonal Relations
+2734,2734,8520610,Popular Works
+2737,2737,8520610,Psychology
+2740,2740,8520610,Self-Actualization (Psychology)
+2744,2744,7664041,American Fantasy Fiction
+2745,2745,7664041,Children'S Fiction
+2746,2746,7664041,Dragons
+2747,2747,7664041,Fantasy
+2748,2748,7664041,Fantasy Fiction
+2750,2750,7664041,Imaginary Places
+2752,2752,7664041,Juvenile Fiction
+2753,2753,7664041,Magic
+2756,2756,7664041,Young Adult Fiction
+2759,2759,2248573,Bedrohung
+2760,2760,2248573,Children'S Fiction
+2762,2762,2248573,Das Gute
+2763,2763,2248573,Drache
+2764,2764,2248573,Dragones
+2765,2765,2248573,Dragons
+2766,2766,2248573,Dragons -- Fiction
+2767,2767,2248573,Erwachsenwerden
+2769,2769,2248573,Etc. Pour La Jeunesse
+2770,2770,2248573,Fantasmes
+2771,2771,2248573,Fantasy
+2772,2772,2248573,Fantasy Fiction
+2773,2773,2248573,Ficción Juvenil
+2775,2775,2248573,Flucht
+2776,2776,2248573,Good And Evil
+2777,2777,2248573,Juvenile Fiction
+2779,2779,2248573,Loyalty
+2780,2780,2248573,Magia
+2781,2781,2248573,Magic
+2784,2784,2248573,Nouvelles
+2785,2785,2248573,Novela Fantástica
+2787,2787,2248573,Teenage Fiction
+2789,2789,2248573,Young Adult Fiction
+2791,2791,2248573,Youths' Writings
+2792,2792,45978,Action & Adventure
+2794,2794,45978,Animals
+2795,2795,45978,Chang Pian Xiao Shuo
+2796,2796,45978,Children'S Fiction
+2797,2797,45978,Dragones
+2798,2798,45978,Dragons
+2799,2799,45978,Dragons -- Fiction
+2800,2800,45978,Fantasy
+2801,2801,45978,Fantasy Fiction
+2802,2802,45978,Fantasía
+2803,2803,45978,Ficción Juvenil
+2806,2806,45978,Imaginary Places
+2807,2807,45978,Juvenile Fiction
+2808,2808,45978,Magic
+2809,2809,45978,Mythical Creatures
+2812,2812,45978,Novela Juvenil
+2814,2814,45978,Spanish Language Materials
+2815,2815,45978,Teenagers
+2816,2816,45978,Traducciones Al Español
+2817,2817,45978,Young Adult Fiction
+2818,2818,45978,Young Men
+2819,2819,45978,Youths' Writings
+2820,2820,11449,American Short Stories
+2822,2822,11449,English Literature
+2826,2826,11449,Short Stories
+2828,2828,113436,& Magic
+2829,2829,113436,Action & Adventure
+2830,2830,113436,Adventure
+2831,2831,113436,Adventure And Adventurers
+2832,2832,113436,American Fantasy Fiction
+2833,2833,113436,American Fiction
+2834,2834,113436,Animals
+2835,2835,113436,Bedrohung
+2836,2836,113436,Children'S Fiction
+2838,2838,113436,Das Gute
+2839,2839,113436,Drache
+2840,2840,113436,Dragones
+2841,2841,113436,Dragons
+2843,2843,113436,Elves
+2844,2844,113436,Epic
+2845,2845,113436,Erwachsenwerden
+2846,2846,113436,Etc. Pour La Jeunesse
+2849,2849,113436,Fantasmes
+2850,2850,113436,Fantasy
+2851,2851,113436,Fantasy - General
+2852,2852,113436,Fantasy Fiction
+2853,2853,113436,Ficción Juvenil
+2858,2858,113436,Flucht
+2859,2859,113436,German Language Materials
+2861,2861,113436,Humans
+2863,2863,113436,Juvenile Fiction
+2864,2864,113436,Juvenile Literature
+2865,2865,113436,Magia
+2866,2866,113436,Magic
+2867,2867,113436,Mythical Creatures
+2870,2870,113436,Nouvelles
+2871,2871,113436,Novela Fantástica
+2872,2872,113436,Novela Juvenil
+2877,2877,113436,Reading Level-Grade 6
+2878,2878,113436,Reading Level-Grade 7
+2879,2879,113436,Reading Level-Grade 8
+2881,2881,113436,Roman Pour La Jeunesse
+2883,2883,113436,Science Fiction
+2884,2884,113436,Spanish Language Materials
+2886,2886,113436,Translations Into German
+2887,2887,113436,Violence
+2888,2888,113436,War
+2889,2889,113436,Young Adult Fiction
+2890,2890,113436,Young Men
+2891,2891,113436,Youths' Writings
+2894,2894,238137,Crime
+2895,2895,238137,Dallas
+2896,2896,238137,Detective And Mystery Stories
+2897,2897,238137,Eve (Fictitious Character)
+2898,2898,238137,Eve Dallas (Fictitious Character)
+2902,2902,238137,Mystery & Detective
+2903,2903,238137,Mystery Fiction
+2904,2904,238137,New York (State)
+2906,2906,238137,Police
+2907,2907,238137,Police Procedural
+2908,2908,238137,Policewomen
+2909,2909,238137,Women Detectives
+2911,2911,18143977,1939-1945
+2912,2912,18143977,American Fiction
+2913,2913,18143977,Amerikanisches Englisch
+2915,2915,18143977,Bildungsromans
+2917,2917,18143977,Children
+2921,2921,18143977,Fathers And Daughters
+2925,2925,18143977,Fiction / Literary
+2927,2927,18143977,Friendship
+2932,2932,18143977,Guerre Mondiale
+2933,2933,18143977,Histoire
+2934,2934,18143977,Historia
+2935,2935,18143977,Historical
+2936,2936,18143977,Historical Fiction
+2937,2937,18143977,History
+2941,2941,18143977,Literary
+2944,2944,18143977,Nouvelles
+2946,2946,18143977,Novela Histórica
+2954,2954,18143977,Roman
+2956,2956,18143977,Survival
+2958,2958,18143977,World War
+2961,2961,119322,& Magic
+2962,2962,119322,Action & Adventure
+2964,2964,119322,Adventure
+2965,2965,119322,Adventure Stories
+2967,2967,119322,Amitié
+2973,2973,119322,Bien Y Mal
+2975,2975,119322,Children
+2980,2980,119322,Children'S Fiction
+2981,2981,119322,Children'S Stories
+2985,2985,119322,Demonology
+2987,2987,119322,English
+2988,2988,119322,English Fantasy Fiction
+2991,2991,119322,Etc. Pour La Jeunesse
+2993,2993,119322,Experiments
+2995,2995,119322,Fantasy
+2996,2996,119322,Fantasy - General
+2997,2997,119322,Fantasy Fiction
+2998,2998,119322,Ficción Juvenil
+3002,3002,119322,Geographical Myths
+3003,3003,119322,Good And Evil
+3005,3005,119322,Horror
+3006,3006,119322,Imaginary Places
+3008,3008,119322,Juvenile Fiction
+3012,3012,119322,Juvenile Literature
+3017,3017,119322,Large Print Books
+3025,3025,119322,Magia
+3026,3026,119322,Magic
+3030,3030,119322,Missing Persons
+3034,3034,119322,Mythical Animals
+3037,3037,119322,Nouvelles
+3038,3038,119322,Novela Fantástica
+3040,3040,119322,Novela Juvenil
+3044,3044,119322,Personas Desaparecidas
+3045,3045,119322,Personnes Disparues
+3048,3048,119322,Quests (Expeditions)
+3049,3049,119322,Readers
+3054,3054,119322,Science
+3055,3055,119322,Science Fiction
+3058,3058,119322,Spanish Language
+3059,3059,119322,Spanish Language Materials
+3061,3061,119322,Survival
+3063,3063,119322,Teenage Fiction
+3066,3066,119322,Traducciones Al Español
+3070,3070,119322,Witches
+3071,3071,119322,Young Adult Fiction
+3073,3073,5060378,Adventure
+3076,3076,5060378,Computer Hackers
+3077,3077,5060378,Crime
+3078,3078,5060378,Crime Fiction
+3084,3084,5060378,Fictional Works
+3086,3086,5060378,Hackers
+3089,3089,5060378,Investigation
+3091,3091,5060378,Journalists
+3092,3092,5060378,Lisbeth Salander (Fictitious Character)
+3093,3093,5060378,Mikael Blomqvist (Fictitious Character)
+3094,3094,5060378,Murder
+3099,3099,5060378,Stockholm (Sweden)
+3100,3100,5060378,Suspense
+3101,3101,5060378,Suspense Fiction
+3102,3102,5060378,Thrillers
+3106,3106,5060378,Violence
+3109,3109,2429135,Audiobooks
+3117,3117,2429135,Computer Hackers
+3120,3120,2429135,Crime
+3121,3121,2429135,Crime Fiction
+3122,3122,2429135,Death
+3124,3124,2429135,Disappeared Persons
+3127,3127,2429135,Families
+3128,3128,2429135,Family Secrets
+3132,3132,2429135,Fictional Works
+3133,3133,2429135,Finance
+3136,3136,2429135,German Language Materials
+3137,3137,2429135,Hackers
+3142,3142,2429135,Investigation
+3147,3147,2429135,Journalists
+3150,3150,2429135,Justice
+3156,3156,2429135,Lisbeth Salander (Fictitious Character)
+3159,3159,2429135,Mikael Blomqvist (Fictitious Character)
+3161,3161,2429135,Missing Persons
+3163,3163,2429135,Murder
+3164,3164,2429135,Mystery
+3165,3165,2429135,Mystery & Detective
+3166,3166,2429135,Mystery Fiction
+3168,3168,2429135,Nouvelles
+3170,3170,2429135,Novels
+3171,3171,2429135,Personas Desaparecidas
+3172,3172,2429135,Personnes Disparues
+3180,3180,2429135,Revenge
+3182,3182,2429135,Rich People
+3186,3186,2429135,Secrecy
+3189,3189,2429135,Spanish Language
+3190,3190,2429135,Spanish Language Materials
+3191,3191,2429135,Stockholm (Sweden)
+3192,3192,2429135,Suspense
+3193,3193,2429135,Suspense Fiction
+3197,3197,2429135,Thriller
+3198,3198,2429135,Thrillers
+3199,3199,2429135,Translations Into English
+3209,3209,17245,Action & Adventure
+3210,3210,17245,Adaptations
+3214,3214,17245,British And Irish Drama (Dramatic Works By One Author)
+3215,3215,17245,British And Irish Fiction (Fictional Works By One Author)
+3216,3216,17245,Classics
+3220,3220,17245,Criticism And Interpretation
+3221,3221,17245,Dictionaries
+3227,3227,17245,Drama
+3228,3228,17245,England
+3230,3230,17245,English Language
+3231,3231,17245,English Literature
+3233,3233,17245,Fantasy
+3236,3236,17245,French
+3238,3238,17245,German
+3242,3242,17245,Historical
+3243,3243,17245,History And Criticism
+3244,3244,17245,Horror
+3245,3245,17245,Horror Fiction
+3247,3247,17245,Horror Tales
+3251,3251,17245,Literary Criticism
+3252,3252,17245,Literature
+3254,3254,17245,Monsters
+3255,3255,17245,Nouvelles
+3257,3257,17245,Psychological
+3258,3258,17245,Psychological Fiction
+3259,3259,17245,Readers For New Literates
+3265,3265,17245,Science Fiction
+3266,3266,17245,Spanish
+3271,3271,17245,Thriller
+3272,3272,17245,Vampires
+3275,3275,238140,Crime
+3276,3276,238140,Dallas
+3277,3277,238140,Eve (Fictitious Character)
+3278,3278,238140,Eve Dallas (Fictitious Character)
+3282,3282,238140,Mystery & Detective
+3283,3283,238140,New York (N.Y.)
+3284,3284,238140,New York (State)
+3285,3285,238140,Nouvelles
+3287,3287,238140,Police
+3288,3288,238140,Police Procedural
+3289,3289,238140,Policewomen
+3292,3292,238140,Women Detectives
+3294,3294,133518,1961-1975
+3295,3295,133518,American Short Stories
+3297,3297,133518,Amitié Masculine
+3299,3299,133518,Family Life
+3301,3301,133518,Fictional Works
+3304,3304,133518,Male Friendship
+3305,3305,133518,Married People
+3308,3308,133518,Missing Persons
+3309,3309,133518,Nouvelles
+3312,3312,133518,Psychological
+3319,3319,133518,Short Stories
+3320,3320,133518,Short Stories (Single Author)
+3321,3321,133518,Soldiers
+3323,3323,133518,Veterans
+3325,3325,133518,Vietnam War
+3326,3326,133518,War
+3330,3330,6498356,Eve Dallas (Fictitious Character)
+3333,3333,6498356,Missing Persons
+3334,3334,6498356,Police
+3335,3335,6498356,Policewomen
+3336,3336,6498356,Suspense Fiction
+3340,3340,7445,Alcoholism
+3342,3342,7445,Biografía
+3344,3344,7445,Biographies
+3345,3345,7445,Biography
+3346,3346,7445,Biography & Autobiography
+3351,3351,7445,Childhood And Youth
+3364,3364,7445,Extraterrestrial Beings
+3368,3368,7445,Families
+3388,3388,7445,Journalists
+3395,3395,7445,Personal Narratives
+3399,3399,7445,Poor
+3401,3401,7445,Poverty
+3410,3410,7445,Rural Poor
+3412,3412,7445,Science Fiction
+3413,3413,7445,Social Problems
+3415,3415,7445,Survival
+3416,3416,7445,United States
+3418,3418,7445,Walls
+3419,3419,7445,War
+3421,3421,7445,Women Journalists
+3428,3428,1150161,Mystery Fiction
+3433,3433,19286587,Coming Of Age
+3434,3434,19286587,Cultural Heritage
+3436,3436,19286587,Families
+3437,3437,19286587,Family Life
+3438,3438,19286587,Female Friendship
+3440,3440,19286587,Fiction / Coming Of Age
+3442,3442,19286587,Friendship
+3454,3454,168981,Business & Economics
+3455,3455,168981,Choice (Psychology)
+3456,3456,168981,Decision Making
+3458,3458,168981,Responsibility
+3459,3459,35356383,Adventure
+3462,3462,35356383,Biography & Autobiography
+3464,3464,35356383,Description And Travel
+3465,3465,35356383,Literary
+3467,3467,35356383,Personal Memoirs
+3468,3468,35356383,Self-Actualization (Psychology)
+3470,3470,35356383,Travel
+3471,3471,39715684,Self-Help
+3472,3472,3153910,American Fiction
+3473,3473,3153910,Animals
+3475,3475,3153910,Custody Of Children
+3481,3481,3153910,Literature
+3485,3485,51326977,Action & Adventure
+3488,3488,51326977,Historical
+3495,3495,51113,Historia
+3496,3496,51113,Historical
+3497,3497,51113,History
+3499,3499,51113,Man-Woman Relationships
+3500,3500,51113,Novela Histórica
+3502,3502,51113,Relaciones Hombre-Mujer
+3503,3503,51113,Romance
+3504,3504,51113,Travel
+3507,3507,19288043,Amerikanisches Englisch
+3508,3508,19288043,Chang Pian Xiao Shuo
+3513,3513,19288043,Disappeared Persons
+3522,3522,19288043,Husbands
+3524,3524,19288043,Marriage
+3525,3525,19288043,Married People
+3526,3526,19288043,Missing Persons
+3527,3527,19288043,Mystery & Detective
+3529,3529,19288043,Mystery Fiction
+3535,3535,19288043,Roman
+3537,3537,19288043,Suspense
+3538,3538,19288043,Suspense Fiction
+3539,3539,19288043,Thrillers
+3542,3542,12262741,Adventure
+3543,3543,12262741,American
+3545,3545,12262741,Authors
+3547,3547,12262741,Biography
+3548,3548,12262741,Biography & Autobiography
+3551,3551,12262741,Description And Travel
+3555,3555,12262741,Hiking
+3556,3556,12262741,Literary
+3557,3557,12262741,Literary Criticism
+3563,3563,12262741,Personal Memoirs
+3565,3565,12262741,Travel
+3572,3572,40102,Business
+3574,3574,40102,Decision Making
+3579,3579,40102,History
+3586,3586,40102,Leadership
+3589,3589,40102,Nonfiction
+3592,3592,40102,Personal Growth
+3594,3594,40102,Popular Works
+3595,3595,40102,Prise De Décision
+3598,3598,40102,Psychology
+3602,3602,40102,Self-Help
+3603,3603,40102,Social Psychology
+3607,3607,29780253,Biographies
+3608,3608,29780253,Biography
+3609,3609,29780253,Biography & Autobiography
+3611,3611,29780253,Childhood And Youth
+3615,3615,29780253,Essays
+3616,3616,29780253,Ethnic & Regional
+3617,3617,29780253,History
+3618,3618,29780253,Humor
+3627,3627,29780253,Personal Memoirs
+3629,3629,29780253,Social Conditions
+3633,3633,27214080,Biography
+3634,3634,27214080,Biography & Autobiography
+3641,3641,27214080,United States
+3648,3648,34273236,Cultural Heritage
+3649,3649,34273236,Custody Of Children
+3652,3652,34273236,Family Life
+3653,3653,34273236,Family Secrets
+3654,3654,34273236,Female Friendship
+3656,3656,34273236,Fiction / Literary
+3657,3657,34273236,Friendship
+3660,3660,34273236,Literary
+3662,3662,34273236,Mothers And Daughters
+3665,3665,34273236,Secrecy
+3669,3669,6288,Adventure
+3670,3670,6288,American Fiction (Fictional Works By One Author)
+3674,3674,6288,Description And Travel
+3676,3676,6288,Dystopia
+3677,3677,6288,Dystopian
+3678,3678,6288,Ethics
+3686,3686,6288,Horror
+3689,3689,6288,Literary Fiction
+3693,3693,6288,Novels
+3699,3699,6288,Reading Level-Grade 6
+3700,3700,6288,Reading Level-Grade 7
+3701,3701,6288,Reading Level-Grade 8
+3703,3703,6288,Regression (Civilization)
+3707,3707,6288,Science Fiction
+3708,3708,6288,Survival
+3710,3710,6288,Travel
+3711,3711,6288,Voyages And Travels
+3714,3714,36124936,Crime
+3716,3716,36124936,Fantasy
+3719,3719,36124936,Horror
+3720,3720,36124936,Investigation
+3722,3722,36124936,Murder
+3723,3723,36124936,Mystery
+3724,3724,36124936,Mystery Thriller
+3730,3730,36124936,Supernatural
+3731,3731,36124936,Suspense
+3732,3732,36124936,Thriller
+3733,3733,36124936,Thrillers
+3734,3734,40097951,Artists
+3738,3738,40097951,Fiction / Thrillers / Psychological
+3739,3739,40097951,Fiction / Thrillers / Suspense
+3741,3741,40097951,London (England)
+3742,3742,40097951,Marriage
+3744,3744,40097951,Psychological
+3746,3746,40097951,Thrillers
+3750,3750,39863488,Brothers
+3754,3754,39863488,Psychological
+3755,3755,39863488,Thrillers
+3757,3757,43848929,Conduct Of Life
+3759,3759,43848929,Interpersonal Relations
+3764,3764,43848929,Social Psychology
+3765,3765,43848929,Social Science
