@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Submitting Yelp dataset analysis">
-      <change afterPath="$PROJECT_DIR$/datasets/garmin_connect/garmin_dataset.ipynb" afterDir="false" />
+    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Adding goodreads project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twbx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/Chicago Traffic Accident Analysis.twbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_data_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_data_CLEAN.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765361428226</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Adding goodreads project">
+      <option name="closed" value="true" />
+      <created>1765463732988</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1765463732988</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,6 +479,7 @@
     <MESSAGE value="Adding twbx for chicago accident analysi" />
     <MESSAGE value="finishing touches" />
     <MESSAGE value="Submitting Yelp dataset analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Submitting Yelp dataset analysis" />
+    <MESSAGE value="Adding goodreads project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding goodreads project" />
   </component>
 </project>
