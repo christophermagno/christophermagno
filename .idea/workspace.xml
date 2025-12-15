@@ -4,27 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="Updating goodreads project to be more library like and fixed some Date Read values">
-      <change afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset_fix_categories.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/health_dataset/health_dataset.ipynb" afterDir="false" />
+    <list default="true" id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="Test submitting">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/garmin_connect/garmin_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/health_dataset/garmin_dataset.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_categories_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_categories_CLEAN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_stars.png" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Chicago Traffic Accident Analysis/chicago_stars.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Chicago Traffic Accident Analysis/chicago_traffic_crashes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_categories_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/my_books_categories_CLEAN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_data_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/my_books_data_CLEAN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads_dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset_fix_categories.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads_dataset_fix_categories.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_library_export.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads_library_export.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/health_dataset/health_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/health_dataset/health_dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs_CLEAN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset_CLEAN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="Jupyter Notebook" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,14 +41,14 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/christophermagno/MagnoDataAnalystPortfolio.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/christophermagno/christophermagno.git&quot;,
     &quot;accountId&quot;: &quot;e5c43ce2-31af-495c-a179-fddda5b943a1&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="32Yyl6VAoKPJwiJzqd4kPZk7KO5" />
+  <component name="ProjectId" id="36tuNP4ir8DA1zlXBGaF8Nqiy9H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,151 +56,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python._tmp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.imdb.executor&quot;: &quot;Run&quot;,
-    &quot;Python.performance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tools.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/christophermagno/PycharmProjects/MagnoDataAnalystPortfolio/datasets&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/datasets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/datasets/san_francisco_budget" />
-      <recent name="$PROJECT_DIR$/datasets/chicago_traffic_crashes" />
-      <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/datasets/My Bookshelf" />
     </key>
-  </component>
-  <component name="RunManager" selected="Python._tmp">
-    <configuration name="_tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MagnoDataAnalystPortfolio" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_tmp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MagnoDataAnalystPortfolio" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/gui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="performance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MagnoDataAnalystPortfolio" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/performance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MagnoDataAnalystPortfolio" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MagnoDataAnalystPortfolio" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library/tools.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python._tmp" />
-        <item itemvalue="Python.gui" />
-        <item itemvalue="Python.performance" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.tools" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -207,292 +75,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="55efdc12-7ff1-4f6e-a559-249f3b9c0f79" name="Changes" comment="" />
-      <created>1757611948803</created>
+      <changelist id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="" />
+      <created>1765838148562</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1757611948803</updated>
+      <updated>1765838148562</updated>
     </task>
-    <task id="LOCAL-00001" summary="1st submit testing">
+    <task id="LOCAL-00001" summary="Test submitting">
       <option name="closed" value="true" />
-      <created>1757612080643</created>
+      <created>1765838585809</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1757612080643</updated>
+      <updated>1765838585809</updated>
     </task>
-    <task id="LOCAL-00002" summary="1st submit testing">
-      <option name="closed" value="true" />
-      <created>1757612166890</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1757612166890</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Finished cleaning of data">
-      <option name="closed" value="true" />
-      <created>1757799733150</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1757799733150</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Deleting of unneeded file">
-      <option name="closed" value="true" />
-      <created>1757799795319</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1757799795319</updated>
-    </task>
-    <task id="LOCAL-00005" summary="First pass on cleaning of chicago traffic crashes dataset.&#10;Added new helper functions to tools module.">
-      <option name="closed" value="true" />
-      <created>1757886743284</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1757886743284</updated>
-    </task>
-    <task id="LOCAL-00006" summary="First pass on cleaning of chicago traffic crashes dataset.&#10;Added new helper functions to tools module.">
-      <option name="closed" value="true" />
-      <created>1757887190128</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1757887190128</updated>
-    </task>
-    <task id="LOCAL-00007" summary="First pass on cleaning of chicago traffic crashes dataset.&#10;Added new helper functions to tools module.">
-      <option name="closed" value="true" />
-      <created>1757887793535</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1757887793535</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Adding sample output of final cleaned table for chicago traffic crashes">
-      <option name="closed" value="true" />
-      <created>1757887943529</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1757887943529</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Removing unnecessary cleaning on imdb dataset and adding a more appropriate filler value for NaT Timestamps">
-      <option name="closed" value="true" />
-      <created>1757888816813</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1757888816813</updated>
-    </task>
-    <task id="LOCAL-00010" summary="One more time..">
-      <option name="closed" value="true" />
-      <created>1757888952635</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1757888952635</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Bug fixes and adding functions to tools module with better handling of Null values. Adding more helper functions. Updating modules.">
-      <option name="closed" value="true" />
-      <created>1758131385470</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1758131385470</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Adding more helper functions with getting duplicate entries and gathering data type information on DataFrame and Series">
-      <option name="closed" value="true" />
-      <created>1758217319110</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1758217319110</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Adding more helper functions with getting duplicate entries and gathering data type information on DataFrame and Series">
-      <option name="closed" value="true" />
-      <created>1758217348553</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1758217348553</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Small updates. Moving databases to their own directory">
-      <option name="closed" value="true" />
-      <created>1758229573362</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1758229573362</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Adding a few more helper functions. Updating documentation.">
-      <option name="closed" value="true" />
-      <created>1758318405933</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1758318405933</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Adding more helper functions. Cleaning more databases as practice.">
-      <option name="closed" value="true" />
-      <created>1758416511251</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1758416511251</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Small refactor, updating documentation, bug fixes">
-      <option name="closed" value="true" />
-      <created>1758440610830</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1758440610830</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Adding messy and cleaned datasets">
-      <option name="closed" value="true" />
-      <created>1758440839993</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1758440839993</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Making data_err_rate(s) functions more robust. More documentation.">
-      <option name="closed" value="true" />
-      <created>1758467507052</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1758467507053</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Small update and adding err_counter to api">
-      <option name="closed" value="true" />
-      <created>1758488822612</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1758488822612</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Small update, updating documentation, and adding err_counter to api">
-      <option name="closed" value="true" />
-      <created>1758488945494</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1758488945494</updated>
-    </task>
-    <task id="LOCAL-00022" summary="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions">
-      <option name="closed" value="true" />
-      <created>1758539901556</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1758539901556</updated>
-    </task>
-    <task id="LOCAL-00023" summary="bug fixes">
-      <option name="closed" value="true" />
-      <created>1758926401682</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1758926401682</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Finalizing chicago traffic accident analysis">
-      <option name="closed" value="true" />
-      <created>1765073266621</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1765073266621</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Adding twbx for chicago accident analysi">
-      <option name="closed" value="true" />
-      <created>1765130822128</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1765130822128</updated>
-    </task>
-    <task id="LOCAL-00026" summary="finishing touches">
-      <option name="closed" value="true" />
-      <created>1765143393997</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1765143393997</updated>
-    </task>
-    <task id="LOCAL-00027" summary="finishing touches">
-      <option name="closed" value="true" />
-      <created>1765150239507</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1765150239507</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Submitting Yelp dataset analysis">
-      <option name="closed" value="true" />
-      <created>1765361428226</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1765361428226</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Adding goodreads project">
-      <option name="closed" value="true" />
-      <created>1765463732988</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1765463732988</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Updating goodreads project to be more library like and fixed some Date Read values">
-      <option name="closed" value="true" />
-      <created>1765500239457</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1765500239457</updated>
-    </task>
-    <option name="localTasksCounter" value="31" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1st submit testing" />
-    <MESSAGE value="Finished cleaning of data" />
-    <MESSAGE value="Deleting of unneeded file" />
-    <MESSAGE value="First pass on cleaning of chicago traffic crashes dataset.&#10;Added new helper functions to tools module." />
-    <MESSAGE value="Adding sample output of final cleaned table for chicago traffic crashes" />
-    <MESSAGE value="Removing unnecessary cleaning on imdb dataset and adding a more appropriate filler value for NaT Timestamps" />
-    <MESSAGE value="One more time.." />
-    <MESSAGE value="Bug fixes and adding functions to tools module with better handling of Null values. Adding more helper functions. Updating modules." />
-    <MESSAGE value="Adding more helper functions with getting duplicate entries and gathering data type information on DataFrame and Series" />
-    <MESSAGE value="Small updates. Moving databases to their own directory" />
-    <MESSAGE value="Adding a few more helper functions. Updating documentation." />
-    <MESSAGE value="Adding more helper functions. Cleaning more databases as practice." />
-    <MESSAGE value="Small refactor, updating documentation, bug fixes" />
-    <MESSAGE value="Adding messy and cleaned datasets" />
-    <MESSAGE value="Making data_err_rate(s) functions more robust. More documentation." />
-    <MESSAGE value="Small update and adding err_counter to api" />
-    <MESSAGE value="Small update, updating documentation, and adding err_counter to api" />
-    <MESSAGE value="more small update. making logger module more robust. Adding timer context manager/wrapper to help time functions" />
-    <MESSAGE value="bug fixes" />
-    <MESSAGE value="Finalizing chicago traffic accident analysis" />
-    <MESSAGE value="Adding twbx for chicago accident analysi" />
-    <MESSAGE value="finishing touches" />
-    <MESSAGE value="Submitting Yelp dataset analysis" />
-    <MESSAGE value="Adding goodreads project" />
-    <MESSAGE value="Updating goodreads project to be more library like and fixed some Date Read values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating goodreads project to be more library like and fixed some Date Read values" />
+    <MESSAGE value="Test submitting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test submitting" />
   </component>
 </project>
