@@ -4,32 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="Test submitting">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="Cleaning up files and renaming to project names">
+      <change afterPath="$PROJECT_DIR$/Projects/Chicago Traffic Accident Analysis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/github-dark-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/github-light-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/linkedin-dark-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/linkedin-light-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tableau-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_stars.png" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Chicago Traffic Accident Analysis/chicago_stars.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/chicago_traffic_crashes/chicago_traffic_crashes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Chicago Traffic Accident Analysis/chicago_traffic_crashes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/My Book Library.twb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_categories_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/my_books_categories_CLEAN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/clean/my_books_data_CLEAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/my_books_data_CLEAN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads_dataset.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_dataset_fix_categories.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads_dataset_fix_categories.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/goodreads/goodreads_library_export.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/My Bookshelf/goodreads_library_export.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/health_dataset/health_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/health_dataset/health_dataset.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/layoffs/layoffs_CLEAN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/messy_employee_dataset/messy_employee_dataset_CLEAN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/yelp/Yelp Analysis.twb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,6 +36,9 @@
     &quot;accountId&quot;: &quot;e5c43ce2-31af-495c-a179-fddda5b943a1&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -89,11 +83,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765838585809</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cleaning up files and renaming to project names">
+      <option name="closed" value="true" />
+      <created>1765840170180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765840170180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test submitting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test submitting" />
+    <MESSAGE value="Cleaning up files and renaming to project names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up files and renaming to project names" />
   </component>
 </project>
