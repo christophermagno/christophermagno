@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="Cleaning up files and renaming to project names">
-      <change afterPath="$PROJECT_DIR$/Projects/Chicago Traffic Accident Analysis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/github-dark-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/github-light-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/linkedin-dark-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/linkedin-light-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tableau-icon.png" afterDir="false" />
+    <list default="true" id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="Testing adding readme file to profile and project">
+      <change afterPath="$PROJECT_DIR$/Projects/My Bookshelf/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Yelp Analysis/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Chicago Traffic Accident Analysis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Chicago Traffic Accident Analysis/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765840170180</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Testing adding readme file to profile and project">
+      <option name="closed" value="true" />
+      <created>1765841797716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765841797717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test submitting" />
     <MESSAGE value="Cleaning up files and renaming to project names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up files and renaming to project names" />
+    <MESSAGE value="Testing adding readme file to profile and project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing adding readme file to profile and project" />
   </component>
 </project>
