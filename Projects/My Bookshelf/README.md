@@ -24,7 +24,7 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 
 <img width="1000" alt="image" src="images/data.png">
 
-### 238 columns and 24 columns. It came generally clean but there were a few columns that needed to be cleaned.
+### 238 rows and 24 columns. It came generally clean but there were a few columns that needed to be cleaned.
 
 <img width="450" alt="image" src="images/cleanup.png">
 
@@ -33,7 +33,7 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 #### Fixed columns **Authors, Additional Authors, Number of Pages, and Original Publication Year, and columns with dates in them**
 Filled null values with 'None'
 
-```
+```python
 # Filled null values with "None"
 df_cp1['Additional Authors'], _ = lib.fillnull(df_cp1['Additional Authors'], 'None')
 lib.error_rate(df_cp1['Additional Authors'])
@@ -49,14 +49,14 @@ df_cp1['Original Publication Year'] = df_cp1['Original Publication Year'].astype
 ```
 
 #### Cast date columns to pandas Timestamp class
-```
+```python
 df_cp1['Date Read'] = pd.to_datetime(df_cp1['Date Read'])
 df_cp1['Date Added'] = pd.to_datetime(df_cp1['Date Added'])
 df_cp1['Published Date'] = pd.to_datetime(df_cp1['Published Date'], format='mixed')
 ```
 
 #### There were a few authors who's names were incorrect
-```
+```python
 to_replace = {
     'Abraham   Verghese': 'Abraham Verghese',
     'Stephen        King': 'Stephen King'
@@ -68,7 +68,7 @@ for author, fixed in to_replace.items():
 
 ## The Goodreads dataset did not come with genres so I used GooglAPI and OpenAI to generate the genres for me and stored them into their own categories dataset with the primary key _bookID_
 ### Created a helper function to gather genre data and additional data
-```
+```python
 # A sample request
 data = get_book_data(df.loc[2, 'ISBN13'])
 data
