@@ -17,7 +17,7 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 ## 🔎 Here are my findings
 
 In the year **2025** there were **95,996** accidents, **22,162** recordable injuries, **1,542** serious injuries, and **80** fatalities.
-The highest frequency of accidents usually happen on Friday at around 3 P.M. right after work with **~1,328** accidents 
+The highest frequency of accidents usually happen on **Friday** at around **3 P.M.** right after work with **~1,328** accidents 
 and **June** being the highest month with **6,888** accidents. 
 
 ### 💥 Why do the accidents happen?
@@ -44,7 +44,7 @@ accident frequency.
 
 ### Recommendations
 * Allocate budget to focus efforts on areas where the traffic control does not work or does not exist
-* Working traffic controls will help facilitate flow of traffic to reduce confusion and thereby reducing accident freuency
+* Working traffic controls will help facilitate flow of traffic to reduce confusion and thereby reducing accident frequency
 * Take a look at the top 10 streets that contribute to the overall accidents
 
 ## ✏️ Data Wrangling and Cleanup
