@@ -1,4 +1,4 @@
-# Goodreads Bookshelf Project
+# 📚 Goodreads Bookshelf Project
 
 <img width="1436" alt="image" src="images/banner.png">
 
@@ -9,7 +9,7 @@ and my average rating for books.
 
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/MyLibrary_17654594548470/MyBookshelf).
 
-## Here are my findings
+## 🔎 Here are my findings
 
 | Year | Books | Pages  | Authors Read | Pages / Day | Avg Days to Finish | Rating | Fav Author                                                      | Fav Genre      |
 |------|-------|--------|--------------|-------------|--------------------|--------|-----------------------------------------------------------------|----------------|
@@ -20,7 +20,7 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 | 2024 | 6     | 3,270  | 6            | 9.0         | 60.8 Days          | 4.0    | NA                                                              | NA             |
 | 2025 | 25    | 9,324  | 18           | 25.5        | 14.6 Days          | 3.9    | Brandon Sanderson (6 books)                                     | Fantasy        |
 
-## The Data
+## ✏️ Data Wrangling and Cleanup
 
 <img width="1000" alt="image" src="images/data.png">
 
