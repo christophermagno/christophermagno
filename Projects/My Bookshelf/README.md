@@ -66,7 +66,7 @@ for author, fixed in to_replace.items():
     df['Author'] = df['Author'].str.replace(author, fixed)
 ```
 
-## The Goodreads dataset did not come with genres so I used GooglAPI and OpenAI to generate hte genres for me and stored them into their own categories dataset with _bookID_ as the identifier
+## The Goodreads dataset did not come with genres so I used GooglAPI and OpenAI to generate the genres for me and stored them into their own categories dataset with the primary key _bookID_
 ### Created a helper function to gather genre data and additional data
 ```
 # A sample request
