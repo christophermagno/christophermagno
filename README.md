@@ -1,4 +1,4 @@
-<img width="1436" alt="image" src="images/banner.png">
+<img alt="image" src="images/banner.png">
 
 # Welcome!
 
