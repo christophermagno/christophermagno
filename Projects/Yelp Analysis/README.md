@@ -18,6 +18,7 @@ The files from the Yelp Open Dataset came in 5 different .json files
 * Get user engagement by hour/day of week by checkins
 * Get top categories
 * Get top 10 businesses
+* Indentify market shares
 
 
 ## Stretch goals
