@@ -9,6 +9,13 @@ and my average rating for books.
 
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/MyLibrary_17654594548470/MyBookshelf).
 
+## ⚒️ Tools Used
+* Python
+  * Pandas
+* Google API
+* Open AI
+* Tableau
+
 ## 🔎 Here are my findings
 
 | Year | Books | Pages  | Authors Read | Pages / Day | Avg Days to Finish | Rating | Fav Author                                                      | Fav Genre      |

@@ -1,11 +1,16 @@
-# 🚗💥Chicago Traffic Accident Analysis
+# 🚗 Chicago Traffic Accident Analysis
 
 <img width="1436" alt="image" src="images/banner.png">
 
 I wanted a project where I would handle more rows of data to see the power of **_Python_** and `pandas` to see how well I can clean the data up.
-I also wanted a data exploration project to see what information I can find from all of these rows of data which is why
+I also wanted a data exploration project to see what information I can find from all of the data presented which is why
 I chose this dataset. There are 1,010,926 rows and 48 columns with a file size of 549 MB. 
 You can find the dataset [here](https://catalog.data.gov/dataset/traffic-crashes-crashes).
+
+## ⚒️ Tools Used
+* Python
+  * Pandas
+* Tableau
 
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/ChicagoTrafficAccidentAnalysis/ChicagoRoadAccidentAnalysis)
 
@@ -44,11 +49,12 @@ accident frequency.
 
 ## ✏️ Data Wrangling and Cleanup
 ### 1,010,926 rows and 48 columns
-Removed rows that had a null rate of 75% or more
-Consolidated values in columns where appropriate (i.e. ~~dusk, dawn, light, dark, dark with light~~ could be consolidated to **Day** and **Night**))
+* Removed columns that had a null rate of 75% or more (investigated columns that had a null rate of 40% or more)
+* Consolidated values in columns where appropriate (i.e. **dusk, dawn, light, dark, dark with light** could be consolidated to **Day** and **Night**))
+* Combined separate columns into a single column (i.e. `STREET_NO` and `STREET_NAME`)
+* Filled null values on columns where appropriate
+
 <img width="1200" alt="image" src="images/img3.png">
 
 ### Columns that had an error rate of 75% or more (these were dropped)
 <img width="400" alt="image" src="images/img4.png">
-
-### After looking through the columns I created a few lists to parse and cleanup
