@@ -2,8 +2,8 @@
 
 <img width="1436" alt="image" src="images/banner.png">
 
-As part of a personal project, I wanted to gather my Goodreads data and explore how many books (and pages) I have
-read in a year, who my most read authors are and how many authors in general I've read, the genres I 
+As part of a personal project, I wanted to gather my Goodreads data from their export process and explore how many books 
+(and pages) I have read in a year, who my most read authors are and how many authors in general I've read, the genres I 
 gravitated toward, how many pages I read per day during specific years, how long it took me to read a book, 
 and my average rating for books.  
 
@@ -22,11 +22,11 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 
 ## The Data
 
-<img width="1000" alt="image" src="images/the_data.png">
+<img width="1000" alt="image" src="images/data.png">
 
 ### 238 columns and 24 columns. It came generally clean but there were a few columns that needed to be cleaned.
 
-<img width="450" alt="image" src="images/cleanup1.png">
+<img width="450" alt="image" src="images/cleanup.png">
 
 ### The columns that needed to be cleaned
 
