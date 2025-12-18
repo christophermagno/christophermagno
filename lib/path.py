@@ -12,17 +12,42 @@ from . import logger
 log = logging.getLogger(__name__)
 
 
-def get_project_dir():
+class Project(Path):
     """
-    Get the project directory (the directory of the project)
-    """
-    return Path().cwd()
+    A Class to make a Project directory into a class.
 
-def get_project_name():
+    Simply call on the class to get path directory information.
+
+    >>> # While in your project directory python/jupyter file
+    >>> project = Path()
+    lib.path: INFO: Starting project "Template" in directory /Users/christophermagno/Documents/Projects/Data Analyst/christophermagno/Projects/Template
+
+    >>> project
+    /Users/christophermagno/Documents/Projects/Data Analyst/christophermagno/Projects/Template
+
+    >>> project.name
+    Template
     """
-    Get the project name (the directory name of the project)
-    """
-    return get_project_dir().name
+    def __init__(self, *args, **kwargs):
+        super().__init__(Path.cwd(), *args, **kwargs)
+
+        log.info(f'Starting project "{self.name}" in directory {self}')
+        self.raw_file = 'raw_data.csv'
+        self._viz_file = None
+        self._cleaned_data = []
+        self.clean_dir_name = 'clean'
+
+    @property
+    def raw_data_path(self):
+        return self / self.raw_file
+
+    @property
+    def clean_dir(self):
+        clean_dir =  self / self.clean_dir_name
+        if not clean_dir.exists():
+            clean_dir.mkdir()
+        return clean_dir
+
 
 
 def detect_encoding(file_path):
