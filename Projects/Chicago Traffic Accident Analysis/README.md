@@ -28,9 +28,7 @@ The second reason is at a working Traffic signal with **~26,000** accidents.
 <img width="800" alt="image" src="images/img1.png">
 
 ### The Primary Driver Cause and Conditions
-The primary cause for driver behavior is
-**failing to yield the right-of-way** which makes sense since there would be confusion on the drivers part when there
-are no working traffic controls to help facilitate traffic flow. For conditions the weather is usually **clear**, during 
+The primary cause for driver behavior is **failing to yield the right-of-way** and **tailgating**. For conditions the weather is usually **clear**, during 
 the **day**, and on a **dry road**.
 
 <img width="800" alt="image" src="images/img2.png">
@@ -45,7 +43,7 @@ accident frequency.
 ### Recommendations
 * Allocate budget to focus efforts on areas where the traffic control does not work or does not exist
 * Working traffic controls will help facilitate flow of traffic to reduce confusion and thereby reducing accident frequency
-* Take a look at the top 10 streets that contribute to the overall accidents
+* Take a look at the top 10 streets that contribute to overall accidents
 
 ## ✏️ Data Wrangling and Cleanup
 ### 1,010,926 rows and 48 columns
