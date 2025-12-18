@@ -1,6 +1,6 @@
 # 📚 Goodreads Bookshelf Project
 
-<img width="1436" alt="image" src="images/banner.png">
+[<img width="1436" alt="image" src="images/banner.png">](https://public.tableau.com/app/profile/christopher.magno/viz/MyLibrary_17654594548470/MyBookshelf).
 
 As part of a personal project, I wanted to gather my Goodreads data from their export process and explore how many books 
 (and pages) I have read in a year, who my most read authors are and how many authors in general I've read, the genres I 

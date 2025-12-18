@@ -1,6 +1,6 @@
 # Yelp Data Exploration
 
-<img  alt="image" src="images/banner.png">
+[<img  alt="image" src="images/banner.png">](https://public.tableau.com/app/profile/christopher.magno/viz/YelpAnalysis_17653606827830/YelpAnalysis)
 
 For this project, I selected a dataset composed of relational tables connected through primary and foreign keys. The 
 goal was to focus on data wrangling, exploratory analysis, and visualization in Tableau. The data comes from the Yelp 
@@ -38,4 +38,6 @@ across five separate JSON files.
   * Pandas
 * Tableau
 
+
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/YelpAnalysis_17653606827830/YelpAnalysis)
+<img width="1000" alt="image" src="images/img2.png">

@@ -1,6 +1,6 @@
 # 🚗 Chicago Traffic Accident Analysis
 
-<img width="1436" alt="image" src="images/banner.png">
+[<img width="1436" alt="image" src="images/banner.png">](https://public.tableau.com/app/profile/christopher.magno/viz/ChicagoTrafficAccidentAnalysis/ChicagoRoadAccidentAnalysis)
 
 I wanted a project where I would handle more rows of data to see the power of **_Python_** and `pandas` to see how well I can clean the data up.
 I also wanted a data exploration project to see what information I can find from all of the data presented which is why
