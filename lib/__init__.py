@@ -11,6 +11,8 @@ from .logger import (
 )
 
 from .path import (
+    get_project_dir,
+    get_project_name,
     get_cleaned_path
 )
 

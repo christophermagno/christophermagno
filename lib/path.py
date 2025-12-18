@@ -12,6 +12,19 @@ from . import logger
 log = logging.getLogger(__name__)
 
 
+def get_project_dir():
+    """
+    Get the project directory (the directory of the project)
+    """
+    return Path().cwd()
+
+def get_project_name():
+    """
+    Get the project name (the directory name of the project)
+    """
+    return get_project_dir().name
+
+
 def detect_encoding(file_path):
     """
     Detects encoding of file to ensure proper encoding when reading files for Pandas
