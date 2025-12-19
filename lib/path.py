@@ -16,6 +16,8 @@ class Project(Path):
     """
     A Class to make a Project directory into a class.
 
+    Built-in vairables for raw data set and clean directory
+
     Simply call on the class to get path directory information.
 
     >>> # While in your project directory python/jupyter file
@@ -31,7 +33,6 @@ class Project(Path):
     def __init__(self, *args, **kwargs):
         super().__init__(Path.cwd(), *args, **kwargs)
 
-        log.info(f'Starting project "{self.name}" in directory {self}')
         self.raw_file = 'raw_data.csv'
         self._viz_file = None
         self._cleaned_data = []

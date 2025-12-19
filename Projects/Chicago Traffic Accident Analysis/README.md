@@ -13,6 +13,7 @@ You can find the dataset [here](https://catalog.data.gov/dataset/traffic-crashes
 * Tableau
 
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/ChicagoTrafficAccidentAnalysis/ChicagoRoadAccidentAnalysis)
+[<img width="1436" alt="image" src="images/img6.png">](https://public.tableau.com/app/profile/christopher.magno/viz/ChicagoTrafficAccidentAnalysis/ChicagoRoadAccidentAnalysis)
 
 ## 🔎 Here are my findings
 
