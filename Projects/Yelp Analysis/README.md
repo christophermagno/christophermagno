@@ -2,6 +2,14 @@
 
 [<img  alt="image" src="images/banner.png">](https://public.tableau.com/app/profile/christopher.magno/viz/YelpAnalysis_17653606827830/YelpAnalysis)
 
+## ⚒️ Tools Used
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
+[![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
+[![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
+
+## Overview
+
 For this project, I selected a dataset composed of relational tables connected through primary and foreign keys. The 
 goal was to focus on data wrangling, exploratory analysis, and visualization in Tableau. The data comes from the Yelp 
 Open Dataset, which is available [here](https://business.yelp.com/data/resources/open-dataset/). The dataset is provided 
@@ -31,15 +39,6 @@ across five separate JSON files.
 ## Stretch goals
 * Sentiment Analysis and word cloud or negative and positive keywords on the 6.9M rows of customer reviews and tips
   * Sentiment trends over time
-
-
-## ⚒️ Tools Used
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
-[![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
-[![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
-
-
 
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/YelpAnalysis_17653606827830/YelpAnalysis)
 <img width="1000" alt="image" src="images/img2.png">

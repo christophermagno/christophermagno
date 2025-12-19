@@ -2,6 +2,16 @@
 
 [<img width="1436" alt="image" src="images/banner.png">](https://public.tableau.com/app/profile/christopher.magno/viz/MyLibrary_17654594548470/MyBookshelf)
 
+## ⚒️ Tools Used
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
+[![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
+[![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
+* Google API
+* Open Library
+
+## Overview
+
 As part of a personal project, I wanted to gather my Goodreads data from their export process and explore how many books 
 (and pages) I have read in a year, who my most read authors are and how many authors in general I've read, the genres I 
 gravitated toward, how many pages I read per day during specific years, how long it took me to read a book, 
@@ -12,14 +22,6 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 
 ## Database Model
 <img width="600" alt="image" src="images/img1.png">
-
-## ⚒️ Tools Used
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
-[![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
-[![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
-* Google API
-* Open Library
 
 ## 🔎 Here are my findings
 
