@@ -8,9 +8,10 @@ I chose this dataset. There are 1,010,926 rows and 48 columns with a file size o
 You can find the dataset [here](https://catalog.data.gov/dataset/traffic-crashes-crashes).
 
 ## ⚒️ Tools Used
-* Python
-  * Pandas
-* Tableau
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
+[![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
+[![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/ChicagoTrafficAccidentAnalysis/ChicagoRoadAccidentAnalysis)
 [<img width="1436" alt="image" src="images/img6.png">](https://public.tableau.com/app/profile/christopher.magno/viz/ChicagoTrafficAccidentAnalysis/ChicagoRoadAccidentAnalysis)

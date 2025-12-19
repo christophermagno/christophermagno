@@ -14,11 +14,12 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 <img width="600" alt="image" src="images/img1.png">
 
 ## ⚒️ Tools Used
-* Python
-  * Pandas
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
+[![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
+[![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 * Google API
 * Open Library
-* Tableau
 
 ## 🔎 Here are my findings
 

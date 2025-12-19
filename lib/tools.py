@@ -6,6 +6,7 @@ import re
 import json
 import threading
 from collections import Counter
+from collections.abc import Iterable
 from pathlib import Path
 import difflib
 
@@ -886,3 +887,19 @@ def parse_list(s, sep=','):
 def convert_camel_case(name, replace=' '):
     pattern = re.compile(r'(?<!^)(?=[A-Z])')
     return pattern.sub(replace, name).lower()
+
+def get_dict_by_messy_string(d, find=None, case_sensitive=False):
+    if find is None:
+        return d
+    elif isinstance(find, str) or not isinstance(find, Iterable):
+        find = [find]
+
+    normalize = (lambda x: x) if case_sensitive else str.lower
+    needles = [normalize(f) for f in find]
+
+    return {
+        k: v
+        for k, v in d.items()
+        if any(n in normalize(k) for n in needles)
+    }
+
