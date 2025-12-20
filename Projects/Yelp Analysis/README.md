@@ -8,7 +8,7 @@
 [![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
 [![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 
-## Overview
+## 📖 Overview
 
 For this project, I selected a dataset composed of relational tables connected through primary and foreign keys. The 
 goal was to focus on data wrangling, exploratory analysis, and visualization in Tableau. The data comes from the Yelp 
@@ -32,6 +32,7 @@ across five separate JSON files.
 * Get total business, total review count, and average rating per price tiers ($, $$, $$$, $$$$)
 * Get user engagement by hour/day of week by checkins
 * Get top categories
+  * Use K-Means clustering to group the ~1300 categories into 12 logical groups.
 * Get top 10 businesses (per region)
 * Evaluate market share distribution to determine which segment dominates
 

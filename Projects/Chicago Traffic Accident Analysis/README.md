@@ -8,7 +8,7 @@
 [![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#)
 [![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 
-## Overview
+## 📖 Overview
 
 I wanted a project where I would handle more rows of data to see the power of **_Python_** and `pandas` to see how well I can clean the data up.
 I also wanted a data exploration project to see what information I can find from all of the data presented which is why

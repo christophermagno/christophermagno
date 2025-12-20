@@ -16,6 +16,7 @@ Python | SQL | Tableau | Microsoft Office
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) 
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) 
 [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) 
+[![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)](#)
 [![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#) 
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)](#) 
 [![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)](#) 
