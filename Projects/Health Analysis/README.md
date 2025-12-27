@@ -32,7 +32,7 @@ Fitness Age is a composite metric calculated by Garmin using inputs such as esti
 
 ## Fitness Age Correlations
 
-This visualization explores how Fitness Age relates to daily activity, exertion, and recovery metrics. By comparing Fitness Age against calories burned, total steps, highly active hours, and sleep score, the regression trends reveal which behaviors show stronger linear relationships with fitness outcomes. The results suggest that both physical activity intensity and sleep quality play meaningful roles in influencing Fitness Age over time.
+This visualization explores how Fitness Age relates to daily activity, exertion, and recovery metrics. By comparing Fitness Age against calories burned, total steps, highly active hours, and sleep score, the regression trends reveal which behaviors show stronger linear relationships with fitness outcomes.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Active hours show the most notable correlation with fitness age, with other factors contributing in secondary, yet important, ways.
@@ -113,7 +113,7 @@ Regression analyses reveal that longer sleep generally improves sleep score and 
 * Wake times and sleep consistency also contribute to overall recovery metrics.
 * While moderate activity supports sleep, overly long or highly intense activity sessions do not guarantee improved sleep quality.
 * Sleep score and duration provide complementary insights: duration reflects quantity, while sleep score captures quality and recovery effectiveness.
-* 
+
 <img alt="image" src="images/img11.png">
 <img alt="image" src="images/img12.png">
 <img alt="image" src="images/img13.png">
