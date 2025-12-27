@@ -59,7 +59,7 @@ Python | SQL | Tableau | Microsoft Office
 [![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#) 
 [![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 [![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
-[<img width="1000" height="100" alt="image" src="Projects/Health Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Health%20Analysis)
+[<img width=1000 height=200 alt="image" src="Projects/Health Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Health%20Analysis)
 
 ## 👋🏽 Let's connect?
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/christophermagno/)
