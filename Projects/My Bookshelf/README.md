@@ -12,20 +12,35 @@
 * Google API
 * Open Library
 
-## 📖 Overview
+## 📖 Project Summary
+This project transforms raw **Goodreads export data** into a structured analytics dataset to examine long-term reading behavior, preferences, and trends. The goal was to demonstrate the ability to **ingest third-party exported data**, resolve data quality issues, enrich incomplete datasets using **external APIs**, and deliver **insight-driven visualizations** in Tableau.
 
-As part of a personal project, I wanted to gather my Goodreads data from their export process and explore how many books 
-(and pages) I have read in a year, who my most read authors are and how many authors in general I've read, the genres I 
-gravitated toward, how many pages I read per day during specific years, how long it took me to read a book, 
-and my average rating for books.  
+The analysis focuses on **reading volume, pace, author and genre preferences, and rating patterns over time**, converting personal data into a scalable analytical workflow similar to those used in consumer analytics and product usage analysis.
+
+- **Tools:** Python, pandas, Google Books API, Open Library API, Tableau  
+- **Dataset Size:** 238 rows × 24 columns (post-cleaning)  
+- **Output:** Interactive Tableau dashboard + analytical summary  
 
 To view the Tableau visualization, please click [here](https://public.tableau.com/app/profile/christopher.magno/viz/MyLibrary_17654594548470/MyBookshelf).
 [<img width="1436" alt="image" src="images/viz.png">](https://public.tableau.com/app/profile/christopher.magno/viz/MyLibrary_17654594548470/MyBookshelf).
 
-## Database Model
-<img width="600" alt="image" src="images/img1.png">
+---
 
-## 🔎 Here are my findings
+## 🎯 Analytical Objectives
+- Measure yearly reading volume by **books read, pages read, and pages per day**
+- Identify **most-read authors** and overall author diversity
+- Analyze **genre preferences** over time
+- Calculate **time-to-completion metrics** and average book ratings
+- Enrich missing metadata (genres, publication details) using external APIs
+
+---
+
+## 🔎 Key Insights
+
+### Reading Trends Over Time
+- Reading volume peaked in **2020** with **63 books and 26,131 pages**, followed by a gradual decline and partial rebound in **2025**
+- Average reading speed slowed from **~6 days per book (2020)** to **~15 days per book (2025)**
+- Pages read per day declined significantly after 2020, highlighting a shift in reading habits
 
 | Year | Books | Pages  | Authors Read | Pages / Day | Avg Days to Finish | Rating | Fav Author                                                      | Fav Genre      |
 |------|-------|--------|--------------|-------------|--------------------|--------|-----------------------------------------------------------------|----------------|
@@ -36,54 +51,38 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 | 2024 | 6     | 3,270  | 6            | 9.0         | 60.8 Days          | 4.0    | NA                                                              | NA             |
 | 2025 | 25    | 9,324  | 18           | 25.5        | 14.6 Days          | 3.9    | Brandon Sanderson (6 books)                                     | Fantasy        |
 
-## ✏️ Data Wrangling and Cleanup
+### Author & Genre Preferences
+- **Fantasy** emerged as the dominant genre across most years
+- Frequently read authors included **Frank Herbert, Brandon Sanderson, George R.R. Martin, and J.R.R. Tolkien**
+- Lower reading-volume years showed reduced author diversity, indicating more concentrated reading behavior
 
-<img width="1000" alt="image" src="images/data.png">
+---
 
-### 238 rows and 24 columns. It came generally clean but there were a few columns that needed to be cleaned.
+## 🧩 Data Modeling & Enhancement
+The Goodreads export lacked **genre data**, limiting analytical depth. To address this:
 
-<img width="450" alt="image" src="images/cleanup.png">
+- Designed a **relational data model** separating books, authors, and categories
+- Enriched records using **Google Books API** and **Open Library API**
+- Created a dedicated **categories table** keyed by `bookID`
+- Extracted additional metadata such as publication dates and maturity ratings
 
-### The columns that needed to be cleaned
+This mirrors real-world scenarios where datasets require **multi-source enrichment** before meaningful analysis.
 
-#### Fixed columns **Authors, Additional Authors, Number of Pages, and Original Publication Year, and columns with dates in them**
-Filled null values with 'None'
 
-```python
-# Filled null values with "None"
-df_cp1['Additional Authors'], _ = lib.fillnull(df_cp1['Additional Authors'], 'None')
-lib.error_rate(df_cp1['Additional Authors'])
-0.0
+### Database Model
+<img width="600" alt="image" src="images/img1.png">
 
-# Filled null values with 0 and ensure column is of type int
-df_cp1['Number of Pages'], _ = lib.fillnull(df_cp1['Number of Pages'], 0)
-df_cp1['Number of Pages'] = df_cp1['Number of Pages'].astype(int)
-lib.error_rate(df_cp1['Number of Pages'])
+---
 
-df_cp1['Original Publication Year'], _ = lib.fillnull(df_cp1['Original Publication Year'], 0)
-df_cp1['Original Publication Year'] = df_cp1['Original Publication Year'].astype(int)
-```
+## ✏️ Data Wrangling & Quality Improvements
+Key cleaning and transformation steps included:
 
-#### Cast date columns to pandas Timestamp class
-```python
-df_cp1['Date Read'] = pd.to_datetime(df_cp1['Date Read'])
-df_cp1['Date Added'] = pd.to_datetime(df_cp1['Date Added'])
-df_cp1['Published Date'] = pd.to_datetime(df_cp1['Published Date'], format='mixed')
-```
+- Filled null values in author, page count, and publication year fields with context-appropriate defaults
+- Cast date fields (`Date Read`, `Date Added`, `Published Date`) to proper datetime formats
+- Standardized author name inconsistencies to ensure accurate aggregation
+- Converted numeric fields to correct data types for time-based and aggregate calculations
 
-#### There were a few authors who's names were incorrect
-```python
-to_replace = {
-    'Abraham   Verghese': 'Abraham Verghese',
-    'Stephen        King': 'Stephen King'
-}
-
-for author, fixed in to_replace.items():
-    df['Author'] = df['Author'].str.replace(author, fixed)
-```
-
-## The Goodreads dataset did not come with genres so I used GooglAPI and Open Library to generate the genres for me and stored them into their own categories dataset with the primary key _bookID_
-### Created a helper function to gather genre data and additional data
+The Goodreads dataset did not come with genres so I used GooglAPI and Open Library to generate the genres for me and stored them into their own categories dataset with the primary key _bookID_. Created a helper function to gather additional data from the two APIs.
 ```python
 # A sample request
 data = get_book_data(df.loc[2, 'ISBN13'])
@@ -96,3 +95,21 @@ data
  'Retail Price': 16.99,
  'Currency': 'USD'}
 ```
+
+## 📊 Visualization & Storytelling
+An interactive Tableau dashboard was built to communicate findings to non-technical audiences, highlighting:
+- Year-over-year reading volume and pace
+- Top authors and genres by year
+- Reading efficiency metrics (pages per day, days per book)
+- Rating trends over time
+
+The dashboard emphasizes **behavioral trend analysis**, similar to engagement analytics used in content and subscription-based products.
+
+---
+
+## 💼 Skills Demonstrated
+- Data ingestion and cleanup from third-party exports  
+- API-based data enrichment and relational modeling  
+- Time-series and behavioral analysis  
+- Feature engineering and data normalization  
+- Data storytelling with **Tableau dashboards**  

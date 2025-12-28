@@ -14,9 +14,11 @@
 
 This project leverages data from the [**Garmin Connect API**](health_dataset.ipynb) collected via my **Garmin Instinct 2** watch over the past year to analyze personal health and wellness trends. The goal of the analysis is to gain a comprehensive understanding of how my body has responded to daily activity and recovery while working in a physically demanding **warehouse environment**. My hours have ranged from 5PM-~3:30AM, 5AM-~5PM, 4PM-~2:30AM with days from Sun-Wed, Tues-Sat, and Sun/Mon/Thurs/Fri.
 
-The analysis includes data **extraction, transformation, and loading (ETL)** to clean and structure the raw Garmin data, followed by **exploratory data analysis (EDA)** using Pandas and visualizations with Matplotlib and Seaborn. By examining metrics such as **sleep, stress, heart rate, calories, steps, active hours, intensity minutes, water intake, and fitness age,** the project explores patterns in **activity, recovery, and overall physiological load.** Using data-driven visualizations and regression analyses, this project highlights relationships between activity, sleep quality, stress, and recovery to provide actionable insights into personal wellness.
+The analysis includes data **extraction, transformation, and loading (ETL)** to clean and structure the raw Garmin data, followed by **exploratory data analysis (EDA)** using Pandas and visualizations with Matplotlib and Seaborn. By examining metrics such as **sleep, stress, heart rate, calories, steps, active hours, intensity minutes, water intake, and fitness age,** the project explores patterns in **activity, recovery, and overall physiological load.** Using data-driven visualizations and regression analysis, this project highlights relationships between activity, sleep quality, stress, and recovery to provide actionable insights into personal wellness.
 
 To see the visualization in *matplotlib*, click [here](health_dataset_viz.ipynb)
+
+---
 
 # 🏋🏽‍♂️ Fitness Age
 
@@ -34,10 +36,14 @@ Fitness Age is a composite metric calculated by Garmin using inputs such as esti
 
 This visualization explores how Fitness Age relates to daily activity, exertion, and recovery metrics. By comparing Fitness Age against calories burned, total steps, highly active hours, and sleep score, the regression trends reveal which behaviors show stronger linear relationships with fitness outcomes.
 
--------------------------------------------------------------------------------------------------------------------------------------
+---
 Active hours show the most notable correlation with fitness age, with other factors contributing in secondary, yet important, ways.
 
 <img alt="image" src="images/img2.png">
+<img alt="image" src="images/img3.png">
+<img alt="image" src="images/img4.png">
+
+---
 
 # 💧 How Many Cups of Water Do I Drink a Day?
 
@@ -50,7 +56,9 @@ Water Intake tracks daily fluid consumption and is compared against a personaliz
 * Periods of lower intake are balanced by consistent hydration on other days, supporting stable hydration trends over time.
 
 
-<img alt="image" src="images/img3.png">
+<img alt="image" src="images/img5.png">
+
+---
 
 # 💗 Heart Rate Data
 
@@ -62,7 +70,9 @@ Heart rate data provides insight into cardiovascular workload, recovery, and exe
 * Minimum heart rate values dropped to 39 bpm, reflecting periods of rest or sleep.
 * Resting heart rate averages around 54 bpm, providing a baseline indicator of cardiovascular fitness and recovery.
 
-<img alt="image" src="images/img4.png">
+<img alt="image" src="images/img6.png">
+
+---
 
 # 🏃🏽‍♂️ Total Calories Burned and Active/Intenity Minutes
 Total Calories Burned represents daily energy expenditure, combining basal metabolic rate with calories burned through physical activity. Active Hours and Intensity Minutes capture different dimensions of movement: Active Hours reflect consistent movement throughout the day, while Intensity Minutes measure time spent in moderate to vigorous activity. Together, these metrics provide a comprehensive view of daily activity volume and exertion.
@@ -74,8 +84,11 @@ This analysis spans multiple work schedule changes throughout the year, allowing
 * Higher calorie expenditure is generally associated with increased active hours and elevated intensity minutes, reflecting both sustained movement and purposeful exercise.
 * Weekly Intensity Minutes are evaluated against Garmin’s guideline of 150 minutes per week, helping assess consistency in moderate-to-vigorous activity levels over time.
 
-<img alt="image" src="images/img5.png">
-<img alt="image" src="images/img6.png">
+<img alt="image" src="images/img7.png">
+<img alt="image" src="images/img8.png">
+<img alt="image" src="images/img9.png">
+
+---
 
 # 🚶🏽‍♂️ Total Steps Taken and Miles Walked
 Steps Taken and Miles Walked measure overall daily movement and serve as core indicators of physical activity volume. Steps capture total movement throughout the day, while miles walked translate that activity into distance, providing additional context for activity intensity and duration. Together, these metrics help quantify daily mobility patterns and overall activity levels.
@@ -85,8 +98,10 @@ Steps Taken and Miles Walked measure overall daily movement and serve as core in
 * Daily step counts vary significantly, with a maximum of **36,384 steps** recorded during a high-activity day (a long hike in the Columbia River Gorge on July 20), and a minimum of **21 steps**, representing a near-complete rest day.
 * High-step days are typically associated with elevated calorie expenditure and longer active durations, while low-step days highlight periods of inactivity or recovery.
 * Analyzing both steps and distance helps distinguish between frequent short movements and sustained walking or hiking sessions.
-<img alt="image" src="images/img7.png">
-<img alt="image" src="images/img8.png">
+<img alt="image" src="images/img10.png">
+<img alt="image" src="images/img11.png">
+
+---
 
 # 💤 Sleep
 
@@ -97,8 +112,7 @@ Garmin’s Sleep Duration measures the total time spent asleep between sleep ons
 * Higher sleep scores tend to align with improved recovery indicators and lower stress levels.
 * Variability in sleep duration across days can have a noticeable impact on overall sleep quality trends.
 * Examining both metrics together provides more actionable insight than analyzing either metric in isolation.
-<img alt="image" src="images/img9.png">
-<img alt="image" src="images/img10.png">
+<img alt="image" src="images/img12.png">
 
 # 😴 Sleep Quality
 
@@ -106,18 +120,21 @@ Sleep quality is evaluated using Garmin’s Sleep Score, which incorporates slee
 
 Average sleep score is **72 (min 18, max 99)** with **7.39 hours** of sleep on average **(min 3, max 13.5)**.
 
-Regression analyses reveal that longer sleep generally improves sleep score and body battery, and better sleep may support higher calorie burn. Moderate active hours (around 1-2 hours) show a positive relationship with sleep quality, but extended high-intensity activity does not necessarily improve sleep. Sleep onset and wake times also influence sleep effectiveness, highlighting the importance of consistent sleep patterns. Sleep onset and wake times also influence sleep effectiveness, with better quality sleep observed when sleeping around 9 PM (on my off days) or 3 AM (on the days I work), highlighting the importance of consistent sleep patterns. Higher stress levels are associated with lower sleep scores, highlighting the interaction between physiological stress and recovery.
+Regression analysis reveal that longer sleep generally improves sleep score and body battery, and better sleep may support higher calorie burn. Moderate active hours (around 1-2 hours) show a positive relationship with sleep quality, but extended high-intensity activity does not necessarily improve sleep. Sleep onset and wake times also influence sleep effectiveness, highlighting the importance of consistent sleep patterns. Sleep onset and wake times also influence sleep effectiveness, with better quality sleep observed when sleeping around 9 PM (on my off days) or 3 AM (on the days I work), highlighting the importance of consistent sleep patterns. Higher stress levels are associated with lower sleep scores, highlighting the interaction between physiological stress and recovery.
 
 ## Key Insights
-* Sleep onset time significantly affects sleep quality: going to bed earlier is generally associated with higher sleep scores.
+* Sleep onset time significantly affects sleep quality: going to bed earlier is generally associated with higher sleep scores. (I *generally* get better/consistent sleep from 9-11PM).
 * Wake times and sleep consistency also contribute to overall recovery metrics.
 * While moderate activity supports sleep, overly long or highly intense activity sessions do not guarantee improved sleep quality.
 * Sleep score and duration provide complementary insights: duration reflects quantity, while sleep score captures quality and recovery effectiveness.
 
-<img alt="image" src="images/img11.png">
-<img alt="image" src="images/img12.png">
 <img alt="image" src="images/img13.png">
 <img alt="image" src="images/img14.png">
+<img alt="image" src="images/img15.png">
+<img alt="image" src="images/img16.png">
+<img alt="image" src="images/img17.png">
+
+---
 
 # 😰 Stress Data
 
@@ -130,6 +147,6 @@ Garmin estimates stress levels using heart rate variability (HRV) derived from o
 * Integrating stress metrics with activity, sleep, and heart rate data provides a holistic view of physiological load and recovery patterns.
 * The more stressed I am, the worse sleep I get
 
-<img alt="image" src="images/img15.png">
-<img alt="image" src="images/img16.png">
-<img alt="image" src="images/img17.png">
+<img alt="image" src="images/img18.png">
+<img alt="image" src="images/img19.png">
+<img alt="image" src="images/img20.png">
