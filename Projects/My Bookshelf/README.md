@@ -13,7 +13,7 @@
 * Open Library
 
 ## 📖 Project Summary
-This project transforms raw **Goodreads export data** into a structured analytics dataset to examine long-term reading behavior, preferences, and trends. The goal was to demonstrate the ability to **ingest third-party exported data**, resolve data quality issues, enrich incomplete datasets using **external APIs**, and deliver **insight-driven visualizations** in Tableau.
+This project transforms raw **Goodreads export data** into a structured analytics dataset to examine long-term reading behavior, preferences, and trends. The goal was to demonstrate the ability to **extract third-party exported data**, resolve data quality issues, enrich incomplete datasets using **external APIs**, and deliver **insight-driven visualizations** in Tableau.
 
 The analysis focuses on **reading volume, pace, author and genre preferences, and rating patterns over time**, converting personal data into a scalable analytical workflow similar to those used in consumer analytics and product usage analysis.
 
@@ -108,7 +108,7 @@ The dashboard emphasizes **behavioral trend analysis**, similar to engagement an
 ---
 
 ## 💼 Skills Demonstrated
-- Data ingestion and cleanup from third-party exports  
+- Data extraction and cleanup from third-party exports  
 - API-based data enrichment and relational modeling  
 - Time-series and behavioral analysis  
 - Feature engineering and data normalization  

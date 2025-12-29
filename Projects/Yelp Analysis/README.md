@@ -68,7 +68,7 @@ This project analyzes the **Yelp Open Dataset**, which contains millions of rows
 ---
 
 ## 💼 Skills Demonstrated
-- Multi-table **data ingestion, cleaning, and integration** using Python and pandas  
+- Multi-table **data extraction, cleaning, and integration** using Python and pandas  
 - **Feature engineering** and metric aggregation for business performance analysis  
 - **Clustering** and **unsupervised learning** (K-Means) for category consolidation  
 - **Data visualization** in Tableau
