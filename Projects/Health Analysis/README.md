@@ -12,7 +12,7 @@
 
 ## 📖 Overview
 
-This project leverages data from the [**Garmin Connect API**](health_dataset.ipynb) collected via my **Garmin Instinct 2** watch over the past year to analyze personal health and wellness trends. The goal of the analysis is to gain a comprehensive understanding of how my body has responded to daily activity and recovery while working in a physically demanding **warehouse environment**. My hours have ranged from 5PM-~3:30AM, 5AM-~5PM, 4PM-~2:30AM with days from Sun-Wed, Tues-Sat, and Sun/Mon/Thurs/Fri.
+This project leverages data from the [**Garmin Connect API**](https://github.com/cyberjunky/python-garminconnect) collected via my **Garmin Instinct 2** watch over the past year to analyze personal health and wellness trends. The goal of the analysis is to gain a comprehensive understanding of how my body has responded to daily activity and recovery while working in a physically demanding **warehouse environment**. My hours have ranged from 5PM-~3:30AM, 5AM-~5PM, 4PM-~2:30AM with days from Sun-Wed, Tues-Sat, and Sun/Mon/Thurs/Fri.
 
 The analysis includes data **extraction, transformation, and loading (ETL)** to clean and structure the raw Garmin data, followed by **exploratory data analysis (EDA)** using Pandas and visualizations with Matplotlib and Seaborn. By examining metrics such as **sleep, stress, heart rate, calories, steps, active hours, intensity minutes, water intake, and fitness age,** the project explores patterns in **activity, recovery, and overall physiological load.** Using data-driven visualizations and regression analysis, this project highlights relationships between activity, sleep quality, stress, and recovery to provide actionable insights into personal wellness.
 
@@ -63,6 +63,7 @@ Water Intake tracks daily fluid consumption and is compared against a personaliz
 # 💗 Heart Rate Data
 
 Heart rate data provides insight into cardiovascular workload, recovery, and exercise intensity. During data collection, it was observed that Garmin does not store a daily average heart rate in the general summary tables. To address this, per-minute heart rate records were scraped and aggregated to calculate daily averages. However, Garmin appears to retain this high-granularity data for a limited time period, resulting in partial coverage of average heart rate values across the full dataset.
+This mimics real-world scenarios where data might not be available and has to be gathered and generated through other sources of data.
 
 ## Key Insights
 * The calculated average heart rate is approximately 75 bpm, derived from per-minute heart rate data.
