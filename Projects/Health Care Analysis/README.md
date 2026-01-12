@@ -1,0 +1,184 @@
+# 🏥 Healthcare Scheduling & Financial Analytics
+
+<img alt="image" src="images/banner.png">
+
+## ⚒️ Tools Used
+[![Excel](https://custom-icon-badges.demolab.com/badge/Excel-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![Power Query](https://custom-icon-badges.demolab.com/badge/Power_Query-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![Power Pivot](https://custom-icon-badges.demolab.com/badge/Power_Pivot-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![Pivot Tables](https://custom-icon-badges.demolab.com/badge/Pivot_Tables-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![Pivot Charts](https://custom-icon-badges.demolab.com/badge/Pivot_Charts-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![Data Modeling](https://custom-icon-badges.demolab.com/badge/Data_Modeling-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![Dataset Merging](https://custom-icon-badges.demolab.com/badge/Dataset_Merging-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![XLOOKUP](https://custom-icon-badges.demolab.com/badge/XLOOKUP-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![GROUPBY](https://custom-icon-badges.demolab.com/badge/GROUPBY-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![IF](https://custom-icon-badges.demolab.com/badge/IF-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![Bins](https://custom-icon-badges.demolab.com/badge/Bins-21734?logo=microsoft-excel&logoColor=white)](#) 
+[![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
+[![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
+
+## 📌 Overview
+This project analyzes a simulated healthcare dataset (provided by **Chat GPT**) to evaluate **appointment demand, provider workload, patient behavior, and financial performance**. The objective is to demonstrate how healthcare operational and financial data can be transformed into actionable insights that support staffing decisions, patient engagement strategies, and revenue optimization.
+
+---
+
+## 🎯 Objectives
+- Identify appointment trends and seasonality
+- Analyze provider workload and burnout risk
+- Understand patient demographics and repeat visit behavior
+- Evaluate appointment outcomes and booking preferences
+- Assess billing, reimbursement performance, and payer mix
+
+---
+
+## 🧱 Data Model
+The analysis is built on a **relational star-schema** design that reflects real-world healthcare systems.
+
+<img alt="image" src="images/img1.png">
+
+### Fact Tables
+- 📅 **Appointments Fact** – scheduling data, appointment types, booking method, and appointment status  
+- ⏱ **Shifts Fact** – provider shifts and workload metrics  
+- 💰 **Financials Fact** – invoices, billing amounts, reimbursements, and insurance data  
+
+### Dimension Tables
+- 👩‍⚕️ **Staff Dimension** – provider identifiers and departments  
+- 🧍 **Patients Dimension** – patient demographics and identifiers  
+
+Data was cleaned and transformed using **Power Query**, with analytical measures created in **Power Pivot**.
+
+---
+
+## 🔍 Key Analyses and Findings
+
+### 🗓 Appointment Trends
+- Appointment volume shows clear seasonality
+- A **significant spike occurs in November**, likely driven by end-of-year insurance utilization
+
+<img alt="image" src="images/img2.png">
+
+**Business Impact:**  
+Supports proactive staffing and scheduling adjustments during peak demand periods.
+
+---
+
+### 👩‍⚕️ Providers and Departments
+- Total count of providers and departments
+- Provider distribution by department
+- **Top 10 providers by number of shifts worked**
+- Provider-level analysis of:
+  - Appointments handled
+  - Revenue generated
+  - Workload concentration indicating **burnout risk**
+
+<img alt="image" src="images/img3.png">
+
+### Pivot Table
+<img alt="image" src="images/img4.png">
+
+**Business Impact:**  
+Identifies staffing imbalances and highlights providers at risk of overload.
+
+---
+
+### 🧍 Patient Demographics and Utilization
+- Total patient count
+- Breakdown by:
+  - Age group
+  - Gender
+  - Average patient age
+- **Top 10 returning patients** by appointment count
+
+<img alt="image" src="images/img5.png">
+
+### Pivot Table
+<img alt="image" src="images/img6.png">
+
+**Business Impact:**  
+Highlights population characteristics and flags repeat visit patterns that may warrant further clinical or care coordination review.
+
+---
+
+### 🗓️ Appointment Analysis
+A comprehensive analysis on scheduled Appointments ranging from cancelled and no-shows, booking method effectievness, appointment distribution, and top returning patients.
+
+<img alt="image" src="images/img7.png">
+
+#### Pivot Table
+<img alt="image" src="images/img8.png">
+
+#### 🚫 Appointment Outcomes
+- Count and percentage of:
+  - ✅ Completed appointments
+  - ❌ Cancelled appointments
+  - 🚫 No-show appointments
+
+**Business Impact:**  
+Quantifies operational inefficiencies and potential revenue loss due to missed appointments.
+
+---
+
+#### 📱 Booking Method Analysis
+Appointment booking methods analyzed:
+- 💻 Online
+- ☎️ Phone
+- 🧾 Front desk
+
+**Key Insight:**  
+Online booking is the dominant scheduling method.
+
+**Business Impact:**  
+Supports continued investment in digital self-service scheduling and reduced front-desk operational load.
+
+---
+
+#### 🩺 Appointment Type Distribution
+Appointment demand analyzed by type:
+- 🩺 Check-up
+- 💬 Consultation
+- 🔁 Follow-up
+- 🛠 Procedure
+
+**Business Impact:**  
+Helps align provider availability and specialization with patient demand patterns.
+
+---
+
+### 💵 Financial and Revenue Analysis
+- Total invoice count
+- Total billed amount
+- Total reimbursed amount
+- Overall **reimbursement rate**
+- Invoice status breakdown:
+  - ✅ Paid
+  - ⏳ Pending
+  - ❌ Denied
+- **Top 10 providers by total revenue generated**
+- Total billed amount segmented by insurance type:
+  - 🏥 Medicaid
+  - 👵 Medicare
+  - 💼 Private insurance
+  - 💵 Self-pay
+
+
+<img alt="image" src="images/img9.png">
+
+#### Pivot Table
+<img alt="image" src="images/img10.png">
+
+**Business Impact:**  
+Provides visibility into revenue drivers, payer mix risk, and reimbursement efficiency.
+
+---
+
+### Slicers
+These are the slicers created to modify the **Pivot Tables** in the **Dashboards**.
+
+<img alt="image" src="images/slicers.png">
+
+## 🧠 Key Takeaways
+- Appointment demand peaks sharply in **November**
+- Provider workload and revenue are concentrated among a small subset of providers
+- Online booking is the preferred scheduling method
+- Repeat patient behavior may indicate opportunities for improved care coordination
+- Financial performance is strongly influenced by insurance mix and provider productivity
