@@ -42,7 +42,7 @@ Python | SQL | Tableau | Microsoft Office
 [![Bins](https://custom-icon-badges.demolab.com/badge/Bins-21734?logo=microsoft-excel&logoColor=white)](#) 
 [![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 [![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
-[<img width="1000" alt="image" src="Projects/Health Care Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Health%Care%20Analysis)
+[<img width="1000" alt="image" src="Projects/Health Care Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Health%20Care%20Analysis)
 
 
 ### Chicago Traffic Analysis
