@@ -20,6 +20,8 @@
 ## 📌 Overview
 This project analyzes a simulated healthcare dataset (provided by **Chat GPT**) to evaluate **appointment demand, provider workload, patient behavior, and financial performance**. The objective is to demonstrate how healthcare operational and financial data can be transformed into actionable insights that support staffing decisions, patient engagement strategies, and revenue optimization.
 
+To download the raw xlsx file and interact with the Dashboard please click [here](https://github.com/christophermagno/christophermagno/raw/refs/heads/main/Projects/Health%20Care%20Analysis/Healthcare_Scheduling_Star_Schema_Working.xlsx).
+
 ---
 
 ## 🎯 Objectives
