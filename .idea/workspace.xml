@@ -4,14 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="Updating documentation and adding charts to health overview">
-      <change afterPath="$PROJECT_DIR$/Projects/Health Overview/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Health Overview/health_dataset_viz.ipynb" afterDir="false" />
+    <list default="true" id="bfa0c8cb-ba8e-4986-8843-7ef83f151004" name="Changes" comment="Adding README.md and renaming to Health Care Analysis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/Chicago Traffic Accident Analysis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Chicago Traffic Accident Analysis/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/Health Overview/health_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Health Overview/health_dataset.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/My Bookshelf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/My Bookshelf/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/Yelp Analysis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Yelp Analysis/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/health_dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/health_dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/health_dataset_viz.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/health_dataset_viz.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img18.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img19.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img20.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Health Analysis/images/img9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Personal Health Analysis/images/img9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +313,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766250224719</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Adding README.md and renaming to Health Care Analysis">
+      <option name="closed" value="true" />
+      <created>1768255679298</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1768255679298</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Adding README.md and renaming to Health Care Analysis">
+      <option name="closed" value="true" />
+      <created>1768255821889</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1768255821889</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +359,7 @@
     <MESSAGE value="Updating documentation and initial pass on health overview project from garmin data" />
     <MESSAGE value="Updating documentation" />
     <MESSAGE value="Updating documentation and adding charts to health overview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating documentation and adding charts to health overview" />
+    <MESSAGE value="Adding README.md and renaming to Health Care Analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding README.md and renaming to Health Care Analysis" />
   </component>
 </project>

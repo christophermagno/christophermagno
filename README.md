@@ -44,7 +44,6 @@ Python | SQL | Tableau | Microsoft Office
 [![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
 [<img width="1000" alt="image" src="Projects/Health Care Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Health%20Care%20Analysis)
 
-
 ### Chicago Traffic Analysis
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) 
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) 
@@ -53,6 +52,7 @@ Python | SQL | Tableau | Microsoft Office
 [![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
 [![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#) 
 [<img width="1000" alt="image" src="Projects/Chicago Traffic Accident Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Chicago%20Traffic%20Accident%20Analysis)
+
 ### Yelp Dataset Analysis
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) 
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) 
@@ -61,6 +61,7 @@ Python | SQL | Tableau | Microsoft Office
 [![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
 [![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#) 
 [<img width="1000" alt="image" src="Projects/Yelp Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Yelp%20Analysis)
+
 ### My Bookshelf
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) 
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) 
@@ -70,14 +71,14 @@ Python | SQL | Tableau | Microsoft Office
 [![Tableau](https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff)](#) 
 [<img width="1000" alt="image" src="Projects/My Bookshelf/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/My%20Bookshelf)
 
-### Health Analysis
+### Personal Health Analysis
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) 
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) 
 [![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)](#)
 [![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#) 
 [![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 [![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
-[<img width=1000 height=200 alt="image" src="Projects/Health Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Health%20Analysis)
+[<img width=1000 height=200 alt="image" src="Projects/Health Analysis/images/banner.png">](https://github.com/christophermagno/christophermagno/tree/main/Projects/Personal%20Health%20Analysis)
 
 ## 👋🏽 Let's connect?
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/christophermagno/)
