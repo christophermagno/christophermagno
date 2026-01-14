@@ -104,7 +104,7 @@ Highlights population characteristics and flags repeat visit patterns that may w
 ---
 
 ### 🗓️ Appointment Analysis
-A comprehensive analysis on scheduled Appointments ranging from cancelled and no-shows, booking method effectievness, appointment distribution, and top returning patients.
+A comprehensive analysis on scheduled Appointments ranging from cancelled and no-shows, booking method effectievness, appointment distribution, burnout rate, and top returning patients.
 
 <img alt="image" src="images/img7.png">
 
@@ -112,10 +112,11 @@ A comprehensive analysis on scheduled Appointments ranging from cancelled and no
 <img alt="image" src="images/img8.png">
 
 #### 🚫 Appointment Outcomes
-- Count and percentage of:
-  - ✅ Completed appointments
   - ❌ Cancelled appointments
-  - 🚫 No-show appointments
+  - 🚫 No-show appointments 
+  - 🔍 No-show Analysis by Gender and Age Group
+
+<img alt="image" src="images/img9.png">
 
 **Business Impact:**  
 Quantifies operational inefficiencies and potential revenue loss due to missed appointments.
@@ -127,6 +128,8 @@ Appointment booking methods analyzed:
 - 💻 Online
 - ☎️ Phone
 - 🧾 Front desk
+
+<img alt="image" src="images/img10.png">
 
 **Key Insight:**  
 Online booking is the dominant scheduling method.
@@ -142,6 +145,8 @@ Appointment demand analyzed by type:
 - 💬 Consultation
 - 🔁 Follow-up
 - 🛠 Procedure
+
+<img alt="image" src="images/img11.png">
 
 **Business Impact:**  
 Helps align provider availability and specialization with patient demand patterns.
@@ -165,10 +170,10 @@ Helps align provider availability and specialization with patient demand pattern
   - 💵 Self-pay
 
 
-<img alt="image" src="images/img9.png">
+<img alt="image" src="images/img12.png">
 
 #### Pivot Table
-<img alt="image" src="images/img10.png">
+<img alt="image" src="images/img13.png">
 
 **Business Impact:**  
 Provides visibility into revenue drivers, payer mix risk, and reimbursement efficiency.
