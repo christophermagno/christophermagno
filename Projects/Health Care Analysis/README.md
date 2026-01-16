@@ -118,6 +118,9 @@ A comprehensive analysis on scheduled Appointments ranging from cancelled and no
 
 <img alt="image" src="images/img9.png">
 
+### No Show Analysis Pivot Table
+<img alt="image" src="images/img14.png">
+
 **Business Impact:**  
 Quantifies operational inefficiencies and potential revenue loss due to missed appointments.
 
