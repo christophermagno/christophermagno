@@ -69,9 +69,13 @@ These locations represent priority areas for targeted **infrastructure review an
 To prepare the dataset for analysis and visualization, I performed extensive data cleaning and transformation:
 ### Dataset: 1,010,926 Rows × 48 Columns
 - Removed columns with **≥75% missing values**; reviewed columns with **≥40% null rates**
-  - <img alt="image" src="images/img4.png">
-- Standardized inconsistent categorical values  
-  - Example: *dawn, dusk, light, dark, dark with light* → **Day / Night**  
+  - <img height="250" alt="image" src="images/img4.png">
+- Standardized categorical values to enable cleaner, more actionable insights
+  - Example: 
+    - *dawn, dusk, light, dark, dark with light* → **Day / Night**
+    - `DEVICE_CONDITION` that has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use qualitative `True`/`False`
+    - <img height="200" alt="image" src="images/img7.png">
+    - <img height="200" alt="image" src="images/img8.png">
 - Engineered features by combining fragmented fields  
   - Example: merged `STREET_NO` and `STREET_NAME` into a unified location column  
 - Applied targeted null-value handling based on analytical relevance 
