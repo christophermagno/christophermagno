@@ -68,7 +68,8 @@ These locations represent priority areas for targeted **infrastructure review an
 ## ✏️ Data Wrangling & Preparation
 To prepare the dataset for analysis and visualization, I performed extensive data cleaning and transformation:
 ### Dataset: 1,010,926 Rows × 48 Columns
-- Removed columns with **≥75% missing values**; reviewed columns with **≥40% null rates**  
+- Removed columns with **≥75% missing values**; reviewed columns with **≥40% null rates**
+  - <img alt="image" src="images/img4.png">
 - Standardized inconsistent categorical values  
   - Example: *dawn, dusk, light, dark, dark with light* → **Day / Night**  
 - Engineered features by combining fragmented fields  
@@ -76,11 +77,6 @@ To prepare the dataset for analysis and visualization, I performed extensive dat
 - Applied targeted null-value handling based on analytical relevance 
 
 This process significantly reduced noise, improved consistency, and enabled efficient analysis across over one million records.
-
-<img width="1200" alt="image" src="images/img3.png">
-
-### Columns that had an error rate of 75% or more (these were dropped)
-<img width="400" alt="image" src="images/img4.png">
 
 ## 💼 Skills Demonstrated
 - Large-scale data cleaning and transformation (**pandas**)  
