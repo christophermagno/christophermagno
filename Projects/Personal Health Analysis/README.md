@@ -12,7 +12,7 @@
 
 ## 📖 Overview
 
-This project leverages data from the [**Garmin Connect API**](https://github.com/cyberjunky/python-garminconnect) collected via my **Garmin Instinct 2** watch over the past year to analyze personal health and wellness trends. The goal of the analysis is to gain a comprehensive understanding of how my body has responded to daily activity and recovery while working in a **warehouse environment**. My hours have ranged from 5PM-~3:30AM, 5AM-~5PM, 4PM-~2:30AM with days from Sun-Wed, Tues-Sat, and Sun/Mon/Thurs/Fri.
+This project leverages data from the [**Garmin Connect API**](https://github.com/cyberjunky/python-garminconnect) collected via my **Garmin Instinct 2** watch over the past year to analyze personal health and wellness trends. The goal of the analysis is to gain a comprehensive understanding of how my body has responded to daily activity and recovery while working in a physically demanding **warehouse environment**. My hours have ranged from 5PM-~3:30AM, 5AM-~5PM, 4PM-~2:30AM with days from Sun-Wed, Tues-Sat, and Sun/Mon/Thurs/Fri.
 
 The analysis includes data **extraction, transformation, and loading (ETL)** to clean and structure the raw Garmin data, followed by **exploratory data analysis (EDA)** using Pandas and visualizations with Matplotlib and Seaborn. By examining metrics such as **sleep, stress, heart rate, calories, steps, active hours, intensity minutes, water intake, and fitness age,** the project explores patterns in **activity, recovery, and overall physiological load.** Using data-driven visualizations and regression analysis, this project highlights relationships between activity, sleep quality, stress, and recovery to provide actionable insights into personal wellness.
 
