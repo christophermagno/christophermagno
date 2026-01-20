@@ -37,7 +37,9 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 
 ### Temporal Patterns
 - Highest crash frequency occurs on **Fridays around 3:00 PM**, aligning with post-work commute hours  
-- **June** has the highest monthly crash volume (**6,888 crashes**), suggesting seasonal travel impacts  
+- **June** has the highest monthly crash volume (**6,888 crashes**), suggesting seasonal travel impacts
+
+<img width="800" alt="image" src="images/img7.png">
 
 ## 💥 Contributing Factors
 ### Traffic Control Conditions
