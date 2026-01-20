@@ -71,11 +71,42 @@ To prepare the dataset for analysis and visualization, I performed extensive dat
 - Removed columns with **≥75% missing values**; reviewed columns with **≥40% null rates**
   - <img height="350" alt="image" src="images/img4.png">
 - Standardized categorical values to enable cleaner, more actionable insights
-- <img height="200" alt="image" src="images/img7.png">
+```python
+to_consolidate = [
+    'WEATHER_CONDITION',
+    'TRAFFIC_CONTROL_DEVICE',
+    'DEVICE_CONDITION',
+    'FIRST_CRASH_TYPE',
+    'ALIGNMENT,'
+    'TRAFFICWAY_TYPE',
+    'ROADWAY_SURFACE_COND',
+    'ROAD_DEFECT',
+    'PRIM_CONTRIBUTORY_CAUSE',
+    'SEC_CONTRIBUTORY_CAUSE',
+    'ROADWAY_SURFACE_COND',
+    'LIGHTING_CONDITION',
+    'STREET_NAME', # Add this and STREET_NO together
+    'STREET_NO' # Add this and STREET_NAME together
+]
+```
 - Example: 
     - *dawn, dusk, light, dark, dark with light* → **Day / Night**
     - `DEVICE_CONDITION` that has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use qualitative `True`/`False`
-    - <img height="200" alt="image" src="images/img8.png">
+```python
+df_cp4['DEVICE_CONDITION'] = df_cp4['DEVICE_CONDITION'].replace(
+    {
+        'FUNCTIONING PROPERLY': True,
+        'UNKNOWN': False,
+        'NO CONTROLS': False,
+        'FUNCTIONING IMPROPERLY': False,
+        'OTHER': False,
+        'NOT FUNCTIONING': False,
+        'WORN REFLECTIVE MATERIAL': False,
+        'MISSING': False,
+    }
+)
+df_cp4 = df_cp4.rename({'DEVICE_CONDITION': 'TRAFFIC_DEVICE_FUNCTIONING'}, axis=1)
+```
 - Engineered features by combining fragmented fields  
   - Example: merged `STREET_NO` and `STREET_NAME` into a unified location column  
 - Applied targeted null-value handling based on analytical relevance 
