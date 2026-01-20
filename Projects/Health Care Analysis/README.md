@@ -53,6 +53,55 @@ Data was cleaned and transformed using **Power Query**, with analytical measures
 
 ---
 
+## Data Wrangling, Clean up, & Transformation
+
+Did preliminary cleaning and transformation in **Power Query**.
+
+**Raw file**
+
+<img width=500 src="images/img20.png">
+
+After cleaning in **Power Query**
+
+<img width=750 src="images/img15.png">
+
+Once data has been cleaned, created a few formulas for better insights and more informative **Pivot Tables**.
+
+### Examples
+#### Shift_Facts
+**Raw file**
+
+<img width="350" src="images/img16.png">
+
+After Cleaning in **Power Query**
+- Combined `Shift_Date` and `Shift_Start`/`Shift_End` for proper `Datetime` format and accessible metrics.
+Formulas used
+
+| Column Name    | Formula                                                                                | Description                                                                                                         | 
+|----------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Hours_Worked   | ```=([@[Shift_End]]-[@[Shift_Start]])*24```                                            | Used transformed values and calculated hours worked for that shift.                                                 |
+| Overtime_Hours | ```=(([@[Shift_End]]-[@[Shift_Start]])*24) - 'Pivot Tables'!$J$5```                    | Used a Global Variable in 'Pivot Tables'!\$J$5 (value is **7.5**) that is referenced and can easily be changed.     |
+| Overtime_Flag  | ```=IF(MOD([@[Shift_End]]-[@[Shift_Start]], 1) > 'Pivot Tables'!$J$5/24+0.01, 1, 0)``` | A **0** (didn't work overtime) or **1** (worked overtime) flag to indiciate if the provider worked overtime or not. |
+
+<img width="400" src="images/img17.png">
+
+
+#### Patients_Dim
+**Raw File**
+
+<img width="400" src="images/img18.png">
+
+Ensured proper casing and normalized values in **Power Query**
+Formulas used
+
+| Column Name       | Formula                                                                                                                                                                                                                                                       | Description                          | 
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+| Patient_Age_Group | ```=IF(OR([@[Patient_Age]]="",[@[Patient_Age]]<0,[@[Patient_Age]]>110),"Unknown", IF([@[Patient_Age]]<18,"-18", IF([@[Patient_Age]]<35,"18–34", IF([@[Patient_Age]]<50,"35–49", IF([@[Patient_Age]]<65,"50–64", IF([@[Patient_Age]]<80,"65–79","80+"))))))``` | Created age group bins for patients. |
+
+<img width="400" src="images/img19.png">
+
+---
+
 ## 🔍 Key Analyses and Findings
 
 ### 🗓 Appointment Trends
