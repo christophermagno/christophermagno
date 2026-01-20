@@ -71,10 +71,10 @@ To prepare the dataset for analysis and visualization, I performed extensive dat
 - Removed columns with **≥75% missing values**; reviewed columns with **≥40% null rates**
   - <img height="350" alt="image" src="images/img4.png">
 - Standardized categorical values to enable cleaner, more actionable insights
-  - Example: 
+- <img height="200" alt="image" src="images/img7.png">
+- Example: 
     - *dawn, dusk, light, dark, dark with light* → **Day / Night**
     - `DEVICE_CONDITION` that has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use qualitative `True`/`False`
-    - <img height="200" alt="image" src="images/img7.png">
     - <img height="200" alt="image" src="images/img8.png">
 - Engineered features by combining fragmented fields  
   - Example: merged `STREET_NO` and `STREET_NAME` into a unified location column  
