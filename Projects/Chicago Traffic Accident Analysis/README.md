@@ -91,7 +91,7 @@ to_consolidate = [
 ```
 - Example: 
     - *dawn, dusk, light, dark, dark with light* → **Day / Night**
-    - `DEVICE_CONDITION` that has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use qualitative `True`/`False`
+    - `DEVICE_CONDITION` that has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use quantative `True`/`False`
 ```python
 df_cp4['DEVICE_CONDITION'] = df_cp4['DEVICE_CONDITION'].replace(
     {
