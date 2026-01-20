@@ -69,7 +69,7 @@ These locations represent priority areas for targeted **infrastructure review an
 To prepare the dataset for analysis and visualization, I performed extensive data cleaning and transformation:
 ### Dataset: 1,010,926 Rows × 48 Columns
 - Removed columns with **≥75% missing values**; reviewed columns with **≥40% null rates**
-  - <img height="250" alt="image" src="images/img4.png">
+  - <img height="350" alt="image" src="images/img4.png">
 - Standardized categorical values to enable cleaner, more actionable insights
   - Example: 
     - *dawn, dusk, light, dark, dark with light* → **Day / Night**
