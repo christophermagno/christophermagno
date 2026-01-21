@@ -129,6 +129,14 @@ Supports proactive staffing and scheduling adjustments during peak demand period
 ### Pivot Table
 <img alt="image" src="images/img4.png">
 
+### Burnout formula
+| **DAX Measure** | Formula                                                                         | Description                                             |
+|-----------------|---------------------------------------------------------------------------------|---------------------------------------------------------|
+| OT Frequency    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Flag]),COUNT(Shifts_Fact[Staff_ID])) / 2``` | How many times a provider has worked overtime           |
+| OT Intensity    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Hours]),SUM(Shifts_Fact[Hours_Worked]))```  | Percentage a provider has worked over time              |
+| Long Shift Load | ```=MAX(0,MIN(1,AVERAGE(Shifts_Fact[Hours_Worked]) - 7.5) / 3)```               | How many average hours a provider has worked overtime   |       
+| Burnout %       | ```=([Long Shift Load] * 0.4 +[OT Intensity] * 0.5 +[OT Frequency] * 0.1)```    | Weighted score of burnout rate using the 3 DAX measures |
+
 **Business Impact:**  
 Identifies staffing imbalances and highlights providers at risk of overload.
 
