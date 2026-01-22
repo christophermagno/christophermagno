@@ -77,14 +77,13 @@ After Cleaning in **Power Query**
 - Combined `Shift_Date` and `Shift_Start`/`Shift_End` for proper `Datetime` format and accessible metrics.
 Formulas used
 
-| Column Name    | Formula                                                                                | Description                                                                                                         | 
-|----------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Hours_Worked   | ```=([@[Shift_End]]-[@[Shift_Start]])*24```                                            | Used transformed values and calculated hours worked for that shift.                                                 |
-| Overtime_Hours | ```=(([@[Shift_End]]-[@[Shift_Start]])*24) - 'Pivot Tables'!$J$5```                    | Used a Global Variable in 'Pivot Tables'!\$J$5 (value is **7.5**) that is referenced and can easily be changed.     |
-| Overtime_Flag  | ```=IF(MOD([@[Shift_End]]-[@[Shift_Start]], 1) > 'Pivot Tables'!$J$5/24+0.01, 1, 0)``` | A **0** (didn't work overtime) or **1** (worked overtime) flag to indiciate if the provider worked overtime or not. |
+| Column Name    | Formula                                          | Description                                                                                                         | 
+|----------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Hours_Worked   | ```=([@[Shift_End]]-[@[Shift_Start]])*24```      | Used transformed values and calculated hours worked for that shift.                                                 |
+| Overtime_Hours | ```=([@[Hours_Worked]]) - 'Pivot Tables'!$J$5``` | Used a Global Variable in 'Pivot Tables'!\$J$5 (value is **7.5**) that is referenced and can easily be changed.     |
+| Overtime_Flag  | ```=IF([@[Overtime_Hours]] > 0, 1, 0)```         | A **0** (didn't work overtime) or **1** (worked overtime) flag to indiciate if the provider worked overtime or not. |
 
 <img width="400" src="images/img17.png">
-
 
 #### Patients_Dim
 **Raw File**
@@ -96,7 +95,7 @@ Formulas used
 
 | Column Name       | Formula                                                                                                                                                                                                                                                       | Description                          | 
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Patient_Age_Group | ```=IF(OR([@[Patient_Age]]="",[@[Patient_Age]]<0,[@[Patient_Age]]>110),"Unknown", IF([@[Patient_Age]]<18,"-18", IF([@[Patient_Age]]<35,"18–34", IF([@[Patient_Age]]<50,"35–49", IF([@[Patient_Age]]<65,"50–64", IF([@[Patient_Age]]<80,"65–79","80+"))))))``` | Created age group bins for patients. |
+| Patient_Age_Group | ```=IF(OR([@[Patient_Age]]="",[@[Patient_Age]]<0),"Unknown", IF([@[Patient_Age]]<18,"-18", IF([@[Patient_Age]]<35,"18–34", IF([@[Patient_Age]]<50,"35–49", IF([@[Patient_Age]]<65,"50–64", IF([@[Patient_Age]]<80,"65–79","80+"))))))``` | Created age group bins for patients. |
 
 <img width="400" src="images/img19.png">
 
@@ -130,12 +129,12 @@ Supports proactive staffing and scheduling adjustments during peak demand period
 <img alt="image" src="images/img4.png">
 
 ### Burnout formula
-| **DAX Measure** | Formula                                                                         | Description                                             |
-|-----------------|---------------------------------------------------------------------------------|---------------------------------------------------------|
-| OT Frequency    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Flag]),COUNT(Shifts_Fact[Staff_ID])) / 2``` | How many times a provider has worked overtime           |
-| OT Intensity    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Hours]),SUM(Shifts_Fact[Hours_Worked]))```  | Percentage a provider has worked over time              |
-| Long Shift Load | ```=MAX(0,MIN(1,AVERAGE(Shifts_Fact[Hours_Worked]) - 7.5) / 3)```               | How many average hours a provider has worked overtime   |       
-| Burnout %       | ```=([Long Shift Load] * 0.4 +[OT Intensity] * 0.5 +[OT Frequency] * 0.1)```    | Weighted score of burnout rate using the 3 DAX measures |
+| **DAX Measure** | Formula                                                                         | Description                                                                                        |
+|-----------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| OT Frequency    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Flag]),COUNT(Shifts_Fact[Staff_ID])) / 2``` | How many times a provider has worked overtime. Measures OT frequency but not intensity.            |
+| OT Intensity    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Hours]),SUM(Shifts_Fact[Hours_Worked]))```  | Percentage a provider has worked over time. Measures OT ratio to normal hours worked.              |
+| Long Shift Load | ```=MAX(0,MIN(1,AVERAGE(Shifts_Fact[Hours_Worked]) - 7.5) / 3)```               | How many average hours a provider has worked overtime. Shows average OT load per 7.5 hours worked. |       
+| Burnout %       | ```=([Long Shift Load] * 0.4 +[OT Intensity] * 0.5 +[OT Frequency] * 0.1)```    | Weighted score of burnout rate using the 3 DAX measures                                            |
 
 **Business Impact:**  
 Identifies staffing imbalances and highlights providers at risk of overload.
