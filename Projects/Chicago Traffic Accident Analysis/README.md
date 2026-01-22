@@ -36,8 +36,8 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 - **80** fatalities  
 
 ### Temporal Patterns
-- Highest crash frequency occurs on **Fridays around 3:00 PM**, aligning with post-work commute hours  
 - **June** has the highest monthly crash volume (**6,888 crashes**), suggesting seasonal travel impacts
+- Highest crash frequency occurs on **Fridays around 3:00 PM**, aligning with post-work commute hours
 
 <img width="800" alt="image" src="images/img7.png">
 
@@ -92,8 +92,20 @@ to_consolidate = [
 ]
 ```
 - Example: 
-    - *dawn, dusk, light, dark, dark with light* → **Day / Night**
-    - `DEVICE_CONDITION` that has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use quantative `True`/`False`
+    - `LIGHTING_CONDITION` had multiple qualtative values *dawn, dusk, light, dark, dark with light* normalized to **Day / Night**
+```python
+df_cp4['LIGHTING_CONDITION'] = df_cp4['LIGHTING_CONDITION'].replace(
+    {
+        'DAYLIGHT': "Day",
+        'DAWN': "Day",
+        'DARKNESS, LIGHTED ROAD': "Night",
+        'DARKNESS': "Night",
+        'DUSK': "Night",
+        'UNKNOWN': "NA"
+    }
+)
+```
+  - `DEVICE_CONDITION` (the **primary** metric in this analysis) has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use quantative `True`/`False`
 ```python
 df_cp4['DEVICE_CONDITION'] = df_cp4['DEVICE_CONDITION'].replace(
     {
