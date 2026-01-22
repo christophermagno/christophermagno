@@ -92,20 +92,7 @@ to_consolidate = [
 ]
 ```
 - Example: 
-    - `LIGHTING_CONDITION` had multiple qualtative values *dawn, dusk, light, dark, dark with light* normalized to **Day / Night**
-```python
-df_cp4['LIGHTING_CONDITION'] = df_cp4['LIGHTING_CONDITION'].replace(
-    {
-        'DAYLIGHT': "Day",
-        'DAWN': "Day",
-        'DARKNESS, LIGHTED ROAD': "Night",
-        'DARKNESS': "Night",
-        'DUSK': "Night",
-        'UNKNOWN': "NA"
-    }
-)
-```
-  - `DEVICE_CONDITION` (the **primary** metric in this analysis) has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use quantative `True`/`False`
+- `DEVICE_CONDITION` (the **primary** metric in this analysis) has discrete qualitative values renamed to `TRAFFIC_DEVICE_FUNCTIONING` and set to use quantative `True`/`False`
 ```python
 df_cp4['DEVICE_CONDITION'] = df_cp4['DEVICE_CONDITION'].replace(
     {
@@ -120,6 +107,19 @@ df_cp4['DEVICE_CONDITION'] = df_cp4['DEVICE_CONDITION'].replace(
     }
 )
 df_cp4 = df_cp4.rename({'DEVICE_CONDITION': 'TRAFFIC_DEVICE_FUNCTIONING'}, axis=1)
+```
+- `LIGHTING_CONDITION` had multiple qualtative values *dawn, dusk, light, dark, dark with light* normalized to **Day / Night**
+```python
+df_cp4['LIGHTING_CONDITION'] = df_cp4['LIGHTING_CONDITION'].replace(
+    {
+        'DAYLIGHT': "Day",
+        'DAWN': "Day",
+        'DARKNESS, LIGHTED ROAD': "Night",
+        'DARKNESS': "Night",
+        'DUSK': "Night",
+        'UNKNOWN': "NA"
+    }
+)
 ```
 - Engineered features by combining fragmented fields  
   - Example: merged `STREET_NO` and `STREET_NAME` into a unified location column  
