@@ -9,11 +9,6 @@
 [![Pivot Tables](https://custom-icon-badges.demolab.com/badge/Pivot_Tables-21734?logo=microsoft-excel&logoColor=white)](#) 
 [![Pivot Charts](https://custom-icon-badges.demolab.com/badge/Pivot_Charts-21734?logo=microsoft-excel&logoColor=white)](#) 
 [![Data Modeling](https://custom-icon-badges.demolab.com/badge/Data_Modeling-21734?logo=microsoft-excel&logoColor=white)](#) 
-[![Dataset Merging](https://custom-icon-badges.demolab.com/badge/Dataset_Merging-21734?logo=microsoft-excel&logoColor=white)](#) 
-[![XLOOKUP](https://custom-icon-badges.demolab.com/badge/XLOOKUP-21734?logo=microsoft-excel&logoColor=white)](#) 
-[![GROUPBY](https://custom-icon-badges.demolab.com/badge/GROUPBY-21734?logo=microsoft-excel&logoColor=white)](#) 
-[![IF](https://custom-icon-badges.demolab.com/badge/IF-21734?logo=microsoft-excel&logoColor=white)](#) 
-[![Bins](https://custom-icon-badges.demolab.com/badge/Bins-21734?logo=microsoft-excel&logoColor=white)](#) 
 [![ETL](https://custom-icon-badges.demolab.com/badge/ETL-9370DB?logo=etl-logo&logoColor=fff)](#)
 [![EDA](https://custom-icon-badges.demolab.com/badge/EDA-9370DB?logo=etl-logo&logoColor=fff)](#)
 
@@ -59,11 +54,11 @@ Did preliminary cleaning and transformation in **Power Query**.
 
 **Raw file**
 
-<img width=500 src="images/img20.png">
+<img width=500 src="images/img2.png">
 
 After cleaning in **Power Query**
 
-<img width=750 src="images/img15.png">
+<img width=750 src="images/img3.png">
 
 Once data has been cleaned, created a few formulas for better insights and more informative **Pivot Tables**.
 
@@ -71,7 +66,7 @@ Once data has been cleaned, created a few formulas for better insights and more 
 #### Shift_Facts
 **Raw file**
 
-<img width="350" src="images/img16.png">
+<img width="350" src="images/img4.png">
 
 After Cleaning in **Power Query**
 - Combined `Shift_Date` and `Shift_Start`/`Shift_End` for proper `Datetime` format and accessible metrics.
@@ -80,24 +75,25 @@ Formulas used
 | Column Name    | Formula                                          | Description                                                                                                         | 
 |----------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Hours_Worked   | ```=([@[Shift_End]]-[@[Shift_Start]])*24```      | Used transformed values and calculated hours worked for that shift.                                                 |
-| Overtime_Hours | ```=([@[Hours_Worked]]) - 'Pivot Tables'!$J$5``` | Used a Global Variable in 'Pivot Tables'!\$J$5 (value is **7.5**) that is referenced and can easily be changed.     |
+| Overtime_Hours | ```=([@[Hours_Worked]]) - 'Pivot Tables'!$I$5``` | Used a Global Variable in 'Pivot Tables'!\$I$5 (value is **7.5**) that is referenced and can easily be changed.     |
 | Overtime_Flag  | ```=IF([@[Overtime_Hours]] > 0, 1, 0)```         | A **0** (didn't work overtime) or **1** (worked overtime) flag to indiciate if the provider worked overtime or not. |
 
-<img width="400" src="images/img17.png">
+<img width="400" src="images/img5.png">
 
 #### Patients_Dim
 **Raw File**
 
-<img width="400" src="images/img18.png">
+<img width="400" src="images/img6.png">
 
 Ensured proper casing and normalized values in **Power Query**
 Formulas used
 
-| Column Name       | Formula                                                                                                                                                                                                                                                       | Description                          | 
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+| Column Name       | Formula                                                                                                                                                                                                                                  | Description                          | 
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+| Patient_Age       | ```=DATEDIF([@[Patient_DOB]], TODAY(), "Y")```                                                                                                                                                                                           | Get age of patient from DOB
 | Patient_Age_Group | ```=IF(OR([@[Patient_Age]]="",[@[Patient_Age]]<0),"Unknown", IF([@[Patient_Age]]<18,"-18", IF([@[Patient_Age]]<35,"18–34", IF([@[Patient_Age]]<50,"35–49", IF([@[Patient_Age]]<65,"50–64", IF([@[Patient_Age]]<80,"65–79","80+"))))))``` | Created age group bins for patients. |
 
-<img width="400" src="images/img19.png">
+<img width="400" src="images/img7.png">
 
 ---
 
@@ -107,7 +103,7 @@ Formulas used
 - Appointment volume shows clear seasonality
 - A **significant spike occurs in November**, likely driven by end-of-year insurance utilization
 
-<img alt="image" src="images/img2.png">
+<img alt="image" src="images/img8.png">
 
 **Business Impact:**  
 Supports proactive staffing and scheduling adjustments during peak demand periods.
@@ -123,10 +119,10 @@ Supports proactive staffing and scheduling adjustments during peak demand period
   - Revenue generated
   - Workload concentration indicating **burnout risk**
 
-<img alt="image" src="images/img3.png">
+<img alt="image" src="images/img9.png">
 
 ### Pivot Table
-<img alt="image" src="images/img4.png">
+<img alt="image" src="images/img10.png">
 
 ### Burnout formula
 | **DAX Measure** | Formula                                                                         | Description                                                                                        |
@@ -149,10 +145,10 @@ Identifies staffing imbalances and highlights providers at risk of overload.
   - Average patient age
 - **Top 10 returning patients** by appointment count
 
-<img alt="image" src="images/img5.png">
+<img alt="image" src="images/img11.png">
 
 ### Pivot Table
-<img alt="image" src="images/img6.png">
+<img alt="image" src="images/img12.png">
 
 **Business Impact:**  
 Highlights population characteristics and flags repeat visit patterns that may warrant further clinical or care coordination review.
@@ -160,22 +156,22 @@ Highlights population characteristics and flags repeat visit patterns that may w
 ---
 
 ### 🗓️ Appointment Analysis
-A comprehensive analysis on scheduled Appointments ranging from cancelled and no-shows, booking method effectievness, appointment distribution, burnout rate, and top returning patients.
+A comprehensive analysis on scheduled Appointments ranging from cancelled and no-shows, booking method effectievness, appointment distribution, and top returning patients.
 
-<img alt="image" src="images/img7.png">
+<img alt="image" src="images/img13.png">
 
 #### Pivot Table
-<img alt="image" src="images/img8.png">
+<img alt="image" src="images/img14.png">
 
 #### 🚫 Appointment Outcomes
   - ❌ Cancelled appointments
   - 🚫 No-show appointments 
   - 🔍 No-show Analysis by Gender and Age Group
 
-<img alt="image" src="images/img9.png">
+<img alt="image" src="images/img15.png">
 
 ### No Show Analysis Pivot Table
-<img alt="image" src="images/img14.png">
+<img alt="image" src="images/img16.png">
 
 **Business Impact:**  
 Quantifies operational inefficiencies and potential revenue loss due to missed appointments.
@@ -188,7 +184,7 @@ Appointment booking methods analyzed:
 - ☎️ Phone
 - 🧾 Front desk
 
-<img alt="image" src="images/img10.png">
+<img alt="image" src="images/img17.png">
 
 **Key Insight:**  
 Online booking is the dominant scheduling method.
@@ -205,7 +201,7 @@ Appointment demand analyzed by type:
 - 🔁 Follow-up
 - 🛠 Procedure
 
-<img alt="image" src="images/img11.png">
+<img alt="image" src="images/img18.png">
 
 **Business Impact:**  
 Helps align provider availability and specialization with patient demand patterns.
@@ -229,10 +225,10 @@ Helps align provider availability and specialization with patient demand pattern
   - 💵 Self-pay
 
 
-<img alt="image" src="images/img12.png">
+<img alt="image" src="images/img19.png">
 
 #### Pivot Table
-<img alt="image" src="images/img13.png">
+<img alt="image" src="images/img20.png">
 
 **Business Impact:**  
 Provides visibility into revenue drivers, payer mix risk, and reimbursement efficiency.
@@ -252,4 +248,4 @@ These are the slicers created to modify the **Pivot Tables** in the **Dashboards
 - Financial performance is strongly influenced by insurance mix and provider productivity
 
 ## Stretch Goals
-- Shift expectations vary significantly across providers, with average shift lengths ranging from roughly 7.5 to 12 hours. A stretch goal is to define provider - or department - specific standard hours and measure overtime against those individualized baselines. This will help with a more accurate representation of the metric **Burnout Rate**.
+- Shift expectations vary significantly across providers, with average shift lengths ranging from roughly 10 hours. A stretch goal is to define provider - or department - specific standard hours and measure overtime against those individualized baselines. This will help with a more accurate representation of the metric **Burnout Rate**.
