@@ -2,10 +2,10 @@
 
 # Welcome!
 
-Hi! I'm Chris. I'm an aspiring Data Analyst that loves creating meaning and understanding in a world of an 
+Hi! I'm Chris. I'm a Data Analyst that loves creating meaning and understanding in a world of an 
 otherwise beautifully chaotic world (of data).
 
-* Cleaning, normalizing, and exploring data with Python/SQL
+* Cleaning, normalizing, and exploring data with Python/SQL/Excel
 * Generating reports and performing data analysis
 * Developing dashboards
 * Automating and optimization in Python

@@ -29,6 +29,12 @@ To view the Tableau visualization, please click [here](https://public.tableau.co
 
 ## 🔎 Key Insights & Findings
 
+The primary metric analyzed during exploratory data analysis (EDA) was `DEVICE_CONDITION` (renamed to `TRAFFIC_DEVICE_FUNCTIONING`). This metric captures whether a traffic control device was functioning or missing at the time of an accident and accounts for over **66.9%** of all recorded traffic accidents.
+
+When evaluated alongside supporting factors—such as **primary causes** including *failure to yield* and *tailgating* on a **clear, sunny day** and **dry road surfaces**—the results suggest that the **absence of traffic control devices** or **non-functioning signals** is a leading contributor to traffic accidents in Chicago.
+
+My **preliminary recommendation** is to prioritize **infrastructure investment** in areas **lacking traffic control devices** to drastically **reduce accidents** and **clearly communicate** to Chicago drivers the **expectations of traffic flow and rules**.
+
 ### Crash Volume & Severity (2025)
 - **95,996** total crashes  
 - **22,162** reported injuries  

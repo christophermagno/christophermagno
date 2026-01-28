@@ -125,12 +125,12 @@ Supports proactive staffing and scheduling adjustments during peak demand period
 <img alt="image" src="images/img10.png">
 
 ### Burnout formula
-| **DAX Measure** | Formula                                                                         | Description                                                                                        |
-|-----------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| OT Frequency    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Flag]),COUNT(Shifts_Fact[Staff_ID])) / 2``` | How many times a provider has worked overtime. Measures OT frequency but not intensity.            |
-| OT Intensity    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Hours]),SUM(Shifts_Fact[Hours_Worked]))```  | Percentage a provider has worked over time. Measures OT ratio to normal hours worked.              |
-| OT Avg Hours    | ```=MAX(0,MIN(1,AVERAGE(Shifts_Fact[Overtime_Hours])) / 3)```                   | How many average hours a provider has worked overtime. Shows average OT load per 7.5 hours worked. |       
-| Burnout Rate    | ```=([Long Shift Load] * 0.45 +[OT Intensity] * 0.45 +[OT Frequency] * 0.1)```  | Weighted score of burnout rate using the 3 DAX measures                                            |
+| **DAX Measure** | Formula                                                                         | Description                                                                                       |
+|-----------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| OT Frequency    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Flag]),COUNT(Shifts_Fact[Staff_ID])) / 2``` | How many times a provider has worked overtime. Measures OT frequency but not intensity.           |
+| OT Intensity    | ```=DIVIDE(SUM(Shifts_Fact[Overtime_Hours]),SUM(Shifts_Fact[Hours_Worked]))```  | Percentage a provider has worked over time. Measures OT ratio to normal hours worked.             |
+| OT Avg Hours    | ```=MAX(0,MIN(1,AVERAGE(Shifts_Fact[Overtime_Hours])) / 3)```                   | How many average hours a provider has worked overtime. Shows average OT load per 10 hours worked. |       
+| Burnout Rate    | ```=([Long Shift Load] * 0.45 +[OT Intensity] * 0.45 +[OT Frequency] * 0.1)```  | Weighted score of burnout rate using the 3 DAX measures                                           |
 
 **Business Impact:**  
 Identifies staffing imbalances and highlights providers at risk of overload.
@@ -247,5 +247,5 @@ These are the slicers created to modify the **Pivot Tables** in the **Dashboards
 - Repeat patient behavior may indicate opportunities for improved care coordination
 - Financial performance is strongly influenced by insurance mix and provider productivity
 
-## Stretch Goals
+## 🔮 Stretch Goals
 - Shift expectations vary significantly across providers, with average shift lengths ranging from roughly 10 hours. A stretch goal is to define provider - or department - specific standard hours and measure overtime against those individualized baselines. This will help with a more accurate representation of the metric **Burnout Rate**.
