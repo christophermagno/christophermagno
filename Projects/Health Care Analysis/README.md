@@ -75,7 +75,7 @@ Formulas used
 | Column Name    | Formula                                          | Description                                                                                                         | 
 |----------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Hours_Worked   | ```=([@[Shift_End]]-[@[Shift_Start]])*24```      | Used transformed values and calculated hours worked for that shift.                                                 |
-| Overtime_Hours | ```=([@[Hours_Worked]]) - 'Pivot Tables'!$I$5``` | Used a Global Variable in 'Pivot Tables'!\$I$5 (value is **7.5**) that is referenced and can easily be changed.     |
+| Overtime_Hours | ```=([@[Hours_Worked]]) - 'Pivot Tables'!$I$5``` | Used a Global Variable in 'Pivot Tables'!\$I$5 (value is **10**) that is referenced and can easily be changed.       |
 | Overtime_Flag  | ```=IF([@[Overtime_Hours]] > 0, 1, 0)```         | A **0** (didn't work overtime) or **1** (worked overtime) flag to indiciate if the provider worked overtime or not. |
 
 <img width="400" src="images/img5.png">
