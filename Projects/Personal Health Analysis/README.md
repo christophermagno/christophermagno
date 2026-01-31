@@ -151,3 +151,6 @@ Garmin estimates stress levels using heart rate variability (HRV) derived from o
 <img alt="image" src="images/img18.png">
 <img alt="image" src="images/img19.png">
 <img alt="image" src="images/img20.png">
+
+## 🏃 Workout Data
+<img alt="image" src="images/img21.png">
